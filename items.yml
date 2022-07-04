@@ -36166,6 +36166,54 @@ MEITNERIUM_ELEMENT:
 DARMSTADTIUM_ELEMENT:
   category: sakurafun_elementary_particle
   item-type: CUSTOM
+  item-name: '&6鐽'
+  item-lore:
+  - '&fDs'
+  - '&7超铀元素'
+  item-id: SKULLfded6e78d351eec46ff80391daa82045584d4d0480d99d87197258311da875fe
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTROLYZER_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+DARMSTADTIUM_ELEMENT:
+  category: sakurafun_elementary_particle
+  item-type: CUSTOM
   item-name: '&6錀'
   item-lore:
   - '&fRg'
