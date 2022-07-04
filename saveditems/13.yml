@@ -1,0 +1,24 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: NETHERITE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1CAF1","text":"寰"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9BD3ED","text":"宇"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#94DCE8","text":"之"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EE5E4","text":"镐"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"⊙初"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"级"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C2C7D0","text":"飞行 I"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B5CDD9","text":"右键"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A8A5D5","text":"☆"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6C4F4","text":"关闭"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#99DAEB","text":"蹲下右键取消灵魂绑定"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"灵魂绑定"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"1000.0
+      / 1000.0 J"}],"text":""}'
+    enchants:
+      DIG_SPEED: 20
+      LOOT_BONUS_BLOCKS: 20
+      MENDING: 20
+      DURABILITY: 20
+    PublicBukkitValues:
+      slimefun:item_charge: 1000.0f
+      slimefun:slimefun_item: DIAMOND_DRILL

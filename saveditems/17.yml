@@ -1,0 +1,34 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_AXE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"神秘棍
+      XI"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Behind
+      your enemies awaits danger"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Total
+      Exp Levels Consumed: "},{"italic":false,"color":"white","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Total
+      Damage inflicted: "},{"italic":false,"color":"white","text":"0"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"◢◤◢◤◢◤◢◤|
+      "},{"bold":true,"italic":false,"color":"dark_red","text":"Effects "},{"bold":false,"italic":false,"color":"white","text":"|◥◣◥◣◥◣◥◣"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"◆
+      4 Mystery effect/s"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"◢◤◢◤◢◤◢◤|
+      "},{"italic":false,"color":"dark_red","text":"◢◤◤◥◤◥◤◥◤◥◥◣ "},{"italic":false,"color":"white","text":"|◥◣◥◣◥◣◥◣"}],"text":""}'
+    enchants:
+      DAMAGE_ARTHROPODS: 10
+      KNOCKBACK: 2
+      DAMAGE_ALL: 7
+      DAMAGE_UNDEAD: 8
+    Unbreakable: true
+    PublicBukkitValues:
+      fnamplifications:stick_11_exp_levels_consumed: 0i
+      fnamplifications:stick_11_damage_inflicted: 0i
+      slimefun:slimefun_item: FN_MYSTERY_STICK_11

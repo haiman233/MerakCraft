@@ -1,0 +1,22 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: DIAMOND_SHOVEL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"钻石采矿钻头"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"快速破坏任何岩石与黑曜石"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"右键缓慢破坏"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"1000.0
+      / 1000.0 J"}],"text":""}'
+    custom-model-data: 2400004
+    enchants:
+      LX_Glow: 1
+    PublicBukkitValues:
+      slimefun:item_charge: 1000.0f
+      slimefun:slimefun_item: DIAMOND_DRILL
