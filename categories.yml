@@ -6,7 +6,7 @@ slime_customizer_info:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &7- &4&l公告栏"
   category-item: SKULLe2d003bb8e9916cd1fe60316696b2adc9a0723439be16bd535b9027a07653811
-SAKURAFUN_RECIPE:
+sakurafun_recipe:
   parent: "tianxuangongyi"
   category-name: "&6&m&l天璇工艺&9&m科技&f&m-&6&m配方"
   category-item: BEDROCK
@@ -130,63 +130,63 @@ huanyu_vr:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &7- &d&l1.RV-Pre1拓展"
   category-item: SKULLaaa99bcdde85a21d9e3ceb08dc7b6ad5b10cd06c17b7b94257ddbd490564be2a
-SAKURAFUN_ELEMENTARY_PARTICLE:
+sakurafun_elementary_particle:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f-& 6粒子物理"
   category-item: DIAMOND
-SAKURAFUN_CHEMICAL_ELEMENT:
+sakurafun_chemical_element:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6化学元素"
   category-item: SKULLb51702a0bd387783a4f4e47cfa48a7a17c8bcc2336eb6088a178834d783da707
-SAKURAFUN_STEAM:
+sakurafun_steam:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6蒸汽时代"
   category-item: SKULL84fc56d4b8b7dcde9a74874734548bd62768e1fca4e63b4e3a5bbca5bb30aa70
-SAKURAFUN_ROCKET_ITEM:
+sakurafun_rocket_item:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6化工材料"
   category-item: IRON_BLOCK
-SAKURAFUN_CAR:
+sakurafun_car:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6车"
   category-item: MINECART
-SAKURAFUN_COMPONENT:
+sakurafun_component:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6构件"
   category-item: SKULL9c250b47e10a50d69166cb0ecaf234100cae7899a4898108c1307017a5a7ebb3
-SAKURAFUN_SATELLITE_PART:
+sakurafun_satellite_part:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &2&l卫星系统"
   category-item: SKULL14064b8489d67ffbc040abe3c8478425e0a69abf62a7b13eedf3d4ccc1786e4e
-SAKURAFUN_ROCKET:
+sakurafun_rocket:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &2&l火箭物品"
   category-item: CHEST
-SAKURAFUN_ROCKET_ENGINE:
+sakurafun_rocket_engine:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &2&l火箭发动机"
   category-item: SKULL8eb81ef8902379650ba79f45723d6b9c888388a00fc4e192f3454fe193882ee1
-SAKURAFUN_ROCKET_ROCKET:
+sakurafun_rocket_rocket:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &2&l火箭"
   category-item: SKULLd89dcc55b48e270872d28576a79005540bed5f0ae53015cfdc95b751d16fa9e2
-SAKURAFUN_STAR:
+sakurafun_star:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6&l星体"
   category-item: GOLD_BLOCK
-PIXEL_ERA:
+pixel_era:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6&l像素时代"
   category-item: REDSTONE
-SAKURAFUN_ROCKET_MACHINE:
+sakurafun_rocket_machine:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &2&l火箭机器"
   category-item: BLAST_FURNACE
-STRING_THEORY:
+string_theory:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6弦理论"
   category-item: STRING
-ISOTOPE:
+isotope:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6同位素"
   category-item: GLASS
