@@ -1,10 +1,10 @@
 # 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Capacitors
-EXAMPLE_CAPACITOR:
+CHOU_CAPACITOR:
   category: dianro
-  capacitor-name: "&b示例电容"
+  capacitor-name: "&c&l先辈电容"
   capacitor-lore:
-  - "&7这是个示例电容!"
-  block-type: DEFAULT
+  - "&7哼!哼啊啊啊啊!"
+  block-type: SKULL166fa6731ad8fba370be4b49fc5ab8b1756cd527d73335cef116cb4072dfd954
   capacity: 114514
   item-amount: 1
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -14,8 +14,8 @@ EXAMPLE_CAPACITOR:
       id: GOLD_BLOCK
       amount: 1
     2:
-      type: NONE
-      id: N/A
+      type: VANILLA
+      id: POISONOUS_POTATO
       amount: 1
     3:
       type: VANILLA
@@ -23,15 +23,15 @@ EXAMPLE_CAPACITOR:
       amount: 1
     4:
       type: VANILLA
-      id: IRON_BLOCK
+      id: POISONOUS_POTATO
       amount: 1
     5:
       type: SLIMEFUN
-      id: SMALL_CAPACITOR
+      id: LARGE_CAPACITOR
       amount: 1
     6:
       type: VANILLA
-      id: IRON_BLOCK
+      id: POISONOUS_POTATO
       amount: 1
     7:
       type: VANILLA
@@ -39,9 +39,56 @@ EXAMPLE_CAPACITOR:
       amount: 1
     8:
       type: VANILLA
-      id: IRON_BLOCK
+      id: POISONOUS_POTATO
       amount: 1
     9:
       type: VANILLA
       id: IRON_BLOCK
       amount: 1
+FEI_CAPACITOR:
+  category: dianro
+  capacitor-name: "&c&l费牌电容"
+  capacitor-lore:
+  - "&7电容量小到极点了"
+  block-type: DEFAULT
+  capacity: 1
+  item-amount: 4
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '5':
+      type: NONE
+      id: NONE
+      amount: 1
+    '6':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+
