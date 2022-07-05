@@ -1,301 +1,5 @@
-#READ THE WIKI BEFORE CREATING A MACHINE! https://github.com/NCBPFluffyBear/SlimeCustomizer/blob/master/README.md
-VAGETABLE_SOLAR_GENERATOR:
-  category: slime_customizer_generator
-  generator-name: "&b&l新手太阳能发电机"
-  generator-lore:
-  - "&7为新手提供福利,并且能在白天和夜晚发电!"
-  block-type: DAYLIGHT_DETECTOR
-  stats:
-    energy-production:
-      day: 2
-      night: 1
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: VANILLA
-      id: BLAZE_POWDER
-      amount: 1
-    2:
-      type: NONE
-      id: N/A
-      amount: 1
-    3:
-      type: VANILLA
-      id: BLAZE_POWDER
-      amount: 1
-    4:
-      type: VANILLA
-      id: IRON_BLOCK
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: ELECTRIC_MOTOR
-      amount: 1
-    6:
-      type: VANILLA
-      id: IRON_BLOCK
-      amount: 1
-    7:
-      type: VANILLA
-      id: IRON_BLOCK
-      amount: 1
-    8:
-      type: VANILLA
-      id: IRON_BLOCK
-      amount: 1
-    9:
-      type: VANILLA
-      id: IRON_BLOCK
-      amount: 1
-HAIMAN_EARTH_GENERATOR:
-  category: slime_customizer_generator
-  generator-name: "&9&l地球发电机"
-  generator-lore:
-  - "&7运用地球自身的能量进行发电"
-  - "&b必须用水包围"
-  - "&b上方不能有非透明方块遮挡"
-  block-type: TUBE_CORAL
-  stats:
-    energy-production:
-      day: 880
-      night: 900
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: ADVANCED_MACHINE_BLOCK
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: BIG_CAPACITOR
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: ADVANCED_MACHINE_BLOCK
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: BIG_CAPACITOR
-      amount: 1
-    6:
-      type: SLIMEFUN
-      id: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: STEEL_PLATE
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: ANCIENT_RUNE_EARTH
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: STEEL_PLATE
-      amount: 1
-HAIMAN_SEND_CACTUS_GENERATOR:
-  category: slime_customizer_generator
-  generator-name: "&9&l沙漠发电机"
-  generator-lore:
-  - "&7运用沙漠的能量进行发电"
-  - "&e必须放置在沙子上"
-  - "&e四周不能放置方块"
-  - "&e头顶需要放置透明方块"
-  block-type: CACTUS
-  stats:
-    energy-production:
-      day: 620
-      night: 1000
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: ADVANCED_MACHINE_BLOCK
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: ANCIENT_RUNE_AIR
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: ADVANCED_MACHINE_BLOCK
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: ANCIENT_ITEM
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: REINFORCED_PLATE
-      amount: 1
-    6:
-      type: SLIMEFUN
-      id: ANCIENT_ITEM
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: POWER_CRYSTAL
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: REINFORCED_PLATE
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: POWER_CRYSTAL
-      amount: 1
-HAIMAN_END_GENERATOR:
-  category: slime_customizer_generator
-  generator-name: "&b&l末地发电机"
-  generator-lore:
-  - "&7从末地石中汲取能量发电"
-  - "&d必须放置在末地石上上"
-  - "&d上方不能有非透明方块遮挡"
-  block-type: CHORUS_PLANT
-  stats:
-    energy-production:
-      day: 85
-      night: 750
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: POWER_CRYSTAL
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: POWER_CRYSTAL
-      amount: 1
-    4:
-      type: VANILLA
-      id: END_STONE_BRICKS
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: ADVANCED_MACHINE_BLOCK
-      amount: 1
-    6:
-      type: VANILLA
-      id: END_STONE_BRICKS
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: HEATING_COIL
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-HIGH_VOLTAGE_TRANSMISSION_LINES:
-  category: slime_customizer_zhuangshi
-  generator-name: "&f&l高压输电线"
-  generator-lore:
-  - "&7这是一根可以为你供电的高压线"
-  block-type: CHAIN
-  stats:
-    energy-production:
-      day: 2
-      night: 1
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    6:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-HAIMAN_POWER_NET:
-  category: slime_customizer_zhuangshi
-  generator-name: "&b&l海曼牌电网"
-  generator-lore:
-  - "&7这是一个可以爬在墙上发电的电网"
-  block-type: VINE
-  stats:
-    energy-production:
-      day: 6
-      night: 2
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    6:
-      type: SLIMEFUN
-      id: ALUMINUM_INGOT
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: COPPER_WIRE
-      amount: 1
 SOLAR_GENERATORS_1:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-1"
   generator-lore:
   block-type: SKULL6e2aaebaa1a9ead536edc79ddfade46cf50b4c40c83c102fb63d84d53c76d68f
@@ -342,7 +46,7 @@ SOLAR_GENERATORS_1:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_2:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-2"
   generator-lore:
   block-type: SKULL92824d469c93e454a0b23d2f0c42fd6ca54a8b54e690ec9059cc9e5a3e6d9f90
@@ -389,7 +93,7 @@ SOLAR_GENERATORS_2:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_3:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-3"
   generator-lore:
   block-type: SKULL775bca1af5cb1557c1794d23d907df1159320e14eba0581c25187dbeb22ba2cc
@@ -436,7 +140,7 @@ SOLAR_GENERATORS_3:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_4:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-4"
   generator-lore:
   block-type: SKULL74b662d3b529a187261cab86c6e56423bf876aa249d030faeaf34362f3447277
@@ -483,7 +187,7 @@ SOLAR_GENERATORS_4:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_5:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-5"
   generator-lore:
   block-type: SKULL336ba1dabbcabbd62770cece0202ebd9bb0649eca5311ee22c3d0f2981e90890
@@ -530,7 +234,7 @@ SOLAR_GENERATORS_5:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_6:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-6"
   generator-lore:
   block-type: SKULL7767a0cacdd7316d40e69f6bb923cb6b8bf2d8249918d8d1b94f2bf469d5cefc
@@ -577,7 +281,7 @@ SOLAR_GENERATORS_6:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_7:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-7"
   generator-lore:
   block-type: SKULL35dd37f729fc88133e314a552204c0fa2c0168428b353f957bf15ff24b7707e0
@@ -624,7 +328,7 @@ SOLAR_GENERATORS_7:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_8:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-8"
   generator-lore:
   block-type: SKULL6d2822cedb3abd579d6dfa2966c1433c3c36cb9732e2c23ec0cc81daedd4403b
@@ -671,7 +375,7 @@ SOLAR_GENERATORS_8:
       id: NONE
       amount: 1
 SOLAR_GENERATORS_9:
-  category: slime_customizer_generator
+  category: sakurafun_generator
   generator-name: "&d&lGenerators-Expansion-9"
   generator-lore:
   block-type: SKULL25ddf6af2d6271d8fdfadbdc54faaad5a68d7b8ac20e163883fc38d76336ea6
