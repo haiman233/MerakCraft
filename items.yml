@@ -30693,7 +30693,7 @@ OIL_POLLUTED_WATER:
       amount: 1
 ###################################################################################################ELEMENT元素周期表
 HYDROGEN_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氢'
   item-lore:
@@ -30741,7 +30741,7 @@ HYDROGEN_ELEMENT:
       id: NONE
       amount: 1
 HELIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氦'
   item-lore:
@@ -30836,7 +30836,7 @@ SPODUMENE:
       id: NONE
       amount: 0
 LITHIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锂'
   item-lore:
@@ -30884,7 +30884,7 @@ LITHIUM_ELEMENT:
       id: NONE
       amount: 0
 BERYLLIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铍'
   item-lore:
@@ -30932,7 +30932,7 @@ BERYLLIUM_ELEMENT:
       id: NONE
       amount: 0
 BORON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6硼'
   item-lore:
@@ -30981,7 +30981,7 @@ BORON_ELEMENT:
       id: NONE
       amount: 1
 CARBON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6碳'
   item-lore:
@@ -31029,7 +31029,7 @@ CARBON_ELEMENT:
       id: NONE
       amount: 1
 NITROGEN_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氮'
   item-lore:
@@ -31077,7 +31077,7 @@ NITROGEN_ELEMENT:
       id: NONE
       amount: 1
 OXYGEN_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氧'
   item-lore:
@@ -31125,7 +31125,7 @@ OXYGEN_ELEMENT:
       id: NONE
       amount: 1
 FLUORINE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氟'
   item-lore:
@@ -31173,7 +31173,7 @@ FLUORINE_ELEMENT:
       id: NONE
       amount: 1
 NEON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氖'
   item-lore:
@@ -31220,7 +31220,7 @@ NEON_ELEMENT:
       id: NONE
       amount: 1
 SODIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钠'
   item-lore:
@@ -31268,7 +31268,7 @@ SODIUM_ELEMENT:
       id: NONE
       amount: 1
 MAGNESIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镁'
   item-lore:
@@ -31316,7 +31316,7 @@ MAGNESIUM_ELEMENT:
       id: NONE
       amount: 1
 ALUMINIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铝'
   item-lore:
@@ -31365,7 +31365,7 @@ ALUMINIUM_ELEMENT:
       id: NONE
       amount: 1
 SILICON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6硅'
   item-lore:
@@ -31461,7 +31461,7 @@ CALCIUM_PHOSPHATE_TRIBASIC:
       id: NONE
       amount: 1
 PHOSPHORUS_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6磷'
   item-lore:
@@ -31509,7 +31509,7 @@ PHOSPHORUS_ELEMENT:
       id: NONE
       amount: 1
 SULFUR_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6硫'
   item-lore:
@@ -31557,7 +31557,7 @@ SULFUR_ELEMENT:
       id: NONE
       amount: 1
 CHLORINE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氯'
   item-lore:
@@ -31605,7 +31605,7 @@ CHLORINE_ELEMENT:
       id: WATER_BUCKET
       amount: 1
 ARGON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氩'
   item-lore:
@@ -31653,7 +31653,7 @@ ARGON_ELEMENT:
       id: NONE
       amount: 1
 POTASSIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钾'
   item-lore:
@@ -31748,7 +31748,7 @@ CALCIUM_CHLORIDE:
       id: NONE
       amount: 1
 CALCIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钙'
   item-lore:
@@ -31890,7 +31890,7 @@ HEAVY_RARE_EARTH:
       id: END_STONE
       amount: 1
 SCANDIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钪'
   item-lore:
@@ -31938,7 +31938,7 @@ SCANDIUM_ELEMENT:
       id: NONE
       amount: 1
 TITANIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钛'
   item-lore:
@@ -31986,7 +31986,7 @@ TITANIUM_ELEMENT:
       id: NONE
       amount: 1
 VANADIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钒'
   item-lore:
@@ -32034,7 +32034,7 @@ VANADIUM_ELEMENT:
       id: NONE
       amount: 1
 CHROMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铬'
   item-lore:
@@ -32082,7 +32082,7 @@ CHROMIUM_ELEMENT:
       id: NONE
       amount: 1
 MANGANESE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锰'
   item-lore:
@@ -32130,7 +32130,7 @@ MANGANESE_ELEMENT:
       id: NONE
       amount: 1
 IRON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铁'
   item-lore:
@@ -32178,7 +32178,7 @@ IRON_ELEMENT:
       id: NONE
       amount: 1
 COBALT_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钴'
   item-lore:
@@ -32226,7 +32226,7 @@ COBALT_ELEMENT:
       id: NONE
       amount: 1
 NICKEL_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镍'
   item-lore:
@@ -32274,7 +32274,7 @@ NICKEL_ELEMENT:
       id: NONE
       amount: 1
 COPPER_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铜'
   item-lore:
@@ -32322,7 +32322,7 @@ COPPER_ELEMENT:
       id: NONE
       amount: 1
 ZINC_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锌'
   item-lore:
@@ -32370,7 +32370,7 @@ ZINC_ELEMENT:
       id: NONE
       amount: 1
 GALLIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镓'
   item-lore:
@@ -32418,7 +32418,7 @@ GALLIUM_ELEMENT:
       id: NONE
       amount: 1
 GERMANIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锗'
   item-lore:
@@ -32466,7 +32466,7 @@ GERMANIUM_ELEMENT:
       id: STONE
       amount: 64
 ARSENIC_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6砷'
   item-lore:
@@ -32514,7 +32514,7 @@ ARSENIC_ELEMENT:
       id: NONE
       amount: 1
 SELENIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6硒'
   item-lore:
@@ -32562,7 +32562,7 @@ SELENIUM_ELEMENT:
       id: NONE
       amount: 1
 BROMINE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6溴'
   item-lore:
@@ -32610,7 +32610,7 @@ BROMINE_ELEMENT:
       id: NONE
       amount: 1
 KRYPTON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氪'
   item-lore:
@@ -32658,7 +32658,7 @@ KRYPTON_ELEMENT:
       id: NONE
       amount: 1
 RUBIDIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铷'
   item-lore:
@@ -32706,7 +32706,7 @@ RUBIDIUM_ELEMENT:
       id: NONE
       amount: 1
 STRONTIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锶'
   item-lore:
@@ -32754,7 +32754,7 @@ STRONTIUM_ELEMENT:
       id: NONE
       amount: 1
 YTTRIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钇'
   item-lore:
@@ -32802,7 +32802,7 @@ YTTRIUM_ELEMENT:
       id: NONE
       amount: 1
 ZIRCONIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锆'
   item-lore:
@@ -32850,7 +32850,7 @@ ZIRCONIUM_ELEMENT:
       id: NONE
       amount: 1
 NIOBIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铌'
   item-lore:
@@ -32898,7 +32898,7 @@ NIOBIUM_ELEMENT:
       id: NONE
       amount: 1
 MOLYBDENUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钼'
   item-lore:
@@ -32945,7 +32945,7 @@ MOLYBDENUM_ELEMENT:
       id: NONE
       amount: 1
 TECHNETIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锝'
   item-lore:
@@ -32993,7 +32993,7 @@ TECHNETIUM_ELEMENT:
       id: HYDROGEN_ELEMENT
       amount: 1
 RUTHENIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钌'
   item-lore:
@@ -33041,7 +33041,7 @@ RUTHENIUM_ELEMENT:
       id: NONE
       amount: 1
 RHODIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铑'
   item-lore:
@@ -33089,7 +33089,7 @@ RHODIUM_ELEMENT:
       id: NONE
       amount: 1
 PALLADIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钯'
   item-lore:
@@ -33137,7 +33137,7 @@ PALLADIUM_ELEMENT:
       id: NONE
       amount: 1
 SILVER_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6银'
   item-lore:
@@ -33185,7 +33185,7 @@ SILVER_ELEMENT:
       id: NONE
       amount: 1
 CADMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镉'
   item-lore:
@@ -33233,7 +33233,7 @@ CADMIUM_ELEMENT:
       id: NONE
       amount: 1
 INDIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铟'
   item-lore:
@@ -33282,7 +33282,7 @@ INDIUM_ELEMENT:
       id: NONE
       amount: 1
 TIN_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锡'
   item-lore:
@@ -33330,7 +33330,7 @@ TIN_ELEMENT:
       id: NONE
       amount: 1
 ANTIMONY_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锑'
   item-lore:
@@ -33378,7 +33378,7 @@ ANTIMONY_ELEMENT:
       id: NONE
       amount: 1
 TELLURIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6碲'
   item-lore:
@@ -33426,7 +33426,7 @@ TELLURIUM_ELEMENT:
       id: NONE
       amount: 1
 IODINE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6碘'
   item-lore:
@@ -33474,7 +33474,7 @@ IODINE_ELEMENT:
       id: SEAGRASS
       amount: 8
 XENON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氙'
   item-lore:
@@ -33523,7 +33523,7 @@ XENON_ELEMENT:
       id: NONE
       amount: 1
 CESIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铯'
   item-lore:
@@ -33572,7 +33572,7 @@ CESIUM_ELEMENT:
       id: IRON_ORE
       amount: 4
 BARIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钡'
   item-lore:
@@ -33620,7 +33620,7 @@ BARIUM_ELEMENT:
       id: NONE
       amount: 1
 LANTHANUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镧'
   item-lore:
@@ -33668,7 +33668,7 @@ LANTHANUM_ELEMENT:
       id: NONE
       amount: 1
 CERIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铈'
   item-lore:
@@ -33716,7 +33716,7 @@ CERIUM_ELEMENT:
       id: NONE
       amount: 1
 PRASEODYMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镨'
   item-lore:
@@ -33764,7 +33764,7 @@ PRASEODYMIUM_ELEMENT:
       id: NONE
       amount: 1
 NEODYMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钕'
   item-lore:
@@ -33812,7 +33812,7 @@ NEODYMIUM_ELEMENT:
       id: NONE
       amount: 1
 PROMETHIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钷'
   item-lore:
@@ -33860,7 +33860,7 @@ PROMETHIUM_ELEMENT:
       id: NONE
       amount: 1
 SAMARIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钐'
   item-lore:
@@ -33908,7 +33908,7 @@ SAMARIUM_ELEMENT:
       id: NONE
       amount: 1
 EUROPIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铕'
   item-lore:
@@ -33956,7 +33956,7 @@ EUROPIUM_ELEMENT:
       id: NONE
       amount: 1
 GADOLINIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钆'
   item-lore:
@@ -34004,7 +34004,7 @@ GADOLINIUM_ELEMENT:
       id: NONE
       amount: 1
 TERBIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铽'
   item-lore:
@@ -34052,7 +34052,7 @@ TERBIUM_ELEMENT:
       id: NONE
       amount: 1
 DYSPROSIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镝'
   item-lore:
@@ -34100,7 +34100,7 @@ DYSPROSIUM_ELEMENT:
       id: NONE
       amount: 1
 HOLMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钬'
   item-lore:
@@ -34148,7 +34148,7 @@ HOLMIUM_ELEMENT:
       id: NONE
       amount: 1
 ERBIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铒'
   item-lore:
@@ -34196,7 +34196,7 @@ ERBIUM_ELEMENT:
       id: NONE
       amount: 1
 THULIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铥'
   item-lore:
@@ -34244,7 +34244,7 @@ THULIUM_ELEMENT:
       id: NONE
       amount: 1
 YTTERBIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镱'
   item-lore:
@@ -34292,7 +34292,7 @@ YTTERBIUM_ELEMENT:
       id: NONE
       amount: 1
 LUTETIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镥'
   item-lore:
@@ -34340,7 +34340,7 @@ LUTETIUM_ELEMENT:
       id: NONE
       amount: 1
 HAFNIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铪'
   item-lore:
@@ -34388,7 +34388,7 @@ HAFNIUM_ELEMENT:
       id: ZIRCONIUM_ELEMENT
       amount: 1
 TANTALUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钽'
   item-lore:
@@ -34436,7 +34436,7 @@ TANTALUM_ELEMENT:
       id: NONE
       amount: 1
 TUNGSTEN_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钨'
   item-lore:
@@ -34484,7 +34484,7 @@ TUNGSTEN_ELEMENT:
       id: NONE
       amount: 1
 RHENIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铼'
   item-lore:
@@ -34532,7 +34532,7 @@ RHENIUM_ELEMENT:
       id: NONE
       amount: 1
 OSMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锇'
   item-lore:
@@ -34580,7 +34580,7 @@ OSMIUM_ELEMENT:
       id: NONE
       amount: 1
 IRIDIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铱'
   item-lore:
@@ -34628,7 +34628,7 @@ IRIDIUM_ELEMENT:
       id: NONE
       amount: 1
 PLATINUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铂'
   item-lore:
@@ -34676,7 +34676,7 @@ PLATINUM_ELEMENT:
       id: NONE
       amount: 1
 GOLD_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6金'
   item-lore:
@@ -34724,7 +34724,7 @@ GOLD_ELEMENT:
       id: NONE
       amount: 1
 MERCURY_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6汞'
   item-lore:
@@ -34772,7 +34772,7 @@ MERCURY_ELEMENT:
       id: NETHERRACK
       amount: 64
 THALLIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铊'
   item-lore:
@@ -34820,7 +34820,7 @@ THALLIUM_ELEMENT:
       id: NETHER_QUARTZ_ORE
       amount: 32
 LEAD_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铅'
   item-lore:
@@ -34868,7 +34868,7 @@ LEAD_ELEMENT:
       id: NONE
       amount: 1
 BISMUTH_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铋'
   item-lore:
@@ -34916,7 +34916,7 @@ BISMUTH_ELEMENT:
       id: PURPUR_BLOCK
       amount: 64
 POLONIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钋'
   item-lore:
@@ -34964,7 +34964,7 @@ POLONIUM_ELEMENT:
       id: NONE
       amount: 1
 ASTATINE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6砹'
   item-lore:
@@ -35012,7 +35012,7 @@ ASTATINE_ELEMENT:
       id: NONE
       amount: 1
 RADON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氡'
   item-lore:
@@ -35060,7 +35060,7 @@ RADON_ELEMENT:
       id: NONE
       amount: 1
 FRANCIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钫'
   item-lore:
@@ -35108,7 +35108,7 @@ FRANCIUM_ELEMENT:
       id: NONE
       amount: 1
 RADIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镭'
   item-lore:
@@ -35156,7 +35156,7 @@ RADIUM_ELEMENT:
       id: NONE
       amount: 1
 ACTINIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锕'
   item-lore:
@@ -35204,7 +35204,7 @@ ACTINIUM_ELEMENT:
       id: NONE
       amount: 1
 THORIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钍'
   item-lore:
@@ -35252,7 +35252,7 @@ THORIUM_ELEMENT:
       id: NONE
       amount: 1
 PROTACTINIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镤'
   item-lore:
@@ -35300,7 +35300,7 @@ PROTACTINIUM_ELEMENT:
       id: NONE
       amount: 1
 URANIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铀'
   item-lore:
@@ -35348,7 +35348,7 @@ URANIUM_ELEMENT:
       id: NONE
       amount: 1
 NEPTUNIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镎'
   item-lore:
@@ -35396,7 +35396,7 @@ NEPTUNIUM_ELEMENT:
       id: NONE
       amount: 1
 PLUTONIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钚'
   item-lore:
@@ -35444,7 +35444,7 @@ PLUTONIUM_ELEMENT:
       id: NONE
       amount: 1
 AMERICIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镅'
   item-lore:
@@ -35492,7 +35492,7 @@ AMERICIUM_ELEMENT:
       id: NONE
       amount: 1
 CURIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锔'
   item-lore:
@@ -35540,7 +35540,7 @@ CURIUM_ELEMENT:
       id: NONE
       amount: 1
 BERKELIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锫'
   item-lore:
@@ -35588,7 +35588,7 @@ BERKELIUM_ELEMENT:
       id: NONE
       amount: 1
 CALIFORNIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锎'
   item-lore:
@@ -35636,7 +35636,7 @@ CALIFORNIUM_ELEMENT:
       id: NONE
       amount: 1
 EINSTEINIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锿'
   item-lore:
@@ -35684,7 +35684,7 @@ EINSTEINIUM_ELEMENT:
       id: NONE
       amount: 1
 FERMIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镄'
   item-lore:
@@ -35732,7 +35732,7 @@ FERMIUM_ELEMENT:
       id: NONE
       amount: 1
 MENDELEVIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6钔'
   item-lore:
@@ -35780,7 +35780,7 @@ MENDELEVIUM_ELEMENT:
       id: NONE
       amount: 1
 NOBELIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6锘'
   item-lore:
@@ -35828,7 +35828,7 @@ NOBELIUM_ELEMENT:
       id: NONE
       amount: 1
 LAWRENCIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铹'
   item-lore:
@@ -35876,7 +35876,7 @@ LAWRENCIUM_ELEMENT:
       id: NONE
       amount: 1
 RUTHERFORDIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6鑪'
   item-lore:
@@ -35924,7 +35924,7 @@ RUTHERFORDIUM_ELEMENT:
       id: NONE
       amount: 1
 DUBNIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6'
   item-lore:
@@ -35972,7 +35972,7 @@ DUBNIUM_ELEMENT:
       id: NONE
       amount: 1
 SEABORGIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6䤭'
   item-lore:
@@ -36020,7 +36020,7 @@ SEABORGIUM_ELEMENT:
       id: NONE
       amount: 1
 BOHRIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6'
   item-lore:
@@ -36068,7 +36068,7 @@ BOHRIUM_ELEMENT:
       id: NONE
       amount: 1
 HASSIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6'
   item-lore:
@@ -36116,7 +36116,7 @@ HASSIUM_ELEMENT:
       id: NONE
       amount: 1
 MEITNERIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6䥑'
   item-lore:
@@ -36164,7 +36164,7 @@ MEITNERIUM_ELEMENT:
       id: NONE
       amount: 1
 DARMSTADTIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6鐽'
   item-lore:
@@ -36212,7 +36212,7 @@ DARMSTADTIUM_ELEMENT:
       id: NONE
       amount: 1
 DARMSTADTIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6錀'
   item-lore:
@@ -36260,7 +36260,7 @@ DARMSTADTIUM_ELEMENT:
       id: NONE
       amount: 1
 COPERNICIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6鎶'
   item-lore:
@@ -36308,7 +36308,7 @@ COPERNICIUM_ELEMENT:
       id: NONE
       amount: 1
 NIHONIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6鉨'
   item-lore:
@@ -36356,7 +36356,7 @@ NIHONIUM_ELEMENT:
       id: NONE
       amount: 1
 FLEROVIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6鈇'
   item-lore:
@@ -36404,7 +36404,7 @@ FLEROVIUM_ELEMENT:
       id: NONE
       amount: 1
 MOSCOVIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6镆'
   item-lore:
@@ -36452,7 +36452,7 @@ MOSCOVIUM_ELEMENT:
       id: NONE
       amount: 1
 LIVERMORIUM_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6鉝'
   item-lore:
@@ -36500,7 +36500,7 @@ LIVERMORIUM_ELEMENT:
       id: NONE
       amount: 1
 TENNESSINE_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6石田'
   item-lore:
@@ -36549,7 +36549,7 @@ TENNESSINE_ELEMENT:
       id: NONE
       amount: 1
 OGANESSON_ELEMENT:
-  category: sakurafun_elementary_particle
+  category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6奥气'
   item-lore:
