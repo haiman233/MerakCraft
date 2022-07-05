@@ -2323,3 +2323,49 @@ gjkjhgzt:
     - FINALTECH_ADVANCED_ORE_FACTORY
     - FINALTECH_ADVANCED_DUST_FACTORY
     - FINALTECH_ADVANCED_FARM_FACTORY
+fxbs:
+  id: 980000037
+  name: "创造模式"
+  cost: 1400
+  items:
+    - ANGEL_GEM
+zuantou:
+  id: 980000038
+  name: "工业钻头"
+  cost: 42
+  items:
+    - MINING_DRILL
+    - DIAMOND_DRILL
+dgnccdy:
+  id: 980000039
+  name: "多功能储存单元"
+  cost: 70
+  items:
+    - MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT
+    - MULTI_FUNCTIONAL_STORAGE_UNIT
+gyhcj:
+  id: 980000040
+  name: "工业合成机"
+  cost: 98
+  items:
+    - MACERATOR
+    - UU_CRAFTER
+jxwk:
+  id: 980000041
+  name: "机械外壳"
+  cost: 45
+  items:
+    - GOLD_ITEM_CASING
+    - IRON_ITEM_CASINGv
+lbdsj:
+  id: 980000042
+  name: "兰波顿水晶"
+  cost: 100
+  items:
+    - LAPOTRON_CRYSTAL
+nldy:
+  id: 980000043
+  name: "储能容器"
+  cost: 92
+  items:
+    - POWER_UNIT
