@@ -948,3 +948,14 @@ ENDER_DRAGON_HEXING:
   mob: ENDER_DRAGON
   chance: 1
   recipe-display-item: SHULKER_SPAWN_EGG
+DRAGON_TAIL:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: "&b末影龙之尾"
+  item-lore:
+  - '&f有强大的药用及工业用途'
+  item-id: BLACK_BANNER
+  item-amount: 1
+  mob: ENDER_DRAGON
+  chance: 1
+  recipe-display-item: DRAGON_HEAD

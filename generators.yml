@@ -975,10 +975,20 @@ ADVANCED_NUCLEAR_REACTOR:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 1500
+      time-in-seconds: 1200
       input:
         type: SLIMEFUN
         id: URANIUM
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '2':
+      time-in-seconds: 1500
+      input:
+        type: SLIMEFUN
+        id: NEPTUNIUM
         amount: 1
       output:
         type: NONE
