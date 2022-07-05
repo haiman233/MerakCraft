@@ -132,7 +132,7 @@ huanyu_vr:
   category-item: SKULLaaa99bcdde85a21d9e3ceb08dc7b6ad5b10cd06c17b7b94257ddbd490564be2a
 sakurafun_elementary_particle:
   parent: "tianxuangongyi"
-  category-name: "&6&l天璇工艺 &f-& 6粒子物理"
+  category-name: "&6&l天璇工艺 &f- &6粒子物理"
   category-item: DIAMOND
 sakurafun_chemical_element:
   parent: "tianxuangongyi"
