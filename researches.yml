@@ -2005,6 +2005,18 @@ xingji:
     - YELLOW_DWARF_F
     - BLUE_GIANT_A
     - BLUE_GIANT_B_WHITE_DWARF
+cdr:
+  id: 6000000055
+  name: "这个电容好臭啊"
+  cost: 40
+  items:
+    - CHOU_CAPACITOR
+wyydr:
+  id: 6000000056
+  name: "这电容有什么意义呢"
+  cost: 5
+  items:
+    - FEI_CAPACITOR
 # 乱序技艺
 duidiehecheng:
   id: 9800000000
