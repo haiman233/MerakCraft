@@ -764,7 +764,7 @@ jiegoukongweishengchan:
 fulifadian:
   id: 110000084
   name: "福利发电机"
-  cost: 4
+  cost: 18
   items:
     - HAIMAN_EXAMPLE_GENERATOR
     - VAGETABLE_SOLAR_GENERATOR
@@ -820,7 +820,7 @@ fangshexingfadianji:
 dianwangdianxian:
   id: 110000092
   name: "电线与电网"
-  cost: 22
+  cost: 35
   items:
     - HIGH_VOLTAGE_TRANSMISSION_LINES
     - HAIMAN_POWER_NET
@@ -2008,7 +2008,7 @@ xingji:
 cdr:
   id: 6000000055
   name: "这个电容好臭啊"
-  cost: 40
+  cost: 76
   items:
     - CHOU_CAPACITOR
 wyydr:
@@ -2335,12 +2335,14 @@ gjkjhgzt:
     - FINALTECH_ADVANCED_ORE_FACTORY
     - FINALTECH_ADVANCED_DUST_FACTORY
     - FINALTECH_ADVANCED_FARM_FACTORY
+# 动力科技
 fxbs:
   id: 980000037
   name: "创造模式"
   cost: 1400
   items:
     - ANGEL_GEM
+# 工业
 zuantou:
   id: 980000038
   name: "工业钻头"
