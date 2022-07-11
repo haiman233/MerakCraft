@@ -4,7 +4,7 @@ CHOU_CAPACITOR:
   capacitor-name: "&c&l先辈电容"
   capacitor-lore:
   - "&7哼!哼啊啊啊啊!"
-  block-type: SKULL166fa6731ad8fba370be4b49fc5ab8b1756cd527d73335cef116cb4072dfd954
+  block-type: DEFAULT
   capacity: 114514
   item-amount: 1
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -91,4 +91,3 @@ FEI_CAPACITOR:
       type: NONE
       id: NONE
       amount: 1
-
