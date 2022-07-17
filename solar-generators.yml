@@ -1,6 +1,6 @@
 SOLAR_GENERATORS_1:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-1"
+  generator-name: "&d&l太阳能-拓展-1"
   generator-lore:
   block-type: SKULL6e2aaebaa1a9ead536edc79ddfade46cf50b4c40c83c102fb63d84d53c76d68f
   stats:
@@ -47,7 +47,7 @@ SOLAR_GENERATORS_1:
       amount: 1
 SOLAR_GENERATORS_2:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-2"
+  generator-name: "&d&l太阳能-拓展-2"
   generator-lore:
   block-type: SKULL92824d469c93e454a0b23d2f0c42fd6ca54a8b54e690ec9059cc9e5a3e6d9f90
   stats:
@@ -94,7 +94,7 @@ SOLAR_GENERATORS_2:
       amount: 1
 SOLAR_GENERATORS_3:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-3"
+  generator-name: "&d&l太阳能-拓展-3"
   generator-lore:
   block-type: SKULL775bca1af5cb1557c1794d23d907df1159320e14eba0581c25187dbeb22ba2cc
   stats:
@@ -141,7 +141,7 @@ SOLAR_GENERATORS_3:
       amount: 1
 SOLAR_GENERATORS_4:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-4"
+  generator-name: "&d&l太阳能-拓展-4"
   generator-lore:
   block-type: SKULL74b662d3b529a187261cab86c6e56423bf876aa249d030faeaf34362f3447277
   stats:
@@ -188,7 +188,7 @@ SOLAR_GENERATORS_4:
       amount: 1
 SOLAR_GENERATORS_5:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-5"
+  generator-name: "&d&l太阳能-拓展-5"
   generator-lore:
   block-type: SKULL336ba1dabbcabbd62770cece0202ebd9bb0649eca5311ee22c3d0f2981e90890
   stats:
@@ -235,7 +235,7 @@ SOLAR_GENERATORS_5:
       amount: 1
 SOLAR_GENERATORS_6:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-6"
+  generator-name: "&d&l太阳能-拓展-6"
   generator-lore:
   block-type: SKULL7767a0cacdd7316d40e69f6bb923cb6b8bf2d8249918d8d1b94f2bf469d5cefc
   stats:
@@ -282,7 +282,7 @@ SOLAR_GENERATORS_6:
       amount: 1
 SOLAR_GENERATORS_7:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-7"
+  generator-name: "&d&l太阳能-拓展-7"
   generator-lore:
   block-type: SKULL35dd37f729fc88133e314a552204c0fa2c0168428b353f957bf15ff24b7707e0
   stats:
@@ -329,7 +329,7 @@ SOLAR_GENERATORS_7:
       amount: 1
 SOLAR_GENERATORS_8:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-8"
+  generator-name: "&d&l太阳能-拓展-8"
   generator-lore:
   block-type: SKULL6d2822cedb3abd579d6dfa2966c1433c3c36cb9732e2c23ec0cc81daedd4403b
   stats:
@@ -376,7 +376,7 @@ SOLAR_GENERATORS_8:
       amount: 1
 SOLAR_GENERATORS_9:
   category: sakurafun_generator
-  generator-name: "&d&lGenerators-Expansion-9"
+  generator-name: "&d&l太阳能-拓展-9"
   generator-lore:
   block-type: SKULL25ddf6af2d6271d8fdfadbdc54faaad5a68d7b8ac20e163883fc38d76336ea6
   stats:
@@ -404,6 +404,53 @@ SOLAR_GENERATORS_9:
     5:
       type: SLIMEFUN
       id: SOLAR_GENERATORS_9_BASE
+      amount: 1
+    6:
+      type: NONE
+      id: NONE
+      amount: 1
+    7:
+      type: NONE
+      id: NONE
+      amount: 1
+    8:
+      type: NONE
+      id: NONE
+      amount: 1
+    9:
+      type: NONE
+      id: NONE
+      amount: 1
+DYSON_SPHERE:
+  category: sakurafun_star
+  generator-name: "&f戴森球"
+  generator-lore:
+  block-type: SKULL65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+  stats:
+    energy-production:
+      day: 2147483647
+      night: 2147483647
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: NONE
+      amount: 1
+    2:
+      type: NONE
+      id: NONE
+      amount: 1
+    3:
+      type: NONE
+      id: NONE
+      amount: 1
+    4:
+      type: NONE
+      id: NONE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: NO_RECIPE
       amount: 1
     6:
       type: NONE

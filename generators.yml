@@ -2,13 +2,14 @@ ADVANCED_NUCLEAR_REACTOR:
   category: sakurafun_generator
   generator-name: '&b高级核反应堆'
   generator-lore:
-  - '&7不需要冷却剂的高级反应堆'
-  - '&7不会爆炸'
+  - '&7不需要冷却剂的反应堆'
+  - '&7而且不会爆炸!!!'
+  - '&8但代价却是较低收益的产电'
   block-type: SKULLa5bec76d65a868a5be5173d3b9e1775b54046f62035c1552440ede9973a90e1
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-production: 1000
-    energy-buffer: 2500
+    energy-production: 1100
+    energy-buffer: 65536
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
@@ -49,7 +50,7 @@ ADVANCED_NUCLEAR_REACTOR:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 1200
+      time-in-seconds: 540
       input:
         type: SLIMEFUN
         id: URANIUM
@@ -59,7 +60,7 @@ ADVANCED_NUCLEAR_REACTOR:
         id: N/A
         amount: 1
     '2':
-      time-in-seconds: 1500
+      time-in-seconds: 1080
       input:
         type: SLIMEFUN
         id: NEPTUNIUM
@@ -68,15 +69,35 @@ ADVANCED_NUCLEAR_REACTOR:
         type: NONE
         id: N/A
         amount: 1
-STEAM_TURBINE_GENERATOR:
+    '3':
+      time-in-seconds: 1350
+      input:
+        type: SLIMEFUN
+        id: BOOSTED_URANIUM
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '4':
+      time-in-seconds: 945
+      input:
+        type: SLIMEFUN
+        id: PLUTONIUM
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+STEAM_TURBINE_GENERATOR_1:
   category: sakurafun_generator
-  generator-name: '&e汽轮发电机'
+  generator-name: '&6汽轮发电机&8小型'
   generator-lore:
-  - '&6蒸汽时代！'
+  - '&7蒸汽时代！'
   block-type: FURNACE
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-production: 2000
+    energy-production: 700
     energy-buffer: 3000
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
@@ -98,7 +119,7 @@ STEAM_TURBINE_GENERATOR:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: STEAM_TURBINE_ITEM
+      id: STEAM_TURBINE_ITEM_1
       amount: 1
     '6':
       type: SLIMEFUN
@@ -118,7 +139,7 @@ STEAM_TURBINE_GENERATOR:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 100
+      time-in-seconds: 1
       input:
         type: VANILLA
         id: WATER_BUCKET
@@ -128,7 +149,145 @@ STEAM_TURBINE_GENERATOR:
         id: WATER_BUCKET
         amount: 1
     '2':
-      time-in-seconds: 100
+      time-in-seconds: 300
+      input:
+        type: SLIMEFUN
+        id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
+        amount: 64
+      output:
+        type: SLIMEFUN
+        id: COMPONENT_1
+        amount: 1
+STEAM_TURBINE_GENERATOR_2:
+  category: sakurafun_generator
+  generator-name: '&6汽轮发电机&8中型'
+  generator-lore:
+  - '&7蒸汽时代！'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 1400
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: DRUM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CARBON_STEEL_PIPE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: STEAM_TURBINE_ITEM_2
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ENERGY_CONNECTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 5
+      input:
+        type: VANILLA
+        id: WATER_BUCKET
+        amount: 1
+      output:
+        type: VANILLA
+        id: WATER_BUCKET
+        amount: 1
+    '2':
+      time-in-seconds: 165
+      input:
+        type: SLIMEFUN
+        id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
+        amount: 64
+      output:
+        type: SLIMEFUN
+        id: COMPONENT_1
+        amount: 1
+STEAM_TURBINE_GENERATOR_3:
+  category: sakurafun_generator
+  generator-name: '&6汽轮发电机&8大型'
+  generator-lore:
+  - '&7蒸汽时代！'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 2400
+    energy-buffer: 3000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: DRUM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CARBON_STEEL_PIPE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: STEAM_TURBINE_ITEM_3
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ENERGY_CONNECTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: MACHINE_PLATE
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 20
+      input:
+        type: VANILLA
+        id: WATER_BUCKET
+        amount: 1
+      output:
+        type: VANILLA
+        id: WATER_BUCKET
+        amount: 1
+    '2':
+      time-in-seconds: 30
       input:
         type: SLIMEFUN
         id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
@@ -139,14 +298,14 @@ STEAM_TURBINE_GENERATOR:
         amount: 1
 RADIOISOTOPE_THERMOELECTRIC_MACHINE_U:
   category: sakurafun_generator
-  generator-name: '&3&l放射性同位素热电机&a-&4铀'
+  generator-name: '&3&l放射性同位素热电机&a-&6&l铀'
   generator-lore:
   - '&6&l原子能电池'
   block-type: DAYLIGHT_DETECTOR
   progress-bar-item: FLINT_AND_STEEL
   stats:
     energy-production: 50
-    energy-buffer: 300
+    energy-buffer: 30
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
@@ -198,14 +357,14 @@ RADIOISOTOPE_THERMOELECTRIC_MACHINE_U:
         amount: 1
 RADIOISOTOPE_THERMOELECTRIC_MACHINE_P:
   category: sakurafun_generator
-  generator-name: '&3&l放射性同位素热电机&a-&4钚'
+  generator-name: '&3&l放射性同位素热电机&a-&6&l钚'
   generator-lore:
   - '&6&l原子能电池'
   block-type: DAYLIGHT_DETECTOR
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-production: 60
-    energy-buffer: 300
+    energy-production: 90
+    energy-buffer: 40
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
@@ -214,7 +373,7 @@ RADIOISOTOPE_THERMOELECTRIC_MACHINE_P:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: MATERIAL_THERMOCOUPLE
+      id: RADIOISOTOPE_THERMOELECTRIC_MACHINE_U
       amount: 1
     '3':
       type: NONE
@@ -262,11 +421,11 @@ ARTIFICIAL_SUN:
   - '&e复杂的人造托卡马克装置'
   - '&c利用核聚变发电'
   - '&b&l米哈游投资的产物!!!'
-  block-type: SKULLfbc8984fcc119b15631f1a77cb0a36ab03a81cb8e59fbff7fb25bccf7d4f519
+  block-type: SKULLbf0ee647a6211e5c2f81616a5977a65851e4db7834cf4501246de6b39ada3291
   progress-bar-item: FLINT_AND_STEEL
   stats:
     energy-production: 3500000
-    energy-buffer: 6500000
+    energy-buffer: 650000
   crafting-recipe-type: ORE_CRUSHER
   crafting-recipe:
     '1':
@@ -307,7 +466,7 @@ ARTIFICIAL_SUN:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 3000
+      time-in-seconds: 3
       input:
         type: SLIMEFUN
         id: MIXED_FUEL
@@ -316,3 +475,216 @@ ARTIFICIAL_SUN:
         type: SLIMEFUN
         id: PLASMA_REACTION_FUEL
         amount: 6
+THERMOELECTRIC_GENERATOR:
+  category: sakurafun_generator
+  generator-name: '&f热力发电机(TEG)'
+  generator-lore:
+  - '&7热电发电机的功能类似于热机'
+  - '&7但体积较小，没有活动部件'
+  - '&7TEG通常更昂贵且效率更低'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 280
+    energy-buffer: 10
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '5':
+      type: VANILLA
+      id: FURNACE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: RADIOISOTOPE_THERMOELECTRIC_MACHINE_P
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 10
+      input:
+        type: SLIMEFUN
+        id: STONE_LIKE_COAL_POWDER
+        amount: 1
+      output:
+        type: NONE
+        id: NONE
+        amount: 1
+    '2':
+      time-in-seconds: 2
+      input:
+        type: VANILLA
+        id: TALL_GRASS
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 2
+    '3':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: GRASS
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 1
+    '4':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: SEAGRASS
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 1
+    '5':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: FERN
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 1
+    '6':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: VINE
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 1
+    '7':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: LILY_PAD
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 1
+    '8':
+      time-in-seconds: 2
+      input:
+        type: VANILLA
+        id: LARGE_FERN
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 2
+    '9':
+      time-in-seconds: 2
+      input:
+        type: VANILLA
+        id: CRIMSON_ROOTS
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 2
+    '10':
+      time-in-seconds: 2
+      input:
+        type: VANILLA
+        id: WARPED_ROOTS
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: PLANT_ASH
+        amount: 2
+GAS_FIREDGENERATORS:
+  category: sakurafun_generator
+  generator-name: '&f燃气发电机'
+  generator-lore:
+  - '&7发电质量好'
+  - '&7启动性能好,启动成功率高'
+  - '&7噪声低振动小'
+  - '&7采用的可燃性气体是清洁、廉价的能源'
+  block-type: FURNACE
+  progress-bar-item: BUCKET
+  stats:
+    energy-production: 2000
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: THERMOELECTRIC_GENERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEAM_TURBINE_GENERATOR_1
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: IRON_ITEM_CASING
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 2
+      input:
+        type: SLIMEFUN
+        id: MIXED_EXHAUST_GAS
+        amount: 1
+      output:
+        type: NONE
+        id: NONE
+        amount: 1

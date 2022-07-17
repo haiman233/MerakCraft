@@ -1,47 +1,47 @@
 # 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Capacitors
 STHE_CAPACITOR:
   category: slime_customizer
-  capacitor-name: "&b臭电容"
+  capacitor-name: "&a迷你储能电容"
   capacitor-lore:
-  - "&f田所浩二电容!"
+  - "&7范围:&c&l 6 格"
   block-type: DEFAULT
-  capacity: 114514
+  capacity: 16
   item-amount: 1
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     1:
-      type: VANILLA
-      id: GOLD_BLOCK
+      type: SLIMEFUN
+      id: SILICON
       amount: 1
     2:
-      type: VANILLA
-      id: COCOA_BEANS
+      type: SLIMEFUN
+      id: COPPER_DUST
       amount: 1
     3:
-      type: VANILLA
-      id: GOLD_BLOCK
+      type: SLIMEFUN
+      id: SILICON
       amount: 1
     4:
-      type: VANILLA
-      id: IRON_BLOCK
+      type: SLIMEFUN
+      id: COPPER_DUST
       amount: 1
     5:
-      type: SLIMEFUN
-      id: CARBONADO_EDGED_CAPACITOR
+      type: VANILLA
+      id: REDSTONE
       amount: 1
     6:
-      type: VANILLA
-      id: IRON_BLOCK
+      type: SLIMEFUN
+      id: COPPER_DUST
       amount: 1
     7:
       type: SLIMEFUN
-      id: CARBONADO_EDGED_CAPACITOR
+      id: CARBON
       amount: 1
     8:
       type: SLIMEFUN
-      id: CARBONADO_EDGED_CAPACITOR
+      id: COPPER_DUST
       amount: 1
     9:
       type: SLIMEFUN
-      id: CARBONADO_EDGED_CAPACITOR
+      id: CARBON
       amount: 1

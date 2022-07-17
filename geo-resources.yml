@@ -1,0 +1,128 @@
+CHALCOPYRITE:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6黄铜矿"
+  item-lore:
+    - '&7用于炼铜'
+    - '&7分布最广的铜矿物,所以产量也会比较大'
+    - '&7化学式为:CuFeS₂'
+    - '&78CuFeS₂+21O₂==(高温)==8Cu+4FeO+2Fe₂O₃+16SO₂'
+  item-id: SKULL85b4abd4f07b6894607cbd870868f67e025c7fb552a1a57f56f77c044cca41ce
+  max-deviation: 4
+  biome:
+    PLAINS: 18
+    FOREST: 8
+    SAVANNA: 10
+    SWAMP: 12
+  environment:
+    NORMAL: 3
+CHALCOCITE:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6辉铜矿"
+  item-lore:
+    - '&7用于炼铜'
+    - '&7含铜成分高,所以是最重要的炼铜矿石'
+    - '&7化学式为:Cu₂S'
+    - '&72Cu₂S+3O₂==(高温)==2Cu₂O+SO₂'  
+    - '&7Cu₂S+2Cu₂O==(高温)==6Cu+SO₂'
+  item-id: SKULL9d6c1db29a7f745bd789a2c29476bd13e7516376cb7f680bf66e17b2a54a0816
+  max-deviation: 6
+  biome:
+    MOUNTAINS: 12
+    WOODED_MOUNTAINS: 8
+  environment:
+    NORMAL: 1
+DOLOMITE:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6白云石"
+  item-lore:
+    - '&7用作碱性耐火材料和高炉炼铁的熔剂'
+    - '&7生产钙镁磷肥和制取硫酸镁'
+    - '&7以及生产玻璃和陶瓷的配料'
+    - '&7白云岩矿床资源丰富'
+    - '&7化学式为:CaMg(CO₃)₂'
+  item-id: SKULL83f659c91663e3002f3036ef5b9662f9bb9e55c131dc6fbc69440d776b754182
+  max-deviation: 3
+  biome:
+    MOUNTAINS: 10
+    PLAINS: 20
+    TAIGA: 24
+    WOODED_MOUNTAINS: 8
+  environment:
+    NORMAL: 4
+STONE_LIKE_COAL:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6石煤"
+  item-lore:
+    - '&7石煤资源中已发现的伴生元素'
+    - '&7多达60多种是一种含碳少、低热值的燃料'
+    - '&7由4亿至5亿年前地质时期的菌藻类等生物遗体'
+    - '&7在浅海环境下经腐泥化作用和煤化作用转变而成'
+    - '&7石煤资源中已发现的伴生元素多达60多种'
+    - '&7其中可形成工业矿床的主要是钒'
+    - '&7可以利用石煤土法提取五氧化二钒'
+    - '&7或者利用石煤发电'
+  item-id: SKULL83f659c91663e3002f3036ef5b9662f9bb9e55c131dc6fbc69440d776b754182
+  max-deviation: 10
+  biome:
+    OCEAN: 20
+  environment:
+    NORMAL: 0
+CINNABAR:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6朱砂"
+  item-lore:
+    - '&7为硫化物类矿物辰砂族辰砂'
+    - '&7主含硫化汞'
+    - '&7采挖后,选取纯净者'
+    - '&7用磁铁吸净含铁的杂质'
+    - '&7再用水淘去杂石和泥沙'
+    - '&7可以用于制备汞'
+    - '&7HgS+O₂==(高温)==Hg+SO₂'
+  item-id: RED_DYE
+  max-deviation: 4
+  biome:
+    DESERT: 10
+    DESERT_HILLS: 16
+  environment:
+    NORMAL: 2
+NEPHRITE:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6软玉"
+  item-lore:
+    - '&7其代表为和田玉'
+    - '&7呈不透明或半透明状'
+  item-id: SKULL
+  max-deviation: 0
+  biome:
+    DESERT_HILLS: 1
+  environment:
+    NORMAL: 0
+JADEITE:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6硬玉"
+  item-lore:
+    - '&7其代表为翡翠'
+  item-id: SKULL3b4c2afd544d0a6139e6ae8ef8f0bfc09a9fd837d0cad4f5cd0fe7f607b7d1a0
+  max-deviation: 0
+  biome:
+    DEEP_OCEAN: 1
+  environment:
+    NORMAL: 0
+AMBER:
+  category: sakurafun_ore
+  item-type: CUSTOM
+  item-name: "&6琥珀"
+  item-lore:
+  item-id: SKULLda19436f6151a7b66d65ed7624add4325cfbbc2eee815fcf76f4c29ddf08f75b
+  max-deviation: 0
+  biome:
+    JUNGLE: 1
+  environment:
+    NORMAL: 0
