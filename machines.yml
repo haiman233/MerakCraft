@@ -1371,7 +1371,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10000
+      speed-in-seconds: 13000
       input:
         '1':
           type: VANILLA
@@ -1391,7 +1391,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 10000
+      speed-in-seconds: 13000
       input:
         '1':
           type: VANILLA
@@ -1411,7 +1411,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 11000
+      speed-in-seconds: 13000
       input:
         '1':
           type: SLIMEFUN
@@ -18643,11 +18643,11 @@ HAIMAN_GAOPING_CESHI:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 999999
+      speed-in-seconds: 8175423
       input:
         '1':
-          type: VANILLA
-          id: GOLDEN_APPLE
+          type: SLIMEFUN
+          id: MOLECULAR_RECOMBINATION_INSTRUMENT_III
           amount: 1
         '2':
           type: NONE
@@ -30799,14 +30799,15 @@ GAOJINENGYUAN_35:
           amount: 1
 4K_GOLD_INTEGRATED_MACHINE:
   category: slime_customizer_yitihua
-  machine-name: '&e4K金一体机'
+  machine-name: '&f4K金一体机'
   machine-lore:
   - '&f更快将金粉变成4K金'
+  - '&f省时省力，就是有点费电'
   block-type: SKULL9fef722da05ae8bd8132905a11b5b6dfbf8e7ae0af599c8266e160fb05e6159b
   progress-bar-item: GOLDEN_PICKAXE
   stats:
-    energy-consumption: 100
-    energy-buffer: 100
+    energy-consumption: 200
+    energy-buffer: 200
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
@@ -30866,12 +30867,150 @@ GAOJINENGYUAN_35:
           type: NONE
           id: N/A
           amount: 1
+ELECTRIC_REFINING_FURNACE_1:
+  category: slime_customizer
+  machine-name: '&6一级&f电动精炼炉'
+  machine-lore:
+  - '&f工业自动化正在向你招手'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 100
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_SMELTERY_2
+      amount: 1
+    '2':
+      type: VANILLA
+      id: STONE_BRICK_WALL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_SMELTERY_2
+      amount: 1
+    '4':
+      type: VANILLA
+      id: STONE_BRICKS
+      amount: 1
+    '5':
+      type: VANILLA
+      id: DISPENSER
+      amount: 1
+    '6':
+      type: VANILLA
+      id: STONE_BRICKS
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_SMELTERY_2
+      amount: 1
+    '8':
+      type: VANILLA
+      id: FLINT_AND_STEEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_SMELTERY_2
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: NONE
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REFINED_IRON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+ELECTRIC_REFINING_FURNACE_2:
+  category: slime_customizer
+  machine-name: '&6二级&f电动精炼炉'
+  machine-lore:
+  - '&f更快更好更强大的电动精炼炉'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 300
+    energy-buffer: 260
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: VOID_INGOT
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_REFINING_FURNACE_1
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: VOID_INGOT
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: NONE
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REFINED_IRON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 ELECTRIC_COMPOSTER_MACHINE:
   category: slime_customizer
-  machine-name: '&e电动堆肥机'
+  machine-name: '&f电动堆肥机'
   machine-lore:
-  - '&3电动搅拌'
-  block-type: DIAMOND_BLOCK
+  - '&f电动搅拌'
+  block-type: SKULL7f9e7cd7b14f5bc695c75da5026b09deb2092ce4737ec6b5a8b0a27f1feef954
   progress-bar-item: GOLDEN_HOE
   stats:
     energy-consumption: 40
@@ -30916,7 +31055,7 @@ ELECTRIC_COMPOSTER_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -30936,7 +31075,7 @@ ELECTRIC_COMPOSTER_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 1
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -30956,7 +31095,7 @@ ELECTRIC_COMPOSTER_MACHINE:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 1
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -30976,7 +31115,7 @@ ELECTRIC_COMPOSTER_MACHINE:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 1
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -30996,7 +31135,7 @@ ELECTRIC_COMPOSTER_MACHINE:
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31017,10 +31156,11 @@ ELECTRIC_COMPOSTER_MACHINE:
           amount: 1
 NUCLEAR_DECAY_INTEGRATED_MACHINE_1:
   category: slime_customizer
-  machine-name: '&a裂变机 I'
+  machine-name: '&6衰变机I'
   machine-lore:
-  - '&f更快的核裂变'
-  - '&e铀238变成铀239'
+  - '&f步入原子核物理'
+  - '&f探究自然女神的面纱'
+  - '&f高能物理部分很费电，注意啦'
   block-type: SKULLfa2c3e79d5f35a9dcab19e43c3e3a6519e426b64a61213cd2f1d28b57036f6
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31087,11 +31227,10 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_1:
           amount: 1
 NUCLEAR_DECAY_INTEGRATED_MACHINE_2:
   category: slime_customizer
-  machine-name: '&a裂变机 II'
+  machine-name: '&f衰变机II'
   machine-lore:
-  - '&f加速β-衰变的机器'
-  - '&e铀239变成镎239'
-  - '&e镎239变成钚239'
+  - '&f升级版的衰变机'
+  - '&f优化后不需要那么多电了'
   block-type: SKULLfa2c3e79d5f35a9dcab19e43c3e3a6519e426b64a61213cd2f1d28b57036f6
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31137,7 +31276,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_2:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10
+      speed-in-seconds: 40
       input:
         '1':
           type: SLIMEFUN
@@ -31157,7 +31296,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_2:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 10
+      speed-in-seconds: 40
       input:
         '1':
           type: SLIMEFUN
@@ -31177,7 +31316,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_2:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: SLIMEFUN
@@ -31198,9 +31337,10 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_2:
           amount: 1
 NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
   category: slime_customizer
-  machine-name: '&a粒子对撞机'
+  machine-name: '&f粒子对撞机'
   machine-lore:
   - '&f制造新元素的起点'
+  - '&f粒子物理的新篇章就此打开'
   block-type: SKULL76856a8f37b6c3146854f2caa7101b9dd592f4669a3c75f941e2859552bd1ae8
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31246,7 +31386,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 20
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
@@ -31263,10 +31403,10 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           amount: 1
         '2':
           type: SLIMEFUN
-          id: HELIUM_ELEMENT
+          id: HELIUM_4_NUCLEUS_ELEMENT
           amount: 1
     '2':
-      speed-in-seconds: 20
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
@@ -31286,7 +31426,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 20
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
@@ -31306,7 +31446,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 20
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
@@ -31326,7 +31466,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           id: NEUTRON
           amount: 1
     '5':
-      speed-in-seconds: 20
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
@@ -31334,7 +31474,7 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           amount: 1
         '2':
           type: SLIMEFUN
-          id: HYDROGEN_ELEMENT
+          id: DEUTERIUM_ELEMENT
           amount: 1
       output:
         '1':
@@ -31346,7 +31486,47 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           id: N/A
           amount: 1
     '6':
-      speed-in-seconds: 10
+      speed-in-seconds: 120
+      input:
+        '1':
+          type: SLIMEFUN
+          id: LITHIUM_6_ELEMENT
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: NEUTRON
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HELIUM_ELEMENT
+          amount: 2
+        '2':
+          type: SLIMEFUN
+          id: TRITIUM_ELEMENT
+          amount: 1
+    '7':
+      speed-in-seconds: 120
+      input:
+        '1':
+          type: SLIMEFUN
+          id: HELIUM_4_NUCLEUS_ELEMENT
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: NEUTRON
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: DEUTERIUM_ELEMENT
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: TRITIUM_ELEMENT
+          amount: 1
+    '8':
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
@@ -31365,11 +31545,31 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3:
           type: NONE
           id: NONE
           amount: 1
+    '9':
+      speed-in-seconds: 120
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BISMUTH_ELEMENT
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HELIUM_4_NUCLEUS_ELEMENT
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ASTATINE_ELEMENT
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: NEUTRON
+          amount: 4
 BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_1:
   category: slime_customizer
-  machine-name: '&a机械电路板&b一体机&cI'
+  machine-name: '&f机械电路板一体机&6I'
   machine-lore:
-  - '&6简单易上手'
+  - '&a简单易上手'
   block-type: FURNACE
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31415,7 +31615,7 @@ BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_1:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 4
+      speed-in-seconds: 40
       input:
         '1':
           type: SLIMEFUN
@@ -31436,9 +31636,9 @@ BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_1:
           amount: 1
 BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_2:
   category: slime_customizer
-  machine-name: '&a机械电路板&b一体机&cII'
+  machine-name: '&f机械电路板一体机&6II'
   machine-lore:
-  - '&6进阶版高速制作'
+  - '&a进阶版高速制作'
   block-type: FURNACE
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31484,7 +31684,7 @@ BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_2:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: SLIMEFUN
@@ -31505,9 +31705,9 @@ BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_2:
           amount: 1
 BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_3:
   category: slime_customizer
-  machine-name: '&a机械电路板&b一体机&cIII'
+  machine-name: '&f机械电路板一体机&6III'
   machine-lore:
-  - '&6 PLUS PRO MAX'
+  - '&aPLUS-PRO-MAX'
   block-type: FURNACE
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31545,7 +31745,7 @@ BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_3:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: ANCIENT_FOSSIL
       amount: 1
     '9':
       type: SLIMEFUN
@@ -31553,7 +31753,7 @@ BASIC_CIRCUIT_BOARD_INTEGRATED_MACHINE_3:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -31576,7 +31776,7 @@ LITHIUM_PURIFIER:
   category: slime_customizer
   machine-name: '&b锂提纯机'
   machine-lore:
-  - '&7提纯锂矿'
+  - '&7用于提纯锂矿'
   block-type: SKULLca35afa58631609791ffe25f3a879dfbffea1151f87bff62c5423ed6136ee0
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31622,12 +31822,12 @@ LITHIUM_PURIFIER:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10
+      speed-in-seconds: 120
       input:
         '1':
           type: SLIMEFUN
-          id: SPODUMENE
-          amount: 4
+          id: LITHIUM_ELEMENT
+          amount: 40
         '2':
           type: NONE
           id: N/A
@@ -31635,17 +31835,17 @@ LITHIUM_PURIFIER:
       output:
         '1':
           type: SLIMEFUN
-          id: LITHIUM_ELEMENT
-          amount: 1
+          id: LITHIUM_6_ELEMENT
+          amount: 3
         '2':
           type: NONE
           id: N/A
           amount: 1
 SAPLING_INTEGRATED_MACHINE:
   category: slime_customizer
-  machine-name: '&a树苗一体机'
+  machine-name: '&f树苗一体机'
   machine-lore:
-  - '&3种树苗实现碳中和'
+  - '&f种树苗实现碳中和'
   block-type: SKULLc2847cd5717e5f5a64e1ba9cb481dc9e22c78ca23f8516d553f55412fa113e0
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -31691,7 +31891,7 @@ SAPLING_INTEGRATED_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31711,7 +31911,7 @@ SAPLING_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31731,7 +31931,7 @@ SAPLING_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31751,7 +31951,7 @@ SAPLING_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31771,7 +31971,7 @@ SAPLING_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31791,7 +31991,7 @@ SAPLING_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
     '6':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: VANILLA
@@ -31811,8 +32011,8 @@ SAPLING_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
 RAIL_INTEGRATED_MACHINE:
-  category: slime_customizer
-  machine-name: '&f基础铁轨&e一体机'
+  category: slime_customizer_yitihua
+  machine-name: '&f基础铁轨一体机'
   machine-lore:
   - '&7修建铁路必备'
   block-type: SKULL6d5b0e3aa61162a3c6538985c5c11ceb96d5605b3ce9234c88f4fbd723475d
@@ -31860,7 +32060,7 @@ RAIL_INTEGRATED_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -31880,7 +32080,7 @@ RAIL_INTEGRATED_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 2
+      speed-in-seconds: 10
       input:
         '1':
           type: SLIMEFUN
@@ -32110,14 +32310,14 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
           amount: 1
 VOID_INGOT_INTEGRATED_MACHINE:
   category: slime_customizer
-  machine-name: '&6&l高级&7虚空锭&1一体机'
+  machine-name: 6&l高级&7虚空锭&1一体机
   machine-lore:
   - '&e优质的一体机'
   block-type: SKULL996754d330435345aae3a9f063cfca42afb28b7c5c4bb9f294ed2527d961
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-consumption: 8000
-    energy-buffer: 12000
+    energy-consumption: 4000
+    energy-buffer: 8000
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
@@ -32158,7 +32358,7 @@ VOID_INGOT_INTEGRATED_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 0
+      speed-in-seconds: 60
       input:
         '1':
           type: SLIMEFUN
@@ -32172,18 +32372,18 @@ VOID_INGOT_INTEGRATED_MACHINE:
         '1':
           type: SLIMEFUN
           id: VOID_INGOT
-          amount: 8
+          amount: 1
         '2':
           type: NONE
           id: N/A
           amount: 1
 VOID_CONSTRUCTOR:
   category: slime_customizer
-  machine-name: '&7虚空奇点&1构造机'
+  machine-name: '&7虚空奇点构造机'
   machine-lore:
-  - '&e制作虚空奇点'
-  - '&8但构造能力不太强...'
-  - '&7这已经是极限了'
+  - '&f用于制作虚空奇点'
+  - '&f但构造能力不太强...'
+  - '&f这已经是现阶段的极限了'
   block-type: SKULLf0896390c4921bf889a29cfd1842abf9ef7f84e5a22fbce7e64891db41666bc
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -32229,16 +32429,16 @@ VOID_CONSTRUCTOR:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: SLIMEFUN
           id: VOID_INGOT
-          amount: 64
+          amount: 10
         '2':
-          type: SLIMEFUN
-          id: VOID_INGOT
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
@@ -32249,12 +32449,12 @@ VOID_CONSTRUCTOR:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 2
+      speed-in-seconds: 20
       input:
         '1':
           type: SLIMEFUN
           id: VOID_SINGULARITY_PIECE
-          amount: 8
+          amount: 20
         '2':
           type: NONE
           id: N/A
@@ -32661,9 +32861,9 @@ RARE_EARTH_PURIFIER:
           amount: 1
 ELEMENT_PURIFIER:
   category: slime_customizer
-  machine-name: '&e元素&f提纯机'
+  machine-name: '&6元素提纯机'
   machine-lore:
-  - '&7提纯机'
+  - '&f元素的提纯往往采用简单粗暴的方式'
   block-type: SKULL382d58e893bf9b82433626d0e480e9375b58f3c2ddef450f617b60dbf506cbb9
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -33133,11 +33333,11 @@ ELEMENT_PURIFIER:
       input:
         '1':
           type: SLIMEFUN
-          id: HYDROGEN_ELEMENT
+          id: HYDROGEN_GAS
           amount: 3
         '2':
           type: SLIMEFUN
-          id: NITROGEN_ELEMENT
+          id: NITROGEN_GAS
           amount: 1
       output:
         '1':
@@ -34218,380 +34418,12 @@ COAL_FIRED_BOILER:
           type: NONE
           id: NONE
           amount: 1
-CONCRETE_FORMING_MACHINE:
-  category: slime_customizer
-  machine-name: '&6混凝土成型机'
-  machine-lore:
-  - '&b代替了原版的旧机器'
-  block-type: FURNACE
-  progress-bar-item: FLINT_AND_STEEL
-  stats:
-    energy-consumption: 500
-    energy-buffer: 1000
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    '1':
-      type: SLIMEFUN
-      id: FLUID_PUMP
-      amount: 1
-    '2':
-      type: SLIMEFUN
-      id: GOLD_24K_BLOCK
-      amount: 1
-    '3':
-      type: SLIMEFUN
-      id: FLUID_PUMP
-      amount: 1
-    '4':
-      type: SLIMEFUN
-      id: GOLD_24K_BLOCK
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: INFINITY_INGOT_FORMER
-      amount: 1
-    '6':
-      type: SLIMEFUN
-      id: GOLD_24K_BLOCK
-      amount: 1
-    '7':
-      type: SLIMEFUN
-      id: FLUID_PUMP
-      amount: 1
-    '8':
-      type: SLIMEFUN
-      id: GOLD_24K_BLOCK
-      amount: 1
-    '9':
-      type: SLIMEFUN
-      id: FLUID_PUMP
-      amount: 1
-  recipes:
-    '1':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: WHITE_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: WHITE_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '2':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: ORANGE_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: ORANGE_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '3':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: MAGENTA_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: MAGENTA_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '4':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: LIGHT_BLUE_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: LIGHT_BLUE_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '5':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: YELLOW_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: YELLOW_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '6':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: LIME_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: LIME_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '7':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: PINK_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: PINK_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '8':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: GRAY_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: GRAY_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '9':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: LIGHT_GRAY_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: LIGHT_GRAY_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '10':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: CYAN_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: CYAN_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '11':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: PURPLE_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: PURPLE_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '12':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: BLUE_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: BLUE_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '13':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: BROWN_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: BROWN_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '14':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: GREEN_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: GREEN_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '15':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: RED_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: RED_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '16':
-      speed-in-seconds: 2
-      input:
-        '1':
-          type: VANILLA
-          id: BLACK_CONCRETE_POWDER
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: BLACK_CONCRETE
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
 ESTERIFICATION_MACHINE:
   category: sakurafun_rocket_machine
   machine-name: '&b酯化机'
   machine-lore:
-  - '&f可以酯化物品'
+  - '&f酯化反应'
+  - '&f主要是是醇跟羧酸或无机含氧酸生成酯和水的反应'
   block-type: SKULL2481e6f7369cdb29dc0702372e5a4dfdb9875ee6aced87b701f81999c0fdd195
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -34681,6 +34513,7 @@ SOLAR_DISTILLATION_MACHINE:
   machine-name: '&b太阳能蒸馏机'
   machine-lore:
   - '&f利用太阳来蒸馏'
+  - '&f导致效率如此低下'
   block-type: SKULL215cd248e3fb7b038013a1d1487168df093a7bbedce4224b5c823d3ef681a784
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -34718,7 +34551,7 @@ SOLAR_DISTILLATION_MACHINE:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: HEATING_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '9':
       type: SLIMEFUN
@@ -34726,7 +34559,7 @@ SOLAR_DISTILLATION_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10
+      speed-in-seconds: 100
       input:
         '1':
           type: SLIMEFUN
@@ -34746,7 +34579,7 @@ SOLAR_DISTILLATION_MACHINE:
           id: FATTY_ACID_ESTER
           amount: 1
     '2':
-      speed-in-seconds: 10
+      speed-in-seconds: 100
       input:
         '1':
           type: SLIMEFUN
@@ -34766,7 +34599,7 @@ SOLAR_DISTILLATION_MACHINE:
           id: NONE
           amount: 1
     '3':
-      speed-in-seconds: 10
+      speed-in-seconds: 100
       input:
         '1':
           type: SLIMEFUN
@@ -34786,7 +34619,7 @@ SOLAR_DISTILLATION_MACHINE:
           id: NONE
           amount: 1
     '4':
-      speed-in-seconds: 10
+      speed-in-seconds: 100
       input:
         '1':
           type: SLIMEFUN
@@ -34806,7 +34639,7 @@ SOLAR_DISTILLATION_MACHINE:
           id: NONE
           amount: 1
     '5':
-      speed-in-seconds: 30
+      speed-in-seconds: 300
       input:
         '1':
           type: SLIMEFUN
@@ -34826,7 +34659,7 @@ SOLAR_DISTILLATION_MACHINE:
           id: NONE
           amount: 1
     '6':
-      speed-in-seconds: 20
+      speed-in-seconds: 200
       input:
         '1':
           type: SLIMEFUN
@@ -34850,6 +34683,8 @@ ACID_HYDROLYSIS_MACHINE:
   machine-name: '&b酸性水解机'
   machine-lore:
   - '&f酸性条件下水解物品'
+  - '&f利用水介质将物质分解形成新物质，在酸性条件下脱保护'
+  - '&f生成目标化合物的一种化学反应过程'
   block-type: SKULLfaf0c95ceba34c7fe6d33404feb87b4184ccce143978622c1647feaed2b63274
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -34895,7 +34730,7 @@ ACID_HYDROLYSIS_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10
+      speed-in-seconds: 20
       input:
         '1':
           type: SLIMEFUN
@@ -34915,7 +34750,7 @@ ACID_HYDROLYSIS_MACHINE:
           id: NONE
           amount: 1
     '2':
-      speed-in-seconds: 20
+      speed-in-seconds: 50
       input:
         '1':
           type: SLIMEFUN
@@ -34934,80 +34769,12 @@ ACID_HYDROLYSIS_MACHINE:
           type: NONE
           id: NONE
           amount: 1
-SODIUM_METABORATE_PROCESSOR:
-  category: sakurafun_rocket_machine
-  machine-name: '&b偏硼酸钠处理机'
-  machine-lore:
-  - '&f处理偏硼酸钠'
-  block-type: SKULL468c1fa4a21ba4f27dcb30ab3bfab0dc22a1e4fcf9ed12c1d7a70feb07f8d7ae
-  progress-bar-item: FLINT_AND_STEEL
-  stats:
-    energy-consumption: 5000
-    energy-buffer: 10000
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: N/A
-      amount: 1
-    '2':
-      type: SLIMEFUN
-      id: SODIUM_METABORATE
-      amount: 1
-    '3':
-      type: NONE
-      id: N/A
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: MECHANICAL_HOUSING
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: N/A
-      amount: 1
-    '8':
-      type: SLIMEFUN
-      id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
-      amount: 1
-    '9':
-      type: NONE
-      id: N/A
-      amount: 1
-  recipes:
-    '1':
-      speed-in-seconds: 100
-      input:
-        '1':
-          type: SLIMEFUN
-          id: SODIUM_METABORATE
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SLIMEFUN
-          id: BORAX_1
-          amount: 1
-        '2':
-          type: NONE
-          id: NONE
-          amount: 1
 FERMENTATION_MACHINE:
   category: sakurafun_rocket_machine
-  machine-name: '&b化工发酵机'
+  machine-name: '&b发酵机'
   machine-lore:
-  - '&f发酵食物'
+  - '&f用酵母菌发酵食物'
+  - '&f无氧环境下葡萄糖分解为二氧化碳和酒精'
   block-type: SKULLc6df58238adfd177010ffa2438c707ecc40b46bd2ef9349fba65c771759a5
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -35053,7 +34820,7 @@ FERMENTATION_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 80
+      speed-in-seconds: 120
       input:
         '1':
           type: VANILLA
@@ -35073,7 +34840,7 @@ FERMENTATION_MACHINE:
           id: NONE
           amount: 1
     '2':
-      speed-in-seconds: 10
+      speed-in-seconds: 60
       input:
         '1':
           type: SLIMEFUN
@@ -35093,7 +34860,7 @@ FERMENTATION_MACHINE:
           id: NONE
           amount: 1
     '3':
-      speed-in-seconds: 20
+      speed-in-seconds: 300
       input:
         '1':
           type: SLIMEFUN
@@ -35109,8 +34876,8 @@ FERMENTATION_MACHINE:
           id: ALCOHOL
           amount: 1
         '2':
-          type: NONE
-          id: NONE
+          type: SLIMEFUN
+          id: CARBON_DIOXIDE
           amount: 1
 LABORATORY_BEAKER:
   category: sakurafun_rocket_machine
@@ -35187,7 +34954,7 @@ LABORATORY_BEAKER:
       input:
         '1':
           type: SLIMEFUN
-          id: HYDROGEN_ELEMENT
+          id: HYDROGEN_GAS
           amount: 1
         '2':
           type: SLIMEFUN
@@ -35216,7 +34983,7 @@ LABORATORY_BEAKER:
       output:
         '1':
           type: SLIMEFUN
-          id: 2_CHLOROETHANOL
+          id: CHLOROETHANOL
           amount: 1
         '2':
           type: NONE
@@ -35227,7 +34994,7 @@ LABORATORY_BEAKER:
       input:
         '1':
           type: SLIMEFUN
-          id: 2_CHLOROETHANOL
+          id: CHLOROETHANOL
           amount: 1
         '2':
           type: SLIMEFUN
@@ -35382,6 +35149,46 @@ LABORATORY_BEAKER:
           type: NONE
           id: NONE
           amount: 1
+    '12':
+      speed-in-seconds: 40
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SODIUM_HYDROXIDE_SOLUTION
+          amount: 2
+        '2':
+          type: SLIMEFUN
+          id: CARBON_DIOXIDE
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SODA_SAKURAFUN
+          amount: 1
+        '2':
+          type: VANILLA
+          id: WATER_BUCKET
+          amount: 1
+    '13':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: SLIMEFUN
+          id: METHANOL
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: MODIFIED_HZSM_5_MOLECULAR_SIEVE_CATALYST
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PROPYLENE
+          amount: 1
+        '2':
+          type: NONE
+          id: NONE
+          amount: 1
 HEAT_EXCHANGER:
   category: sakurafun_rocket_machine
   machine-name: '&b&l热交换机'
@@ -35408,15 +35215,15 @@ HEAT_EXCHANGER:
       amount: 1
     '4':
       type: SLIMEFUN
-      id: HEATING_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '5':
       type: SLIMEFUN
-      id: HEATING_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '6':
       type: SLIMEFUN
-      id: HEATING_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '7':
       type: SLIMEFUN
@@ -36018,7 +35825,7 @@ ULTIMATE_FREEZER:
           type: NONE
           id: NONE
           amount: 1
-ELECTROLYZER_1:
+SAKURAFUN_ELECTROLYZER:
   category: sakurafun_rocket_machine
   machine-name: '&b&l电解器'
   machine-lore:
@@ -36365,7 +36172,7 @@ ROCKET_MATERIAL_PRODUCTION_MACHINE:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: ULTIMATE_ENERGY_MOTOR
+      id: ELECTRO_MAGNET_INTEGRATED_MACHINE_3
       amount: 1
     '3':
       type: SLIMEFUN
@@ -36556,7 +36363,7 @@ STRUCTURE_VOID_MACHINE:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_II
+      id: SAKURAFUN_MACHINE_MOTOR_II
       amount: 1
     '3':
       type: SLIMEFUN
@@ -36600,10 +36407,448 @@ STRUCTURE_VOID_MACHINE:
           amount: 1
       output:
         '1':
-          type: SLIMEFUN
-          id: UNPLACEABLE_STRUCTURE_VOID
+          type: VANILLA
+          id: STRUCTURE_VOID
           amount: 1
         '2':
           type: NONE
           id: NONE
+          amount: 1
+SODIUM_METABORATE_PROCESSOR:
+  category: sakurafun_rocket_machine
+  machine-name: '&b偏硼酸钠处理机'
+  machine-lore:
+  - '&f处理偏硼酸钠'
+  block-type: SKULL468c1fa4a21ba4f27dcb30ab3bfab0dc22a1e4fcf9ed12c1d7a70feb07f8d7ae
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 5000
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: N/A
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: SODIUM_METABORATE
+      amount: 1
+    '3':
+      type: NONE
+      id: N/A
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MECHANICAL_HOUSING
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 100
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SODIUM_METABORATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BORAX_SAKURAFUN
+          amount: 1
+        '2':
+          type: NONE
+          id: NONE
+          amount: 1
+CONCRETE_FORMING_MACHINE:
+  category: slime_customizer
+  machine-name: '&6混凝土成型机'
+  machine-lore:
+  - '&b代替了原版的旧机器'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FLUID_PUMP
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FLUID_PUMP
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_INGOT_FORMER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FLUID_PUMP
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FLUID_PUMP
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: RED_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_CONCRETE_POWDER
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_CONCRETE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
           amount: 1

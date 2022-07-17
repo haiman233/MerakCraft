@@ -1,6 +1,6 @@
 tianxuangongyi:
   parent: "this"
-  category-name: "&7&kll&c&l天璇&d&l工艺&7&kll"
+  category-name: "&7&kll§x§f§f§f§f§0§0天§x§c§c§f§f§0§0璇§x§8§8§f§f§0§0工§x§4§4§f§f§0§0艺&7&kll"
   category-item: SKULLc1077e871d91b7fea24b1f6808e088d7b842da516f6356ce91613494431ae8a0
 slime_customizer_info:
   parent: "tianxuangongyi"
@@ -85,7 +85,7 @@ gaojinengyuan_yuzhou:
 dianro:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &7- &d&l电容"
-  category-item: SKULLf8769c00dd0e02b3a09d5c86d3ca5607700c594897a1d03aefcc80d458b00339
+  category-item: SKULL5584432af6f382167120258d1eee8c87c6e75d9e479e7b0d4c7b6ad48cfeef
 slime_customizer_qiu:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &7- &f&l波兰球"
@@ -190,3 +190,11 @@ isotope:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &6同位素"
   category-item: GLASS
+sakurafun_jade:
+  parent: "tianxuangongyi"
+  category-name: "&6&l天璇工艺 &f- &e宝石"
+  category-item: SKULLe80e2c206f06b4163dee678162b2d7a3ed6b20c6419fec44f91f6dd001a12a39
+sakurafun_ore:
+  parent: "tianxuangongyi"
+  category-name: "&6&l天璇工艺 &f- &e矿业"
+  category-item: SKULL86f06eaa3004aeed09b3d5b45d976de584e691c0e9cade133635de93d23b9edb

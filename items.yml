@@ -5566,7 +5566,7 @@ JT_YZ:
       amount: 1
     7:
       type: SLIMEFUN
-      id: NTW_PRISTINE_AI_CORE
+      id: CENTRAL_SOLENOID
       amount: 1
     8:
       type: SLIMEFUN
@@ -6201,7 +6201,7 @@ YUZHOUZHIXIN:
       amount: 1
     5:
       type: SLIMEFUN
-      id: NTW_INTERDIMENSIONAL_PRESENCE
+      id: CENTRAL_SOLENOID
       amount: 1
     6:
       type: SLIMEFUN
@@ -6209,7 +6209,7 @@ YUZHOUZHIXIN:
       amount: 1
     7:
       type: SLIMEFUN
-      id: NTW_PRISTINE_AI_CORE
+      id: CENTRAL_SOLENOID
       amount: 1
     8:
       type: SLIMEFUN
@@ -10925,7 +10925,7 @@ XRLB:
       amount: 1
 
 WLTS:
-  category: pifu
+  category: slime_customizer_fengcang
   item-type: SAVEDITEM
   item-name: "&b&l网络推送"
   item-lore:
@@ -10933,7 +10933,7 @@ WLTS:
   item-id: WLTS
   item-amount: 1
   placeable: false
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe-type: NONE
   crafting-recipe:
     1:
       type: NONE
@@ -10952,8 +10952,8 @@ WLTS:
       id: N/A
       amount: 1
     5:
-      type: SLIMEFUN
-      id: NTW_PUSHER
+      type: NONE
+      id: N/A
       amount: 1
     6:
       type: NONE
@@ -10972,7 +10972,7 @@ WLTS:
       id: N/A
       amount: 1
 WLZQ:
-  category: pifu
+  category: slime_customizer_fengcang
   item-type: SAVEDITEM
   item-name: "&b&l网络推送"
   item-lore:
@@ -10980,7 +10980,7 @@ WLZQ:
   item-id: WLZQ
   item-amount: 1
   placeable: false
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe-type: NONE
   crafting-recipe:
     1:
       type: NONE
@@ -10999,8 +10999,8 @@ WLZQ:
       id: N/A
       amount: 1
     5:
-      type: SLIMEFUN
-      id: NTW_GRABBER
+      type: NONE
+      id: N/A
       amount: 1
     6:
       type: NONE
@@ -25878,7 +25878,6 @@ BOOK_4:
       type: NONE
       id: N/A
       amount: 1
-# 分界
 #这里是Sakurafun的介绍,首先请注意我一直使用为"Sakurafun"而不是"SakuraFun"
 #首先,使用YAML时请注意--左边的是键,右边的是值,中间使用冒号和一个空格分开
 #请注意YAML对于:
@@ -25887,6 +25886,7 @@ BOOK_4:
 #·缩进不允许使用tab,只允许空格
 #·缩进的空格数不重要,只要相同层级的元素左对齐即可
 #·'#'表示注释
+#versions:beta正式版-1.0_pre1
 NO_RECIPE: #一般地,在没有机器(配方)中使用
   category: sakurafun_recipe #专属于RECIPE一栏的category
   item-type: CUSTOM #默认使用大写的CUSTOM
@@ -25936,6 +25936,11 @@ MORE_RECIPE: #一般地,在有多种机器(配方)中使用
   category: sakurafun_recipe #仅供配方(比如这个)使用的category
   item-type: CUSTOM #默认都是大写的CUSTOM
   item-name: '&9&l多种配方'
+  item-lore:
+  - '&f&l出现此物品的配方'
+  - '&f&l说明有很多方式可以制成此物品'
+  - '&f&l物品简介中的每一行就是一个配方'
+  - '&f&l有两行就说明有两个配方，以此类推'
   item-id: BARRIER
   item-amount: 1
   placeable: false
@@ -25983,9 +25988,8 @@ HAVE_RECIPE: #一般地,在有机器(配方)，但无法展出时使用
   item-name: '&9&l拥有配方'
   item-lore:
   - '&f&l出现此物品的配方'
-  - '&f&l说明有很多方式可以制成此物品'
-  - '&f&l物品简介中的每一行就是一个配方'
-  - '&f&l有两行就说明有两个配方，以此类推'
+  - '&f&l说明可以制成此物品'
+  - '&f&l但暂时因为技术原因无法展示'
   item-id: BARRIER
   item-amount: 1
   placeable: false
@@ -26031,6 +26035,54 @@ INTRODUCE_ACTINIDE_ELEMENT:
   category: sakurafun_recipe
   item-type: CUSTOM
   item-name: '&6&l锕'
+  item-lore:
+  - '&c&l因为SFC插件原因，而用纸张代替'
+  - '&c&l但是配方还是正常的物品，并不是此纸张'
+  item-id: PAPER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NO_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+LITHIUM_6_ELEMENT_RECIPE:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: '&6&l锂6'
   item-lore:
   - '&c&l因为SFC插件原因，而用纸张代替'
   - '&c&l但是配方还是正常的物品，并不是此纸张'
@@ -26405,53 +26457,6 @@ ELEMENT_PURIFIER_RECIPE:
       type: NONE
       id: NONE
       amount: 1
-SODIUM_METABORATE_PROCESSOR_RECIPE:
-  category: sakurafun_recipe
-  item-type: CUSTOM
-  item-name: '&b偏硼酸钠处理机&6&l配方'
-  item-lore:
-  - '&f处理偏硼酸钠'
-  item-id: SKULL468c1fa4a21ba4f27dcb30ab3bfab0dc22a1e4fcf9ed12c1d7a70feb07f8d7ae
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: NO_RECIPE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
 ROCKET_MATERIAL_PRODUCTION_MACHINE_RECIPE:
   category: sakurafun_recipe
   item-type: CUSTOM
@@ -26594,13 +26599,61 @@ FERMENTATION_MACHINE_RECIPE:
       type: NONE
       id: NONE
       amount: 1
-ELECTROLYZER_RECIPE:
+SAKURAFUN_ELECTROLYZER_RECIPE:
   category: sakurafun_recipe
   item-type: CUSTOM
   item-name: '&b电解机&6&l配方'
   item-lore:
   - '&f电解物品'
   item-id: SKULL27f71e44a6c94c6d5a992d9afbeb21f6eb07948d4e0b0bdaab5e9f98c5d78cd
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NO_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+DECOMPOSER_RECIPE:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: '&b&l分解机&6&l配方'
+  item-lore:
+  - '&6&l分解工业产物'
+  - '&f&l其实就是SFC能力不够而已'
+  item-id: FURNACE
   item-amount: 1
   placeable: false
   crafting-recipe-type: NONE
@@ -26648,6 +26701,53 @@ LITHIUM_PURIFIER_RECIPE:
   item-lore:
   - '&7提纯锂矿'
   item-id: SKULLca35afa58631609791ffe25f3a879dfbffea1151f87bff62c5423ed6136ee0
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NO_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+STEAM_TURBINE_GENERATOR_RECIPE:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: '&e汽轮发电机&6&l配方'
+  item-lore:
+  - '&6蒸汽时代！'
+  item-id: FURNACE
   item-amount: 1
   placeable: false
   crafting-recipe-type: NONE
@@ -27072,54 +27172,6 @@ NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE:
   item-lore:
   - '&f制造新元素'
   item-id: SKULL76856a8f37b6c3146854f2caa7101b9dd592f4669a3c75f941e2859552bd1ae8
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: NO_RECIPE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
-VOID_CONSTRUCTOR_RECIPE:
-  category: sakurafun_recipe
-  item-type: CUSTOM
-  item-name: '&7虚空奇点&1构造机&6&l配方'
-  item-lore:
-  - '&6生产火箭材料'
-  - '&c&l走到这一步了吗？'
-  item-id: SKULLf0896390c4921bf889a29cfd1842abf9ef7f84e5a22fbce7e64891db41666bc
   item-amount: 1
   placeable: false
   crafting-recipe-type: NONE
@@ -30692,13 +30744,14 @@ OIL_POLLUTED_WATER:
       id: NONE
       amount: 1
 ###################################################################################################ELEMENT元素周期表
-HYDROGEN_ELEMENT:
+HYDROGEN_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氢'
   item-lore:
   - '&fH'
   - '&7宇宙第一元素！'
+  - '&7占比75%'
   item-id: SKULLb5db34386b64ccb9f06142fa865e650b4c7295fe7ea93467386e9ac9c75bdaf
   item-amount: 1
   placeable: false
@@ -30722,7 +30775,7 @@ HYDROGEN_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -30740,13 +30793,13 @@ HYDROGEN_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-HELIUM_ELEMENT:
-  category: sakurafun_chemical_element
+HELIUM_4_NUCLEUS_ELEMENT:
+  category: slime_customizer_material
   item-type: CUSTOM
-  item-name: '&6氦'
+  item-name: '&6氦4核'
   item-lore:
-  - '&fHe'
-  - '&7氦纳百川'
+  - '&7α衰变的产物'
+  - '&f套几个电子就可以变成氦4'
   item-id: SKULLdee3446c2cd59613746c51ec3ee4df28ee81169124154a5ad31d8d2dd5bb0ab7
   item-amount: 1
   placeable: false
@@ -30757,8 +30810,8 @@ HELIUM_ELEMENT:
       id: NONE
       amount: 1
     '2':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: MORE_RECIPE
       amount: 1
     '3':
       type: NONE
@@ -30788,8 +30841,203 @@ HELIUM_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-SPODUMENE:
+DEUTERIUM_ELEMENT: #stable
+  category: isotope
+  item-type: CUSTOM
+  item-name: '&6氘'
+  item-lore:
+  - '&f符号为:D或H-2'
+  - '&f氢的同位素'
+  - '&f十分稳定'
+  item-id: SKULLb5db34386b64ccb9f06142fa865e650b4c7295fe7ea93467386e9ac9c75bdaf
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HELIUM_4_NUCLEUS_ELEMENT
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: NEUTRON
+      amount: 1
+TRITIUM_ELEMENT: #发生β-衰变，中子转质子，变成氦-3
+  category: isotope
+  item-type: CUSTOM
+  item-name: '&6氚'
+  item-lore:
+  - '&f符号为:T或H-3'
+  - '&f氢的同位素'
+  - '&f半衰期:12.32年'
+  - '&f衰变方式:β-衰变'
+  item-id: SKULLb5db34386b64ccb9f06142fa865e650b4c7295fe7ea93467386e9ac9c75bdaf
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LITHIUM_6_ELEMENT_RECIPE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: NEUTRON
+      amount: 1
+HYDROGEN_GAS:
   category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&f氢气'
+  item-lore:
+  item-id: SKULLb5db34386b64ccb9f06142fa865e650b4c7295fe7ea93467386e9ac9c75bdaf
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HYDROGEN_ELEMENT
+      amount: 1
+    '5':
+      type: NONE
+      id: NONE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HYDROGEN_ELEMENT
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+HELIUM_ELEMENT: #stable
+  category: sakurafun_chemical_element
+  item-type: CUSTOM
+  item-name: '&6氦'
+  item-lore:
+  - '&fHe'
+  - '&7氦纳百川'
+  - '&7氦核就是α粒子'
+  - '&7通电发出淡桃光'
+  item-id: SKULLdee3446c2cd59613746c51ec3ee4df28ee81169124154a5ad31d8d2dd5bb0ab7
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MORE_RECIPE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LITHIUM_6_ELEMENT_RECIPE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: NEUTRON
+      amount: 1
+SPODUMENE:
+  category: slime_customizer_material
   item-type: CUSTOM
   item-name: '&f&l锂辉石'
   item-lore:
@@ -30841,7 +31089,7 @@ LITHIUM_ELEMENT:
   item-name: '&6锂'
   item-lore:
   - '&fLi'
-  - '&7三星手机=C4'
+  - '&7与锂电池和原子反应堆息息相关'
   item-id: SKULLa808fbfdc74bcc543a8797d2c0c8a9e6067fcbec1e51aeaada4e50b3344b3bfb
   item-amount: 1
   placeable: false
@@ -30883,13 +31131,63 @@ LITHIUM_ELEMENT:
       type: NONE
       id: NONE
       amount: 0
-BERYLLIUM_ELEMENT:
+LITHIUM_6_ELEMENT: #stable
+  category: isotope
+  item-type: CUSTOM
+  item-name: '&6锂-6'
+  item-lore:
+  - '&f符号为:Li-6'
+  - '&f锂的同位素'
+  - '&f十分稳定'
+  item-id: SKULLa808fbfdc74bcc543a8797d2c0c8a9e6067fcbec1e51aeaada4e50b3344b3bfb
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 0
+    '2':
+      type: NONE
+      id: NONE
+      amount: 0
+    '3':
+      type: NONE
+      id: NONE
+      amount: 0
+    '4':
+      type: NONE
+      id: NONE
+      amount: 0
+    '5':
+      type: SLIMEFUN
+      id: LITHIUM_PURIFIER_RECIPE   
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 0
+    '7':
+      type: NONE
+      id: NONE
+      amount: 0
+    '8':
+      type: SLIMEFUN
+      id: LITHIUM_ELEMENT
+      amount: 40
+    '9':
+      type: NONE
+      id: NONE
+      amount: 0
+BERYLLIUM_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6铍'
   item-lore:
   - '&fBe'
   - '&7绿宝石的主要成分'
+  - '&8剧毒还贵'
   item-id: SKULL49fa41cbcb1c9cfe8077eacf8d89ce858ef18566c930d35a34011e3989a68d22
   item-amount: 1
   placeable: false
@@ -30931,7 +31229,7 @@ BERYLLIUM_ELEMENT:
       type: NONE
       id: NONE
       amount: 0
-BORON_ELEMENT:
+BORON_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6硼'
@@ -30980,13 +31278,14 @@ BORON_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-CARBON_ELEMENT:
+CARBON_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6碳'
   item-lore:
   - '&fC'
   - '&7随处可见'
+  - '&7钻石恒久远，一颗永流传'
   item-id: SKULLe1886d13cc7351235280c753350e71007a3df0ca39c3d729cae3252efc4722f9
   item-amount: 1
   placeable: false
@@ -31028,7 +31327,7 @@ CARBON_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-NITROGEN_ELEMENT:
+NITROGEN_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氮'
@@ -31076,7 +31375,53 @@ NITROGEN_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-OXYGEN_ELEMENT:
+NITROGEN_GAS:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&f氮气'
+  item-lore:
+  item-id: SKULL61978d4f3397268d32b313467faf9404e8371c388e5faac82b76b6d512b72115
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: SMELTERY
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: NITROGEN_ELEMENT
+      amount: 1
+    '5':
+      type: NONE
+      id: NONE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: NITROGEN_ELEMENT
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+OXYGEN_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氧'
@@ -31106,7 +31451,7 @@ OXYGEN_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31124,7 +31469,7 @@ OXYGEN_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-FLUORINE_ELEMENT:
+FLUORINE_ELEMENT: #stable
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6氟'
@@ -31154,7 +31499,7 @@ FLUORINE_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31178,6 +31523,7 @@ NEON_ELEMENT:
   item-name: '&6氖'
   item-lore:
   - '&fNe'
+  - '&7通电发出橙红光'
   item-id: SKULL3f7ae44d421d97e5de35cdcef74236ed43943914133ddc1eeaaf8dbae9f6721f
   item-amount: 1
   placeable: false
@@ -31201,7 +31547,7 @@ NEON_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31226,6 +31572,7 @@ SODIUM_ELEMENT:
   item-lore:
   - '&fNa'
   - '&7咸味的来源'
+  - '&7不要让它碰见水'
   item-id: SKULLc25df936537e7900eed50563cb2bde77488d492c7ad568cb6dea91048401ce35
   item-amount: 1
   placeable: false
@@ -31249,7 +31596,7 @@ SODIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31273,7 +31620,8 @@ MAGNESIUM_ELEMENT:
   item-name: '&6镁'
   item-lore:
   - '&fMg'
-  - '&7A1信号弹的重要组成部分！'
+  - '&7信号弹的重要组成部分'
+  - '&7A1高闪来一个！'
   item-id: SKULLa4009a228bbcd3b1a19736e5e9ccde0740e037334cc15f47c92cd4d2650b0cf6
   item-amount: 1
   placeable: false
@@ -31297,7 +31645,7 @@ MAGNESIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31322,6 +31670,7 @@ ALUMINIUM_ELEMENT:
   item-lore:
   - '&fAl'
   - '&7中性金属之一'
+  - '&7地壳含量最多'
   - '&8被高中化学支配的恐惧'
   item-id: SKULLa365c77869db26e36d11ea594bb5d07049d42ff3164539b5b0fb52406fba09e5
   item-amount: 1
@@ -31346,7 +31695,7 @@ ALUMINIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31371,6 +31720,7 @@ SILICON_ELEMENT:
   item-lore:
   - '&fSi'
   - '&7通常用来制作太阳能板'
+  - '&7宇宙储量第八'
   - '&8被高中化学支配的另一个恐惧'
   item-id: SKULL846469395d6eb27803b06322a551c89c2a922dcef6059fa3bda95ce23e93b7b0
   item-amount: 1
@@ -31466,7 +31816,8 @@ PHOSPHORUS_ELEMENT:
   item-name: '&6磷'
   item-lore:
   - '&fP'
-  - '&7制作316钢必备'
+  - '&7恒星爆炸后的残余物质'
+  - '&8常被用于制作316钢'
   item-id: SKULL5c2b0358ba7431f0ca8fbca3bc12393ecb881323bba7c1fad24fae5791736ee7
   item-amount: 1
   placeable: false
@@ -31514,7 +31865,8 @@ SULFUR_ELEMENT:
   item-name: '&6硫'
   item-lore:
   - '&fS'
-  - '&7提纯火药'
+  - '&7提纯火药可制得'
+  - '&8不多的纯净元素'
   item-id: SKULLff5f125694110c94ec9909500c06ca6778a655e865a15b3bfff055eb8c7a3198
   item-amount: 1
   placeable: false
@@ -31563,6 +31915,7 @@ CHLORINE_ELEMENT:
   item-lore:
   - '&fCl'
   - '&7芥子气'
+  - '&7一战的噩梦，毒气战'
   item-id: SKULL1155f68713889afd774cc0bc79b5e95cec2ccdb0237bb0a4f4e4bbb81cf51c09
   item-amount: 1
   placeable: false
@@ -31586,7 +31939,7 @@ CHLORINE_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31610,7 +31963,7 @@ ARGON_ELEMENT:
   item-name: '&6氩'
   item-lore:
   - '&fAr'
-  - '&7呀！'
+  - '&7呀！真便宜'
   item-id: SKULLfe15c418364ff71d24e30a909d4f8a73078644233062328d339df564de8b3b7a
   item-amount: 1
   placeable: false
@@ -31659,6 +32012,7 @@ POTASSIUM_ELEMENT:
   item-lore:
   - '&fK'
   - '&7检验时记得透过蓝色钴玻璃'
+  - '&8肌肉神经的成分'
   item-id: SKULLa41714f2a184736fadfcfd7c340ff9142c8c7aeb79b700b1318d100ba814f5f3
   item-amount: 1
   placeable: false
@@ -31682,7 +32036,7 @@ POTASSIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31753,7 +32107,8 @@ CALCIUM_ELEMENT:
   item-name: '&6钙'
   item-lore:
   - '&fCa'
-  - '&7牙齿和保健品'
+  - '&7牙齿和保健品中常见'
+  - '&7不过纯钙并不多见'
   item-id: SKULLaeb1f4c777288d806a9c18f41db50ad64a84972703f52e7069de91a403e7ac0c
   item-amount: 1
   placeable: false
@@ -31777,7 +32132,7 @@ CALCIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -31796,7 +32151,7 @@ CALCIUM_ELEMENT:
       id: NONE
       amount: 1
 SOFT_RARE_EARTH:
-  category: sakurafun_rocket_item
+  category: slime_customizer_material
   item-type: CUSTOM
   item-name: '&6轻稀土'
   item-lore:
@@ -31843,7 +32198,7 @@ SOFT_RARE_EARTH:
       id: SOUL_SOIL
       amount: 1
 HEAVY_RARE_EARTH:
-  category: sakurafun_rocket_item
+  category: slime_customizer_material
   item-type: CUSTOM
   item-name: '&6重稀土'
   item-lore:
@@ -31896,6 +32251,7 @@ SCANDIUM_ELEMENT:
   item-lore:
   - '&fSc'
   - '&7矿石比单质贵'
+  - '&7强化自行车架'
   item-id: SKULL8e0407e998d3ba712ba28b0c89daabdd31f8b35ec785cd9350b15d61f028c9bc
   item-amount: 1
   placeable: false
@@ -31944,6 +32300,7 @@ TITANIUM_ELEMENT:
   item-lore:
   - '&fTi'
   - '&7无尽粘液狂喜'
+  - '&7喷气发动机进气段'
   item-id: SKULL258f3f4270297cde64233b8e641cb75aa837557ae35a63377502a4f483879840
   item-amount: 1
   placeable: false
@@ -31992,6 +32349,7 @@ VANADIUM_ELEMENT:
   item-lore:
   - '&fV'
   - '&7"被污染的铬矿石"'
+  - '&7可以被用来做强化合金'
   item-id: SKULL66faab6482ceeff23b6d098391e691c2aa4df1adaf75899daa4b4211f2dce5a8
   item-amount: 1
   placeable: false
@@ -32015,7 +32373,7 @@ VANADIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32039,7 +32397,8 @@ CHROMIUM_ELEMENT:
   item-name: '&6铬'
   item-lore:
   - '&fCr'
-  - '&7"秦朝武器"'
+  - '&7"秦朝的武器"'
+  - '&b镀铬使之闪亮！'
   item-id: SKULL12ca403a3db0a0b2a5a9b7d417f5db33cd54f2b31d020b54db7e80483431c208
   item-amount: 1
   placeable: false
@@ -32063,7 +32422,7 @@ CHROMIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32399,7 +32758,7 @@ GALLIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32447,7 +32806,7 @@ GERMANIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32495,7 +32854,7 @@ ARSENIC_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32543,7 +32902,7 @@ SELENIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32591,7 +32950,7 @@ BROMINE_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32639,7 +32998,7 @@ KRYPTON_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32687,7 +33046,7 @@ RUBIDIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32735,7 +33094,7 @@ STRONTIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32831,7 +33190,7 @@ ZIRCONIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32879,7 +33238,7 @@ NIOBIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -32902,7 +33261,8 @@ MOLYBDENUM_ELEMENT:
   item-type: CUSTOM
   item-name: '&6钼'
   item-lore:
-  - '&7制作316钢必备'
+  - '&fMo'
+  - '&8常被用于制作316钢'
   item-id: SKULLc05dd87f3c051cef1e3c388b5ea8e877d2415c521353e94a186207da90389713
   item-amount: 1
   placeable: false
@@ -32926,7 +33286,7 @@ MOLYBDENUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33022,7 +33382,7 @@ RUTHENIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33070,7 +33430,7 @@ RHODIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33118,7 +33478,7 @@ PALLADIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33166,7 +33526,7 @@ SILVER_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33214,7 +33574,7 @@ CADMIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33263,7 +33623,7 @@ INDIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33311,7 +33671,7 @@ TIN_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33359,7 +33719,7 @@ ANTIMONY_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33407,7 +33767,7 @@ TELLURIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33455,7 +33815,7 @@ IODINE_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33504,7 +33864,7 @@ XENON_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33553,7 +33913,7 @@ CESIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -33601,7 +33961,7 @@ BARIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34369,7 +34729,7 @@ HAFNIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34417,7 +34777,7 @@ TANTALUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34441,7 +34801,9 @@ TUNGSTEN_ELEMENT:
   item-name: '&6钨'
   item-lore:
   - '&fW'
-  - '&7wolfram->tungsten'
+  - '&7Wolfram是钨最早的名字'
+  - '&7现在是Tungsten'
+  - '&8熔点最高的元素'
   item-id: SKULL5d798fd3ccd9de5350c366144b071f34d9d57461be31d36777f3574ebfa7627c
   item-amount: 1
   placeable: false
@@ -34465,7 +34827,7 @@ TUNGSTEN_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34489,7 +34851,7 @@ RHENIUM_ELEMENT:
   item-name: '&6铼'
   item-lore:
   - '&fRe'
-  - '&7"与43号元素锝同周期"'
+  - '&7"43号元素锝"'
   item-id: SKULLd16c75fecf5d65be6b2508caf9727653e862453422fece5d2030475474642a
   item-amount: 1
   placeable: false
@@ -34513,7 +34875,7 @@ RHENIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34537,6 +34899,7 @@ OSMIUM_ELEMENT:
   item-name: '&6锇'
   item-lore:
   - '&fOs'
+  - '&7密度最高的元素'
   - '&7奥斯曼帝国'
   item-id: SKULLdd73de6345e30522b90152d0ebba165875c453c3b52760008aee7f52bb324246
   item-amount: 1
@@ -34561,7 +34924,7 @@ OSMIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34586,6 +34949,8 @@ IRIDIUM_ELEMENT:
   item-lore:
   - '&fIr'
   - '&7工业模组的噩梦'
+  - '&7是目前最好的防腐蚀金属'
+  - '&8低毒'
   item-id: SKULLaea2b7f21c0a6507c4064d703356bf3d1ca0d826ce325c4d9c391cc2b332f5ca
   item-amount: 1
   placeable: false
@@ -34634,6 +34999,7 @@ PLATINUM_ELEMENT:
   item-lore:
   - '&fPt'
   - '&7月球储量比地球上多'
+  - '&7一般被应用于催化剂领域'
   item-id: SKULL4ae03447bb922cd53261be76ab16895ec299263821563623ce347b84938bf7d3
   item-amount: 1
   placeable: false
@@ -34681,7 +35047,9 @@ GOLD_ELEMENT:
   item-name: '&6金'
   item-lore:
   - '&fAu'
+  - '&7奢侈品的代表,恒星核聚变的产物'
   - '&7理论上金比钻石贵很多'
+  - '&8无毒'
   item-id: SKULLbf501fbd2c5d093299aa9398aaa2ebccead541ebd80616eb44c25366430ba64
   item-amount: 1
   placeable: false
@@ -34705,7 +35073,7 @@ GOLD_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34730,6 +35098,9 @@ MERCURY_ELEMENT:
   item-lore:
   - '&fHg'
   - '&7水星上的水银'
+  - '&7目前唯一一种常温下液态的金属'
+  - '&7所以汞常用来做温度计'
+  - '&8剧毒'
   item-id: SKULLa75c3713baa2a60c9dc4fca33c15f4dea10463d2e4cc190c97cfaf29f06c3e44
   item-amount: 1
   placeable: false
@@ -34753,7 +35124,7 @@ MERCURY_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34801,7 +35172,7 @@ THALLIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34849,7 +35220,7 @@ LEAD_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34897,7 +35268,7 @@ BISMUTH_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -34921,7 +35292,8 @@ POLONIUM_ELEMENT:
   item-name: '&6钋'
   item-lore:
   - '&fPo'
-  - '&7向居里夫妇致敬'
+  - '&f&l世界上最毒的物质之一'
+  - '&7让我们向居里夫妇致敬'
   item-id: SKULL6ba1aa6ae1b85f5c60eda9c85caa89b9a9bda7cb1cf0177a70188b629cc5fc51
   item-amount: 1
   placeable: false
@@ -34945,23 +35317,23 @@ POLONIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: BISMUTH_ELEMENT
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: NEUTRON
       amount: 1
 ASTATINE_ELEMENT:
   category: sakurafun_chemical_element
@@ -34993,7 +35365,7 @@ ASTATINE_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35001,7 +35373,7 @@ ASTATINE_ELEMENT:
       amount: 1
     '7':
       type: NONE
-      id: NONE
+      id: BISMUTH_ELEMENT
       amount: 1
     '8':
       type: NONE
@@ -35009,7 +35381,7 @@ ASTATINE_ELEMENT:
       amount: 1
     '9':
       type: NONE
-      id: NONE
+      id: HELIUM_4_NUCLEUS_ELEMENT
       amount: 1
 RADON_ELEMENT:
   category: sakurafun_chemical_element
@@ -35041,7 +35413,7 @@ RADON_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: NATURAL_DECAY
       amount: 1
     '6':
       type: NONE
@@ -35053,7 +35425,7 @@ RADON_ELEMENT:
       amount: 1
     '8':
       type: NONE
-      id: NONE
+      id: NONE #钍-230衰变而成
       amount: 1
     '9':
       type: NONE
@@ -35072,40 +35444,40 @@ FRANCIUM_ELEMENT:
   crafting-recipe-type: NONE
   crafting-recipe:
     '1':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
       amount: 1
     '2':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: GOLD_ELEMENT
       amount: 1
     '3':
       type: NONE
-      id: NONE
+      id: NONE #氧-18
       amount: 1
     '4':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: NUCLEAR_DECAY_INTEGRATED_MACHINE_3_RECIPE
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: INTRODUCE_THORIUM_ELEMENT
       amount: 1
     '6':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: PROTON
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: NATURAL_DECAY
       amount: 1
     '8':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INTRODUCE_ACTINIDE_ELEMENT
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: MORE_RECIPE
       amount: 1
 RADIUM_ELEMENT:
   category: sakurafun_chemical_element
@@ -35137,24 +35509,24 @@ RADIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: ELEMENT_PURIFIER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 64
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 64
 ACTINIUM_ELEMENT:
   category: sakurafun_chemical_element
   item-type: CUSTOM
@@ -35185,7 +35557,7 @@ ACTINIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35233,7 +35605,7 @@ THORIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35281,7 +35653,7 @@ PROTACTINIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35329,7 +35701,7 @@ URANIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35377,7 +35749,7 @@ NEPTUNIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35569,7 +35941,7 @@ BERKELIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35665,7 +36037,7 @@ EINSTEINIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35713,7 +36085,7 @@ FERMIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35761,7 +36133,7 @@ MENDELEVIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35809,7 +36181,7 @@ NOBELIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35857,7 +36229,7 @@ LAWRENCIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35881,7 +36253,8 @@ RUTHERFORDIUM_ELEMENT:
   item-name: '&6鑪'
   item-lore:
   - '&fRf'
-  - '&7百度失效的第一步'
+  - '&7铹在水中形成三价离子'
+  - '&8百度失效的第一步'
   item-id: SKULLcb3dad1e32362e1c1a8cc41f34abcb0a580b5d8d617c8a374b3ccb1fc76bb2a2
   item-amount: 1
   placeable: false
@@ -35905,7 +36278,7 @@ RUTHERFORDIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -35953,7 +36326,7 @@ DUBNIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36001,7 +36374,7 @@ SEABORGIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36049,7 +36422,7 @@ BOHRIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36097,7 +36470,7 @@ HASSIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36145,7 +36518,7 @@ MEITNERIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36164,7 +36537,7 @@ MEITNERIUM_ELEMENT:
       id: NONE
       amount: 1
 DARMSTADTIUM_ELEMENT:
-  category: sakurafun_chemical_element
+  category: sakurafun_elementary_particle
   item-type: CUSTOM
   item-name: '&6鐽'
   item-lore:
@@ -36193,7 +36566,7 @@ DARMSTADTIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36211,7 +36584,7 @@ DARMSTADTIUM_ELEMENT:
       type: NONE
       id: NONE
       amount: 1
-DARMSTADTIUM_ELEMENT:
+ROENTGENIUM_ELEMENT:
   category: sakurafun_chemical_element
   item-type: CUSTOM
   item-name: '&6錀'
@@ -36241,7 +36614,7 @@ DARMSTADTIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36289,7 +36662,7 @@ COPERNICIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36337,7 +36710,7 @@ NIHONIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36361,7 +36734,7 @@ FLEROVIUM_ELEMENT:
   item-name: '&6鈇'
   item-lore:
   - '&fFl'
-  - '&7查看全国科学技术名词获得'
+  - '&7此元素寿命最长的同位素是Fl-289'
   item-id: SKULL1b6d5ec5acfb69580882266166640db1c99f1f83068bf003b1df262e086d0dd
   item-amount: 1
   placeable: false
@@ -36385,7 +36758,7 @@ FLEROVIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36409,7 +36782,8 @@ MOSCOVIUM_ELEMENT:
   item-name: '&6镆'
   item-lore:
   - '&fMc'
-  - '&7很难想象他居然可以被写出来'
+  - '&7Minecraft'
+  - '&7向量的“镆”'
   item-id: SKULLf6329ccafa6ad22a60690c3f18d571e12b8678ff40faf98f4a35d23d7e708da9
   item-amount: 1
   placeable: false
@@ -36433,7 +36807,7 @@ MOSCOVIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36457,7 +36831,8 @@ LIVERMORIUM_ELEMENT:
   item-name: '&6鉝'
   item-lore:
   - '&fLv'
-  - '&7七排最后一个弱金属'
+  - '&7第七周期最后一个弱金属'
+  - '&7仅仅用在于科研目的'
   item-id: SKULL949ea09b5807b1ac43ac02c3f87090e1b6bd4cdb46206300e9cf706b922138ed
   item-amount: 1
   placeable: false
@@ -36481,7 +36856,7 @@ LIVERMORIUM_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36530,7 +36905,7 @@ TENNESSINE_ELEMENT:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -36551,10 +36926,11 @@ TENNESSINE_ELEMENT:
 OGANESSON_ELEMENT:
   category: sakurafun_chemical_element
   item-type: CUSTOM
-  item-name: '&6奥气'
+  item-name: '&6气奥'
   item-lore:
   - '&fOg'
   - '&7万物的......终点？'
+  - '&8至少是门捷列夫化学元素:周期表最后一个元素了...'
   item-id: SKULLa9d2f18912d985d06c33b53257cf52951b926f6ecda02cfa00fd4f581fb8c045
   item-amount: 1
   placeable: false
@@ -36595,6 +36971,102 @@ OGANESSON_ELEMENT:
     '9':
       type: NONE
       id: NONE
+      amount: 1
+#工业部分pre1
+#人造太阳部分，改动版本
+ADVANCED_HEATING_COIL:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: '&f高级加热线圈'
+  item-lore:
+  - '&f高级版的加热线圈'
+  item-id: IRON_INGOT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+ANCIENT_FOSSIL:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: '&6&l远古化石'
+  item-lore:
+  - '&f据考古队说这是地核的产物'
+  item-id: ANCIENT_DEBRIS
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: NETHERITE_SCRAP
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: PRISMARINE_SHARD
+      amount: 1
+    '4':
+      type: VANILLA
+      id: PODZOL
+      amount: 1
+    '5':
+      type: VANILLA
+      id: CHIPPED_ANVIL
+      amount: 1
+    '6':
+      type: VANILLA
+      id: PODZOL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ESSENCE_OF_AFTERLIFE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STRANGE_NETHER_GOO
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFERNAL_BONEMEAL
       amount: 1
 ADVANCED_ELECTROMAGNET:
   category: slime_customizer_material
@@ -36672,24 +37144,24 @@ VOID_SINGULARITY_PIECE:
       amount: 0
     '5':
       type: SLIMEFUN
-      id: VOID_CONSTRUCTOR_RECIPE
-      amount: 1
+      id: VOID_INGOT
+      amount: 10
     '6':
       type: NONE
       id: NONE
       amount: 0
     '7':
-      type: SLIMEFUN
-      id: VOID_INGOT
-      amount: 64
+      type: NONE
+      id: NONE
+      amount: 0
     '8':
       type: NONE
       id: NONE
       amount: 0
     '9':
-      type: SLIMEFUN
-      id: VOID_INGOT
-      amount: 64
+      type: NONE
+      id: NONE
+      amount: 0
 VOID_SINGULARITY:
   category: slime_customizer_material
   item-type: CUSTOM
@@ -36719,8 +37191,8 @@ VOID_SINGULARITY:
       amount: 0
     '5':
       type: SLIMEFUN
-      id: VOID_CONSTRUCTOR_RECIPE
-      amount: 1
+      id: VOID_SINGULARITY_PIECE
+      amount: 20
     '6':
       type: NONE
       id: NONE
@@ -36730,9 +37202,9 @@ VOID_SINGULARITY:
       id: NONE
       amount: 0
     '8':
-      type: SLIMEFUN
-      id: VOID_SINGULARITY_PIECE
-      amount: 8
+      type: NONE
+      id: NONE
+      amount: 0
     '9':
       type: NONE
       id: NONE
@@ -36814,7 +37286,7 @@ ANNULAR_FIELD_COIL:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: ANCIENT_FOSSIL
       amount: 1
     '6':
       type: SLIMEFUN
@@ -36846,39 +37318,39 @@ CENTRAL_SOLENOID:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '2':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '3':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '4':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: ANCIENT_FOSSIL
       amount: 1
     '6':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '7':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '8':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
     '9':
       type: SLIMEFUN
-      id: ANNULAR_FIELD_COIL
+      id: ADVANCED_HEATING_COIL
       amount: 1
 POLOIDAL_FIELD_COIL:
   category: slime_customizer_material
@@ -36933,7 +37405,7 @@ PLASMA_REACTION_FUEL:
   item-type: CUSTOM
   item-name: '&c&l等离子体反应燃料'
   item-lore:
-  - '&f高等工业化燃料'
+  - '&f氘氚复合燃料'
   item-id: SKULL21ea825150b06e65e2ceb593afe342dca56dda12bf6c9696fb82f90dcd423ab
   item-amount: 1
   placeable: false
@@ -37301,7 +37773,7 @@ ULTIMATE_ALLOY:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: ANCIENT_FOSSIL
       amount: 1
     '9':
       type: SLIMEFUN
@@ -37373,7 +37845,7 @@ MIXED_FUEL:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: LITHIUM_ELEMENT
+      id: LITHIUM_6_ELEMENT
       amount: 1
     '3':
       type: NONE
@@ -37688,9 +38160,9 @@ SUPERHEATED_STEAM:
 316_STAINLESS_STEEL:
   category: sakurafun_steam
   item-type: CUSTOM
-  item-name: '&l&f316不锈钢'
+  item-name: '&f&l316不锈钢'
   item-lore:
-  - '&8不锈钢'
+  - '&8&l不锈钢'
   item-id: IRON_INGOT
   item-amount: 1
   placeable: false
@@ -38207,10 +38679,10 @@ STEAM_TURBINE_ITEM:
 ULTIMATE_INFINITE_COMPRESSION_SINGULARITY:
   category: slime_customizer_material
   item-type: CUSTOM
-  item-name: '&e&l终极无尽压缩奇点'
+  item-name: '&b&l终极无尽压缩奇点'
   item-lore:
-  - '&6压缩到不能再压缩的无尽锭'
-  - '&6再加把劲试试看？'
+  - '&7压缩到不能再压缩的无尽锭'
+  - '&7再加把劲试试看？'
   item-id: SKULLa67b47fbd37c6d9d8d22d973e7290e80852e9266a076fb7ab215afe91b81ed6c
   item-amount: 1
   placeable: false
@@ -38252,7 +38724,7 @@ ULTIMATE_INFINITE_COMPRESSION_SINGULARITY:
       type: SLIMEFUN
       id: INFINITE_COMPRESSION_SINGULARITY
       amount: 1
-SPARK_PLUG_1:
+SAKURAFUN_SPARK_PLUG:
   category: sakurafun_car
   item-type: CUSTOM
   item-name: '&f&l火花塞'
@@ -38410,7 +38882,7 @@ RECIPROCATING_PISTON_INTERNAL_COMBUSTION_ENGINE:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: SPARK_PLUG_1
+      id: SAKURAFUN_SPARK_PLUG
       amount: 1
     '3':
       type: SLIMEFUN
@@ -38543,12 +39015,12 @@ COMPONENT_1:
   item-id: SKULL9c250b47e10a50d69166cb0ecaf234100cae7899a4898108c1307017a5a7ebb3
   item-amount: 1
   placeable: false
-  crafting-recipe-type: COMPRESSOR
+  crafting-recipe-type: NONE
   crafting-recipe:
     '1':
-      type: SLIMEFUN
-      id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
-      amount: 32
+      type: NONE
+      id: NONE
+      amount: 1
     '2':
       type: NONE
       id: NONE
@@ -38562,8 +39034,8 @@ COMPONENT_1:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: STEAM_TURBINE_GENERATOR_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -38574,14 +39046,14 @@ COMPONENT_1:
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
+      amount: 64
     '9':
       type: NONE
       id: NONE
       amount: 1
-WATER_BUCKET_FOR_ELECTROLYZER:
+WATER_BUCKET_FOR_SAKURAFUN_ELECTROLYZER:
   category: sakurafun_rocket_item
   item-type: CUSTOM
   item-name: '&b&l水桶'
@@ -38611,53 +39083,6 @@ WATER_BUCKET_FOR_ELECTROLYZER:
     '5':
       type: VANILLA
       id: WATER_BUCKET
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
-HEAVY_WATER:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&b&l重水'
-  item-lore:
-  - '&6&l可以用于制备氘'
-  item-id: WATER_BUCKET
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: NONE
-      id: NONE
       amount: 1
     '6':
       type: NONE
@@ -38863,6 +39288,54 @@ CARBON_MONOXIDE:
       type: NONE
       id: NONE
       amount: 1
+CARBON_DIOXIDE:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&8&l二氧化碳'
+  item-lore:
+  - '&6&l生活中常见的化学物质'
+  - '&f可以灭火'
+  item-id: COAL
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MORE_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
 METHANOL:
   category: sakurafun_rocket_item
   item-type: CUSTOM
@@ -38892,11 +39365,11 @@ METHANOL:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: HYDROGEN_ELEMENT
+      id: HYDROGEN_GAS
       amount: 1
     '6':
       type: SLIMEFUN
-      id: HYDROGEN_ELEMENT
+      id: HYDROGEN_GAS
       amount: 1
     '7':
       type: NONE
@@ -39149,9 +39622,9 @@ CONCENTRATED_SULFURIC_ACID:
 DILUTE_SULFURIC_ACID:
   category: sakurafun_rocket_item
   item-type: CUSTOM
-  item-name: '&6&l稀硫酸'
+  item-name: '&6稀硫酸'
   item-lore:
-  - '&f&l水解酸'
+  - '&f水解酸'
   item-id: SKULL3929359a51cc033671d64147e5cff2a42258f9498f46316be09f2b3bf68091c1
   item-amount: 1
   placeable: false
@@ -39338,6 +39811,8 @@ METHANOL_AND_GREASE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
   item-name: '&6甲醇油脂'
+  item-lore:
+    - '&f基础化工材料'
   item-id: YELLOW_WOOL
   item-amount: 1
   placeable: false
@@ -39533,7 +40008,7 @@ CRUDE_FATTY_ALCOHOL:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: HYDROGEN_ELEMENT
+      id: HYDROGEN_GAS
       amount: 1
     '2':
       type: SLIMEFUN
@@ -39572,7 +40047,9 @@ ASCHARITE:
   item-type: CUSTOM
   item-name: '&6硼镁石'
   item-lore:
-  - '&f从闪长岩中提炼出来'
+  - '&f通过露天开采法和地下开采法获得硼镁石'
+  - '&f化学式为:Mg2B2O4(OH)(OH)'
+  - '&f可以用于生产硼砂'
   item-id: SKULL13fa5265a336abde301a9d59af4783e82a10dad0817716ead2962ab7c6d3dff
   item-amount: 1
   placeable: false
@@ -39617,17 +40094,16 @@ ASCHARITE:
 COOKED_ASCHARITE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
-  item-name: '&6熟硼镁石'
+  item-name: '&f经过煅烧的硼镁石'
   item-lore:
-  - '&f烧熟的硼镁石'
   item-id: SKULLaa939a388ebac374102d484932be22ad9df552686815a604a5ffced034fa97d1
   item-amount: 1
   placeable: false
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     '1':
-      type: SLIMEFUN
-      id: ASCHARITE
+      type: NONE
+      id: NONE
       amount: 1
     '2':
       type: NONE
@@ -39642,8 +40118,8 @@ COOKED_ASCHARITE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ASCHARITE
       amount: 1
     '6':
       type: NONE
@@ -39664,17 +40140,17 @@ COOKED_ASCHARITE:
 COOKED_ORE_POWDER_ASCHARITE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
-  item-name: '&6熟矿粉&e-&6硼镁石'
+  item-name: '&f硼镁石粉'
   item-lore:
-  - '&f烧熟且打成粉的硼镁石'
+  - '&f煅烧硼镁石后打成的粉'
   item-id: GUNPOWDER
   item-amount: 1
   placeable: false
   crafting-recipe-type: ORE_CRUSHER
   crafting-recipe:
     '1':
-      type: SLIMEFUN
-      id: COOKED_ASCHARITE
+      type: NONE
+      id: NONE
       amount: 1
     '2':
       type: NONE
@@ -39689,8 +40165,8 @@ COOKED_ORE_POWDER_ASCHARITE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COOKED_ASCHARITE
       amount: 1
     '6':
       type: NONE
@@ -39707,6 +40183,55 @@ COOKED_ORE_POWDER_ASCHARITE:
     '9':
       type: NONE
       id: NONE
+      amount: 1
+#氢氧化钠和小苏打的制备方式
+SODIUM_HYDROXIDE_MIXTURE:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&6氢氧化钠混合物'
+  item-lore:
+  - '&f电解盐水获得'
+  - '&f可以用于生产苏打'
+  item-id: SKULL4c77dfd21598a3974fa85919a15c0949fec734451b122189ba215d0a9d8bebf
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SALT
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: VANILLA
+      id: WATER_BUCKET
       amount: 1
 SODIUM_HYDROXIDE:
   category: sakurafun_rocket_item
@@ -39714,6 +40239,9 @@ SODIUM_HYDROXIDE:
   item-name: '&6氢氧化钠'
   item-lore:
   - '&f电解盐水获得'
+  - '&f注意氢氧化钠的制取就是电解食盐水'
+  - '&f不过由于sfc插件能力不强'
+  - '&f无法直接实现，故使用多个物品'
   item-id: SKULL4c77dfd21598a3974fa85919a15c0949fec734451b122189ba215d0a9d8bebf
   item-amount: 1
   placeable: false
@@ -39736,8 +40264,8 @@ SODIUM_HYDROXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: DECOMPOSER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -39748,55 +40276,8 @@ SODIUM_HYDROXIDE:
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
-SODIUM_HYDROXIDE_MIXTURE:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&6氢氧化钠混合物'
-  item-lore:
-  - '&f电解盐水获得'
-  item-id: SKULL4c77dfd21598a3974fa85919a15c0949fec734451b122189ba215d0a9d8bebf
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: NONE
-      id: NONE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SODIUM_HYDROXIDE_MIXTURE
       amount: 1
     '9':
       type: NONE
@@ -39807,7 +40288,8 @@ SODIUM_HYDROXIDE_SOLUTION:
   item-type: CUSTOM
   item-name: '&6氢氧化钠溶液'
   item-lore:
-  - '&f电解盐水获得'
+  - '&f可以通过电解盐水的方式获得'
+  - '&fNaCl==Na+Cl 与 H₂O==H+OH'
   item-id: SKULLcee6ab0fcbc68257274cbc322e13a39503cc3d788a36166379ffd57214eec9d1
   item-amount: 1
   placeable: false
@@ -39849,6 +40331,54 @@ SODIUM_HYDROXIDE_SOLUTION:
       type: NONE
       id: NONE
       amount: 1
+SODA_SAKURAFUN:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&f碳酸钠'
+  item-lore:
+  - '&f化学式为:Na₂CO₃'
+  - '&7又名苏打、纯碱'
+  item-id: SKULL579a6c2c69fbf89d5a94a5da46a2e56ad85b343c426c72e3d270cc7c830effbb
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SODIUM_HYDROXIDE_SOLUTION
+      amount: 2
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: CARBON_DIOXIDE
+      amount: 1
 CHLORINE_AND_HYDROGEN:
   category: sakurafun_rocket_item
   item-type: CUSTOM
@@ -39879,7 +40409,7 @@ CHLORINE_AND_HYDROGEN:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ELECTROLYZER_RECIPE
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -39900,9 +40430,9 @@ CHLORINE_AND_HYDROGEN:
 HCL:
   category: sakurafun_rocket_item
   item-type: CUSTOM
-  item-name: '&6&l盐酸'
+  item-name: '&6盐酸'
   item-lore:
-  - '&f&lHCl'
+  - '&f化学式为:HCl'
   item-id: WATER_BUCKET
   item-amount: 1
   placeable: false
@@ -39944,147 +40474,6 @@ HCL:
       type: NONE
       id: NONE
       amount: 1
-ALKALI_HYDROLYZED_COOKED_ASCHARITE_BY_SODIUM_HYDROXIDE_SOLUTION:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&6被氢氧化钠溶液碱解的硼镁石'
-  item-lore:
-  - '&f氢氧化钠碱解硼镁石获得'
-  item-id: GLOWSTONE_DUST
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    '1':
-      type: SLIMEFUN
-      id: COOKED_ORE_POWDER_ASCHARITE
-      amount: 1
-    '2':
-      type: SLIMEFUN
-      id: SODIUM_HYDROXIDE_SOLUTION
-      amount: 1
-    '3':
-      type: SLIMEFUN
-      id: COOKED_ORE_POWDER_ASCHARITE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: NONE
-      id: NONE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
-ASCHARITE_WASHED_BY_WATER_AFTER_FILTRATION:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&6过滤后被水洗的硼镁石'
-  item-lore:
-  - '&f水洗被过滤被氢氧化钠溶液碱解的硼镁石'
-  item-id: GUNPOWDER
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: SLIMEFUN
-      id: ALKALI_HYDROLYZED_COOKED_ASCHARITE_BY_SODIUM_HYDROXIDE_SOLUTION
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: VANILLA
-      id: WATER_BUCKET
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
-ASCHARITE_CRYSTALLIZATION:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&6硼镁石结晶'
-  item-lore:
-  - '&f煅烧前的固体'
-  item-id: SKULL5a5f29a76d1f91c165f63baac048670e7b1d37ce785a4d9c21d8c3a177b5
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: SOLAR_DISTILLATION_MACHINE_RECIPE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: SLIMEFUN
-      id: ASCHARITE_WASHED_BY_WATER_AFTER_FILTRATION
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
 SODIUM_METABORATE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
@@ -40094,11 +40483,11 @@ SODIUM_METABORATE:
   item-id: SKULLbf624a44e77b95dbe1cc735536953e840ba6c19b0157c549d9b82534648c8ce4
   item-amount: 1
   placeable: false
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe-type: SMELTERY
   crafting-recipe:
     '1':
-      type: SLIMEFUN
-      id: ASCHARITE_CRYSTALLIZATION
+      type: NONE
+      id: NONE
       amount: 1
     '2':
       type: NONE
@@ -40109,16 +40498,16 @@ SODIUM_METABORATE:
       id: NONE
       amount: 1
     '4':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COOKED_ORE_POWDER_ASCHARITE
       amount: 1
     '5':
       type: NONE
       id: NONE
       amount: 1
     '6':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SODA_SAKURAFUN
       amount: 1
     '7':
       type: NONE
@@ -40367,7 +40756,7 @@ CAMPHOR:
       type: NONE
       id: NONE
       amount: 1
-BORAX_1:
+BORAX_SAKURAFUN:
   category: sakurafun_rocket_item
   item-type: CUSTOM
   item-name: '&3硼砂'
@@ -40376,7 +40765,7 @@ BORAX_1:
   item-id: QUARTZ
   item-amount: 1
   placeable: false
-  crafting-recipe-type: NONE
+  crafting-recipe-type: SMELTERY
   crafting-recipe:
     '1':
       type: NONE
@@ -40391,24 +40780,24 @@ BORAX_1:
       id: NONE
       amount: 1
     '4':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SODIUM_METABORATE
       amount: 1
     '5':
-      type: SLIMEFUN
-      id: SODIUM_METABORATE_PROCESSOR_RECIPE
+      type: VANILLA
+      id: WATER_BUCKET
       amount: 1
     '6':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CARBON_DIOXIDE
       amount: 1
     '7':
       type: NONE
       id: NONE
       amount: 1
     '8':
-      type: SLIMEFUN
-      id:  SODIUM_METABORATE
+      type: NONE
+      id: NONE
       amount: 1
     '9':
       type: NONE
@@ -40428,7 +40817,7 @@ PARAFFIN_WAX:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: BORAX_1
+      id: BORAX_SAKURAFUN
       amount: 1
     '2':
       type: SLIMEFUN
@@ -40468,7 +40857,7 @@ A_OLEFIN:
   item-name: '&6α-烯烃'
   item-lore:
   - '&f提纯石蜡'
-  - '&e恭喜！完成了化工时代的冰山一角！'
+  - '&e恭喜！完成了sakurafun3.0的冰山一角！'
   item-id: SKULL4e93f634310f42db411bda68439e613da94b6052e86674899ff72bfcfc1563da
   item-amount: 1
   placeable: false
@@ -40551,7 +40940,7 @@ ALDEHYDE_A_OLEFIN:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: HYDROGEN_ELEMENT
+      id: HYDROGEN_GAS
       amount: 1
     '9':
       type: NONE
@@ -40621,7 +41010,7 @@ HYDROGENATED_A_OLEFIN:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: HYDROGEN_ELEMENT
+      id: HYDROGEN_GAS
       amount: 1
     '3':
       type: NONE
@@ -40644,8 +41033,8 @@ HYDROGENATED_A_OLEFIN:
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: HYDROGEN_GAS
       amount: 1
     '9':
       type: NONE
@@ -40679,8 +41068,8 @@ FATTY_ALCOHOL:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_DISTILLATION_MACHINE_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -40691,8 +41080,8 @@ FATTY_ALCOHOL:
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: HYDROGENATED_A_OLEFIN
       amount: 1
     '9':
       type: NONE
@@ -40757,9 +41146,9 @@ RICE_2:
   crafting-recipe-type: GRIND_STONE
   crafting-recipe:
     '1':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: RICE_1
+      amount: 2
     '2':
       type: NONE
       id: NONE
@@ -40773,9 +41162,9 @@ RICE_2:
       id: NONE
       amount: 1
     '5':
-      type: SLIMEFUN
-      id: RICE_1
-      amount: 2
+      type: NONE
+      id: NONE
+      amount: 1
     '6':
       type: NONE
       id: NONE
@@ -40804,12 +41193,12 @@ RICE_3:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
       type: SLIMEFUN
       id: RICE_2
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
       amount: 1
     '3':
       type: NONE
@@ -40820,8 +41209,8 @@ RICE_3:
       id: NONE
       amount: 1
     '5':
-      type: SLIMEFUN
-      id: RICE_2
+      type: NONE
+      id: NONE
       amount: 1
     '6':
       type: NONE
@@ -40832,8 +41221,8 @@ RICE_3:
       id: NONE
       amount: 1
     '8':
-      type: SLIMEFUN
-      id: RICE_2
+      type: NONE
+      id: NONE
       amount: 1
     '9':
       type: NONE
@@ -40891,7 +41280,7 @@ DISTILLER_S_YEAST:
   item-type: CUSTOM
   item-name: '&6酒母'
   item-lore:
-  - '&f酵母菌'
+  - '&f人工培养酵母菌'
   item-id: WATER_BUCKET
   item-amount: 1
   placeable: false
@@ -41310,7 +41699,7 @@ ETHYLENE_AND_CHLORINE:
       type: NONE
       id: NONE
       amount: 1
-2_CHLOROETHANOL:
+CHLOROETHANOL:
   category: sakurafun_rocket_item
   item-type: CUSTOM
   item-name: '&6氯乙醇'
@@ -41338,24 +41727,24 @@ ETHYLENE_AND_CHLORINE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ETHYLENE_AND_CHLORINE
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: VANILLA
+      id: WATER_BUCKET
       amount: 1
 CALCIUM_OXIDE:
   category: sakurafun_rocket_item
@@ -41386,32 +41775,32 @@ CALCIUM_OXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CALCIUM_CARBONATE
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: VANILLA
+      id: COAL
+      amount: 4
 CALCIUM_HYDROXIDE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
   item-name: '&6氢氧化钙'
   item-lore:
   - '&f熟石灰'
-  - '&eCaO+H2O->Ca(OH)2&b(加热袋放热原理)'
+  - '&eCaO+H₂O->Ca(OH)2&b(加热袋放热原理)'
   item-id: WHITE_DYE
   item-amount: 1
   placeable: false
@@ -41434,24 +41823,24 @@ CALCIUM_HYDROXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CALCIUM_OXIDE
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: VANILLA
+      id: WATER_BUCKET
       amount: 1
 ETHYLENE_OXIDE:
   category: sakurafun_rocket_item
@@ -41481,24 +41870,24 @@ ETHYLENE_OXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CHLOROETHANOL
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CALCIUM_HYDROXIDE
       amount: 1
 PEROXYDISULFURIC_ACID:
   category: sakurafun_rocket_item
@@ -41528,8 +41917,8 @@ PEROXYDISULFURIC_ACID:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SAKURAFUN_ELECTROLYZER_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -41540,8 +41929,8 @@ PEROXYDISULFURIC_ACID:
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CONCENTRATED_SULFURIC_ACID
       amount: 1
     '9':
       type: NONE
@@ -41575,8 +41964,8 @@ HYDROGEN_PEROXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ACID_HYDROLYSIS_MACHINE_RECIPE
       amount: 1
     '6':
       type: NONE
@@ -41587,8 +41976,8 @@ HYDROGEN_PEROXIDE:
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: PEROXYDISULFURIC_ACID
       amount: 1
     '9':
       type: NONE
@@ -41622,25 +42011,25 @@ SILICATE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ELEMENT_PURIFIER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: VANILLA
+      id: GRANITE
+      amount: 4
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: VANILLA
+      id: DIRT
+      amount: 8
 PALLADIUM_TITANIUM_SILICATE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
@@ -41653,28 +42042,28 @@ PALLADIUM_TITANIUM_SILICATE:
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
       type: SLIMEFUN
       id: PALLADIUM_ELEMENT
       amount: 1
-    '2':
+    '5':
       type: SLIMEFUN
       id: TITANIUM_ELEMENT
       amount: 1
-    '3':
+    '6':
       type: SLIMEFUN
       id: SILICATE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: NONE
-      id: NONE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
       amount: 1
     '7':
       type: NONE
@@ -41691,7 +42080,7 @@ PALLADIUM_TITANIUM_SILICATE:
 ALUMINUM_SOURCE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
-  item-name: '&6铝源'
+  item-name: '&6有机铝源'
   item-lore:
   - '&7有机化学'
   item-id: IRON_BLOCK
@@ -41738,7 +42127,7 @@ ALUMINUM_SOURCE:
 SILICON_SOURCE:
   category: sakurafun_rocket_item
   item-type: CUSTOM
-  item-name: '&6硅源'
+  item-name: '&6有机硅源'
   item-lore:
   - '&7有机化学'
   item-id: IRON_BLOCK
@@ -41810,8 +42199,8 @@ ALUMINUM_SILICON_SOURCE:
       id: NONE
       amount: 1
     '5':
-      type: SLIMEFUN
-      id: ARTIFICIAL_SUN_BASE
+      type: NONE
+      id: NONE
       amount: 1
     '6':
       type: NONE
@@ -41904,24 +42293,24 @@ AMMONIA_AND_WATER:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: AMMONIA
+      amount: 4
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: VANILLA
+      id: WATER_BUCKET
       amount: 1
 ALCOHOL_AND_AMMONIA_AND_WATER:
   category: sakurafun_rocket_item
@@ -42092,25 +42481,25 @@ CRYSTAL_OF_MODIFIED_HZSM-5_MOLECULAR_SIEVE_CATALYST:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: HZSM_5_MOLECULAR_GEL
+      amount: 4
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
-      amount: 1
+      type: SLIMEFUN
+      id: PHOSPHORUS_ELEMENT
+      amount: 2
 MODIFIED_HZSM_5_MOLECULAR_SIEVE_CATALYST:
   category: sakurafun_rocket_item
   item-type: CUSTOM
@@ -42186,24 +42575,24 @@ PROPYLENE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: METHANOL
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: MODIFIED_HZSM_5_MOLECULAR_SIEVE_CATALYST
       amount: 1
 PROPYLENE_AND_HYDROGEN_PEROXIDE:
   category: sakurafun_rocket_item
@@ -42280,24 +42669,24 @@ PROPYLENE_OXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: PROPYLENE_AND_HYDROGEN_PEROXIDE
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: PALLADIUM_TITANIUM_SILICATE
       amount: 1
 ETHYLENE_OXIDE_AND_PROPYLENE_OXIDE:
   category: sakurafun_rocket_item
@@ -42311,12 +42700,12 @@ ETHYLENE_OXIDE_AND_PROPYLENE_OXIDE:
   crafting-recipe-type: NONE
   crafting-recipe:
     '1':
-      type: SLIMEFUN
-      id: ETHYLENE_OXIDE
+      type: NONE
+      id: NONE
       amount: 1
     '2':
-      type: SLIMEFUN
-      id: PROPYLENE_OXIDE
+      type: NONE
+      id: NONE
       amount: 1
     '3':
       type: NONE
@@ -42327,24 +42716,24 @@ ETHYLENE_OXIDE_AND_PROPYLENE_OXIDE:
       id: NONE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: LABORATORY_BEAKER_RECIPE
       amount: 1
     '6':
       type: NONE
       id: NONE
       amount: 1
     '7':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ETHYLENE_OXIDE
       amount: 1
     '8':
       type: NONE
       id: NONE
       amount: 1
     '9':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: PROPYLENE_OXIDE
       amount: 1
 HOT_OIL:
   category: sakurafun_rocket_item
@@ -43239,53 +43628,6 @@ KEROSENE:
       type: NONE
       id: NONE
       amount: 1
-CARBON_DIOXIDE:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&8&l二氧化碳'
-  item-lore:
-  - '&6&l生活中常见的化学物质'
-  item-id: COAL
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: NONE
-      id: NONE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
 LIQUID_HYDROGEN:
   category: sakurafun_rocket_item
   item-type: CUSTOM
@@ -43327,7 +43669,7 @@ LIQUID_HYDROGEN:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: HYDROGEN_ELEMENT
+      id: HYDROGEN_GAS
       amount: 1
     '9':
       type: NONE
@@ -43436,7 +43778,7 @@ METHANE:
   item-id: SKULLd2fa98ea58d92cfb739d399d1d00e73dffb95c0923f8d080a4b204292c2845d3
   item-amount: 1
   placeable: false
-  crafting-recipe-type: NONE
+  crafting-recipe-type: SMELTERY
   crafting-recipe:
     '1':
       type: NONE
@@ -43451,24 +43793,24 @@ METHANE:
       id: NONE
       amount: 1
     '4':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: CARBON_DIOXIDE
       amount: 1
     '5':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: HYDROGEN_GAS
       amount: 1
     '6':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: HYDROGEN_GAS
       amount: 1
     '7':
       type: NONE
       id: NONE
       amount: 1
     '8':
-      type: NONE
-      id: NONE
+      type: VANILLA
+      id: FLINT_AND_STEEL
       amount: 1
     '9':
       type: NONE
@@ -43855,6 +44197,8 @@ ADVANCED_KNIFE:
   category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&b&l高级小刀'
+  item-lore:
+    - '&6&l一把高级刻印小刀'
   item-id: IRON_SWORD
   item-amount: 1
   placeable: false
@@ -43945,6 +44289,8 @@ INFINITE_KNIFE:
   category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&b&l无尽小刀'
+  item-lore:
+    - '&6&l终极小刀'
   item-id: NETHERITE_SWORD
   item-amount: 1
   placeable: false
@@ -47983,7 +48329,7 @@ SOLAR_GENERATORS_8_BASE:
       type: SLIMEFUN
       id: ULTIMATE_ROCKET_IC
       amount: 1
-MACHINE_MOTOR_1:
+SAKURAFUN_MACHINE_MOTOR:
   category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&b&l马达&c&l'
@@ -48030,7 +48376,7 @@ MACHINE_MOTOR_1:
       type: SLIMEFUN
       id: ADVANCED_CIRCUIT_BOARD
       amount: 1
-MACHINE_MOTOR_I:
+SAKURAFUN_MACHINE_MOTOR_I:
   category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&b&l马达&c&lI'
@@ -48055,15 +48401,15 @@ MACHINE_MOTOR_I:
       amount: 1
     '4':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_1
+      id: SAKURAFUN_MACHINE_MOTOR
       amount: 1
     '5':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_1
+      id: SAKURAFUN_MACHINE_MOTOR
       amount: 1
     '6':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_1
+      id: SAKURAFUN_MACHINE_MOTOR
       amount: 1
     '7':
       type: SLIMEFUN
@@ -48077,7 +48423,7 @@ MACHINE_MOTOR_I:
       type: SLIMEFUN
       id: MATERIAL_COMBINED_PLATE
       amount: 1
-MACHINE_MOTOR_II:
+SAKURAFUN_MACHINE_MOTOR_II:
   category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&b&l马达&c&lII'
@@ -48102,15 +48448,15 @@ MACHINE_MOTOR_II:
       amount: 1
     '4':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_I
+      id: SAKURAFUN_MACHINE_MOTOR_I
       amount: 1
     '5':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_I
+      id: SAKURAFUN_MACHINE_MOTOR_I
       amount: 1
     '6':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_I
+      id: SAKURAFUN_MACHINE_MOTOR_I
       amount: 1
     '7':
       type: SLIMEFUN
@@ -48136,7 +48482,7 @@ SMALL_CAPACITY_LIQUID_OXYGEN_KEROSENE_ENGINE_FULL_3:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_II
+      id: SAKURAFUN_MACHINE_MOTOR_II
       amount: 1
     '2':
       type: SLIMEFUN
@@ -48144,7 +48490,7 @@ SMALL_CAPACITY_LIQUID_OXYGEN_KEROSENE_ENGINE_FULL_3:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_II
+      id: SAKURAFUN_MACHINE_MOTOR_II
       amount: 1
     '4':
       type: SLIMEFUN
@@ -48315,11 +48661,11 @@ UNPLACEABLE_STRUCTURE_VOID:
   item-type: CUSTOM
   item-name: '&c&l不可放置&b&l结构空位'
   item-lore:
-  - '&f&k&l马达'
+  - '&7&k&l马达'
   item-id: STRUCTURE_VOID
   item-amount: 1
   placeable: false
-  crafting-recipe-type: NONE
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: NONE
@@ -48350,14 +48696,14 @@ UNPLACEABLE_STRUCTURE_VOID:
       id: NONE
       amount: 1
     '8':
-      type: SLIMEFUN 
+      type: SLIMEFUN
       id: SOLAR_GENERATORS_9_BASE
-      amount: 64
+      amount: 1
     '9':
       type: NONE
       id: NONE
       amount: 1
-MACHINE_MOTOR_III:
+SAKURAFUN_MACHINE_MOTOR_III:
   category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&b&l马达&c&lIII'
@@ -48386,7 +48732,7 @@ MACHINE_MOTOR_III:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_II
+      id: SAKURAFUN_MACHINE_MOTOR_II
       amount: 1
     '6':
       type: SLIMEFUN
@@ -48484,7 +48830,7 @@ BROWN_DWARF_Y:
       amount: 64
     '5':
       type: SLIMEFUN
-      id: MACHINE_MOTOR_III
+      id: SAKURAFUN_MACHINE_MOTOR_III
       amount: 64
     '6':
       type: SLIMEFUN
@@ -49010,7 +49356,7 @@ BLUE_GIANT_B_WHITE_DWARF:
       id: COMPONENT_8
       amount: 64
 YANSE:
-  category: gj_yuzhou
+  category: slime_customizer_info
   item-type: CUSTOM
   item-name: '&b&l颜色代码展示'
   item-lore:
@@ -49051,6 +49397,147 @@ YANSE:
     '8':
       type: NONE
       id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+ALKALI_HYDROLYZED_COOKED_ASCHARITE_BY_SODIUM_HYDROXIDE_SOLUTION:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&6被氢氧化钠溶液碱解的硼镁石'
+  item-lore:
+  - '&f氢氧化钠碱解硼镁石获得'
+  item-id: GLOWSTONE_DUST
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COOKED_ORE_POWDER_ASCHARITE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: SODIUM_HYDROXIDE_SOLUTION
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COOKED_ORE_POWDER_ASCHARITE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: NONE
+      id: NONE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+ASCHARITE_WASHED_BY_WATER_AFTER_FILTRATION:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&6过滤后被水洗的硼镁石'
+  item-lore:
+  - '&f水洗被过滤被氢氧化钠溶液碱解的硼镁石'
+  item-id: GUNPOWDER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ALKALI_HYDROLYZED_COOKED_ASCHARITE_BY_SODIUM_HYDROXIDE_SOLUTION
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+ASCHARITE_CRYSTALLIZATION:
+  category: sakurafun_rocket_item
+  item-type: CUSTOM
+  item-name: '&6硼镁石结晶'
+  item-lore:
+  - '&f煅烧前的固体'
+  item-id: SKULL5a5f29a76d1f91c165f63baac048670e7b1d37ce785a4d9c21d8c3a177b5
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SOLAR_DISTILLATION_MACHINE_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ASCHARITE_WASHED_BY_WATER_AFTER_FILTRATION
       amount: 1
     '9':
       type: NONE

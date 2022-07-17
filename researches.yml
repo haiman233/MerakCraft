@@ -727,7 +727,7 @@ huagongjiqi:
     - STRIPPER
     - BIG_COAL_FIRED_BOILER
     - ULTIMATE_FREEZER
-    - ELECTROLYZER_1
+    - SAKURAFUN_ELECTROLYZER
     - DECOMPOSER
     - LATHE
 diancitie1:
@@ -764,7 +764,7 @@ jiegoukongweishengchan:
 fulifadian:
   id: 110000084
   name: "福利发电机"
-  cost: 18
+  cost: 4
   items:
     - HAIMAN_EXAMPLE_GENERATOR
     - VAGETABLE_SOLAR_GENERATOR
@@ -820,7 +820,7 @@ fangshexingfadianji:
 dianwangdianxian:
   id: 110000092
   name: "电线与电网"
-  cost: 35
+  cost: 22
   items:
     - HIGH_VOLTAGE_TRANSMISSION_LINES
     - HAIMAN_POWER_NET
@@ -1639,6 +1639,7 @@ yuansu:
     - TENNESSINE_ELEMENT
     - OGANESSON_ELEMENT
     - DARMSTADTIUM_ELEMENT
+    - ROENTGENIUM_ELEMENT
 gaodenggongye:
   id: 6000000033
   name: "高等工业"
@@ -1693,7 +1694,7 @@ che:
   name: "车的组成"
   cost: 116
   items:
-    - SPARK_PLUG_1
+    - SAKURAFUN_SPARK_PLUG
     - CYLINDER
     - VALVE
     - RECIPROCATING_PISTON_INTERNAL_COMBUSTION_ENGINE
@@ -1710,8 +1711,7 @@ huagongyuanliao1:
   name: "化工原料 1"
   cost: 320
   items:
-    - WATER_BUCKET_FOR_ELECTROLYZER
-    - HEAVY_WATER
+    - WATER_BUCKET_FOR_SAKURAFUN_ELECTROLYZER
     - GREASE
     - COKE_1
     - COKE_2
@@ -1742,7 +1742,7 @@ huagongyuanliao1:
 huagongyuanliao2:
   id: 6000000040
   name: "化工原料 2"
-  cost: 298
+  cost: 305
   items:
     - ALKALI_HYDROLYZED_COOKED_ASCHARITE_BY_SODIUM_HYDROXIDE_SOLUTION
     - ASCHARITE_WASHED_BY_WATER_AFTER_FILTRATION
@@ -1753,16 +1753,20 @@ huagongyuanliao2:
     - CAMPHOR_SAPLING
     - ROSIN
     - CAMPHOR
-    - BORAX_1
+    - BORAX_SAKURAFUN
     - PARAFFIN_WAX
     - FATTY_ALCOHOL
     - SULFURIC_ACID_WATER
     - CALCIUM_CARBONATE
     - ETHYLENE_AND_CHLORINE
-    - 2_CHLOROETHANOL
+    - CHLOROETHANOL
     - CALCIUM_OXIDE
     - CALCIUM_HYDROXIDE
     - ETHYLENE_OXIDE
+    - HYDROGEN_GAS
+    - NITROGEN_GAS
+    - CALCIUM_CHLORIDE
+    - SODA_SAKURAFUN
 xitin:
   id: 6000000041
   name: "烯烃"
@@ -1985,10 +1989,10 @@ gaojimada:
   name: "高级马达"
   cost: 76
   items:
-    - MACHINE_MOTOR_1
-    - MACHINE_MOTOR_I
-    - MACHINE_MOTOR_II
-    - MACHINE_MOTOR_III
+    - SAKURAFUN_MACHINE_MOTOR
+    - SAKURAFUN_MACHINE_MOTOR_I
+    - SAKURAFUN_MACHINE_MOTOR_II
+    - SAKURAFUN_MACHINE_MOTOR_III
 xingji:
   id: 6000000054
   name: "星际"
@@ -2008,7 +2012,7 @@ xingji:
 cdr:
   id: 6000000055
   name: "这个电容好臭啊"
-  cost: 76
+  cost: 40
   items:
     - CHOU_CAPACITOR
 wyydr:
@@ -2017,6 +2021,14 @@ wyydr:
   cost: 5
   items:
     - FEI_CAPACITOR
+tws:
+  id: 6000000057
+  name: "同位素"
+  cost: 128
+  items:
+    - DEUTERIUM_ELEMENT
+    - TRITIUM_ELEMENT
+    - LITHIUM_6_ELEMENT
 # 乱序技艺
 duidiehecheng:
   id: 9800000000
@@ -2335,14 +2347,12 @@ gjkjhgzt:
     - FINALTECH_ADVANCED_ORE_FACTORY
     - FINALTECH_ADVANCED_DUST_FACTORY
     - FINALTECH_ADVANCED_FARM_FACTORY
-# 动力科技
 fxbs:
   id: 980000037
   name: "创造模式"
-  cost: 1400
+  cost: 1800
   items:
     - ANGEL_GEM
-# 工业
 zuantou:
   id: 980000038
   name: "工业钻头"
@@ -2370,7 +2380,7 @@ jxwk:
   cost: 45
   items:
     - GOLD_ITEM_CASING
-    - IRON_ITEM_CASINGv
+    - IRON_ITEM_CASING
 lbdsj:
   id: 980000042
   name: "兰波顿水晶"
