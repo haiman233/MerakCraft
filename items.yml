@@ -5566,7 +5566,7 @@ JT_YZ:
       amount: 1
     7:
       type: SLIMEFUN
-      id: CENTRAL_SOLENOID
+      id: INFINITE_ELECTRIC_UNIT_FULL
       amount: 1
     8:
       type: SLIMEFUN
@@ -6201,7 +6201,7 @@ YUZHOUZHIXIN:
       amount: 1
     5:
       type: SLIMEFUN
-      id: CENTRAL_SOLENOID
+      id: INFINITE_ELECTRIC_UNIT_FULL
       amount: 1
     6:
       type: SLIMEFUN
@@ -6209,7 +6209,7 @@ YUZHOUZHIXIN:
       amount: 1
     7:
       type: SLIMEFUN
-      id: CENTRAL_SOLENOID
+      id: INFINITE_ELECTRIC_UNIT_FULL
       amount: 1
     8:
       type: SLIMEFUN
@@ -40102,8 +40102,8 @@ COOKED_ASCHARITE:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     '1':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ASCHARITE
       amount: 1
     '2':
       type: NONE
@@ -40118,8 +40118,8 @@ COOKED_ASCHARITE:
       id: NONE
       amount: 1
     '5':
-      type: SLIMEFUN
-      id: ASCHARITE
+      type: NONE
+      id: NONE
       amount: 1
     '6':
       type: NONE
@@ -40149,8 +40149,8 @@ COOKED_ORE_POWDER_ASCHARITE:
   crafting-recipe-type: ORE_CRUSHER
   crafting-recipe:
     '1':
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COOKED_ASCHARITE
       amount: 1
     '2':
       type: NONE
@@ -40165,8 +40165,8 @@ COOKED_ORE_POWDER_ASCHARITE:
       id: NONE
       amount: 1
     '5':
-      type: SLIMEFUN
-      id: COOKED_ASCHARITE
+      type: NONE
+      id: NONE
       amount: 1
     '6':
       type: NONE
