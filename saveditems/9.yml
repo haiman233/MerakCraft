@@ -1,5 +1,23 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2865
-  type: DIAMOND_PICKAXE
-  amount: 127
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"水提取机"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"使用此机器可以节约铁桶"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"需要10W的电力让换水的机械臂动起来"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"5
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"10
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PMVKDQBhGf504Q9DCU9g5s4GAprBQYMwyYTHBBJaOkI1hsyQZAtHlCnbaegvtrWw8gZ2VF/AEUlq+733NUwFUOAqWlRA3xXqeCaZAiyQ5A9UKTq11wQbZVAW1kRtWlBnbtkEp2UNZFWyrAsCeAgeTRFQM3ph0URwt0CxyRSqx2fBtgISP+eYMryZyamET543vX5oD2fv3NcokNATV3UW8GlbTfIIG+kiw/qiT5uOdl7uc8rER2w7yQ++ehg6iHHdJvdR8+65DbIponUqPO11PwzK+xjqph5JwT/ft1CD1VUaajXKn9u1lx9NGOQnc3jxCFwCHsI9nTUjr+/f18eTj/OX96ee5/fl1DPAHFpje3R0BAAA=
+    PublicBukkitValues:
+      slimefun:slimefun_item: WATER_EXTRACTOR
+    skull-owner: CS-CoreLib

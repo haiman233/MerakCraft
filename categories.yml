@@ -1,60 +1,88 @@
+sakurafun:
+  parent: "this"
+  category-name: "&dSakuraFun"
+  category-item: SKULLc3f1d153283afc1518d7aa6c09b6eec42fce6f40ba86baa3ce46b26b657e9f9f
 sakurafun_recipe:
-  category-name: "&d&mSakura&9&m科技&f&m-&6&m配方"
+  parent: "sakurafun"
+  category-name: "&d&mSakuraFun &7&m配方"
   category-item: BEDROCK
 sakurafun_elementary_particle:
-  category-name: "&dSakura&9科技&f-&6粒子物理"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7粒子物理"
   category-item: DIAMOND
 sakurafun_chemical_element:
-  category-name: "&dSakura&9科技&f-&6化学元素"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7化学元素"
+  category-item: SKULLb51702a0bd387783a4f4e47cfa48a7a17c8bcc2336eb6088a178834d783da707
+isotope:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7元素同位素"
   category-item: SKULLb51702a0bd387783a4f4e47cfa48a7a17c8bcc2336eb6088a178834d783da707
 sakurafun_items:
-  category-name: "&dSakura&9科技&f-&7轻工业"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7轻工业"
   category-item: END_CRYSTAL
+sakurafun_machines:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7重工业"
+  category-item: BLAST_FURNACE
 sakurafun_steam:
-  category-name: "&dSakura&9科技&f-&6蒸汽时代"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7蒸汽时代"
   category-item: SKULL84fc56d4b8b7dcde9a74874734548bd62768e1fca4e63b4e3a5bbca5bb30aa70
-sakurafun_rocket_item:
-  category-name: "&dSakura&9科技&f-&6工业科技"
+sakurafun_tech:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7工业科技"
   category-item: SKULL483fd11e79f49bf1068047a5a7d1fb59989d261b39eb6797d3f831a9bf1b3380
-sakurafun_car:
-  category-name: "&dSakura&9科技&f-&6车"
-  category-item: MINECART
+pixel_era:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7太阳能前置"
+  category-item: REDSTONE
+sakurafun_generator:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7发电机"
+  category-item: SKULL7f9f356f5fe7d1bc92cddfaeba3ee773ac9df1cc4d1c2f8fe5f47013032c551d
 sakurafun_component:
-  category-name: "&dSakura&9科技&f-&6构件"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7构件"
   category-item: SKULL9c250b47e10a50d69166cb0ecaf234100cae7899a4898108c1307017a5a7ebb3
 sakurafun_satellite_part:
-  category-name: "&dSakura&9科技&f-&2&l卫星系统"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7卫星"
   category-item: SKULL14064b8489d67ffbc040abe3c8478425e0a69abf62a7b13eedf3d4ccc1786e4e
 sakurafun_rocket:
-  category-name: "&dSakura&9科技&f-&2&l火箭物品"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7火箭物品"
   category-item: CHEST
 sakurafun_rocket_engine:
-  category-name: "&dSakura&9科技&f-&2&l火箭结构"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7火箭引擎"
   category-item: SKULL8eb81ef8902379650ba79f45723d6b9c888388a00fc4e192f3454fe193882ee1
 sakurafun_star:
-  category-name: "&dSakura&9科技&f-&6&l星体&7(&8未完成&7)"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7星体&7(&8未完成&7)"
   category-item: GOLD_BLOCK
-pixel_era:
-  category-name: "&dSakura&9科技&f-&6&l太阳能前置"
-  category-item: REDSTONE
-sakurafun_machines:
-  category-name: "&dSakura&9科技&f-&7重工业"
-  category-item: BLAST_FURNACE
-sakurafun_generator:
-  category-name: "&dSakura&9科技&f-&6发电机"
-  category-item: SKULL7f9f356f5fe7d1bc92cddfaeba3ee773ac9df1cc4d1c2f8fe5f47013032c551d
-slime_customizer:
-  category-name: "&dSakura&9科技&f-&6电容"
-  category-item: SKULL5584432af6f382167120258d1eee8c87c6e75d9e479e7b0d4c7b6ad48cfeef
-isotope:
-  category-name: "&dSakura&9科技&f-&6同位素"
-  category-item: SKULLb51702a0bd387783a4f4e47cfa48a7a17c8bcc2336eb6088a178834d783da707
 sakurafun_ore:
-  category-name: "&d&mSakura&9&m科技&f&m-&6&m采掘工业"
+  parent: "sakurafun"
+  category-name: "&d&mSakuraFun &7&m采掘工业"
   category-item: SKULL86f06eaa3004aeed09b3d5b45d976de584e691c0e9cade133635de93d23b9edb
 slime_customizer_qiu:
-  category-name: "&dSakura&9科技&f-&6波兰球"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7波兰球"
   category-item: SKULL921b2af8d2322282fce4a1aa4f257a52b68e27eb334f4a181fd976bae6d8eb
 sakurafun_jade:
-  category-name: "&dSakura&9科技&f-&6宝石"
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7宝石"
   category-item: SKULLe80e2c206f06b4163dee678162b2d7a3ed6b20c6419fec44f91f6dd001a12a39
+sakurafun_chem:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7化学物质"
+  category-item: IRON_INGOT
+sakurafun_car:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7车"
+  category-item: MINECART
+slime_customizer:
+  parent: "sakurafun"
+  category-name: "&dSakuraFun &7电容"
+  category-item: SKULL5584432af6f382167120258d1eee8c87c6e75d9e479e7b0d4c7b6ad48cfeef

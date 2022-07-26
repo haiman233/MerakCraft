@@ -1,0 +1,14 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"含油污水"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"带有污油的污水"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PwVKCQBiA/8pmjHqObs0sGpSHDipLLuMuLQih0wV0DWFRB8EBzt19gF6jN+ktuvQKcez4zfddPgVAgRs3LaV8yXfrjRRd6LAwE6CM3bvxLhfTTaSA0sq9yIuNOFxBtxBVUebioADAWRcu/VCWAr5EbaFFEKNVYMllTfSWZy6SNkn2D2Tr19GY6CRr/WSoT+vBv1YrwldNzvtWvNjyMsp8NO07UkwcdZl5R554fSedNxTRnpMwbGOi8Vn8TA0TU0xV3gzvKeYaT3yTGe8qQ17DGnPEG6I5RlrRlGg2Zpg1yx5HbMQ90+C1NVgH6AngGs7Jqh3pTLLPt4sfvf54vD2dfr8rgD+w30CTHQEAAA==
+    PublicBukkitValues:
+      slimefun:slimefun_item: OIL_POLLUTED_WATER
+    skull-owner: CS-CoreLib

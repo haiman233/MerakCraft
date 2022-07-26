@@ -1,5 +1,23 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: WHITE_DYE
-  amount: 64
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"球磨机
+      "},{"italic":false,"color":"gray","text":"("},{"italic":false,"color":"yellow","text":"III"},{"italic":false,"color":"gray","text":")"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"球磨机是工业生产中广泛使用的高细磨机械之一"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"100
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"20,000
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PT07CQBxGfyomZfQqJrX8MSxcNEVlmk6xUAqdXVuGzJQZwNIC7S08gzcwbtwYz+MBXDtLd9/Le5sPASC4nq4rKZ+L7UpIZkDLTxQD5ExvnG3BPJEiQFruWFEKtm+DUbJTWRVsjwDgzIDLKJEVgw9WuyZdcHO5cGVW477mcGrKMc53d3gT1amD+1hpP7L7Xj341/bKZN6TccfldBNUqYpMrzORbDS5zdTsEFvB0W9wl4SuiNWs9ucTTpQr6FNgxrnd0HypyDCSdIgtYpF6HGYnOnxoSMg51dtv7CMJ17p9lHHO87ihggh3sFqY9wBXcI6X+kjr9ef995N3128XX6O0/fIN8Ac5UTgwHQEAAA==
+    PublicBukkitValues:
+      slimefun:slimefun_item: BALL_MILL_III
+    skull-owner: CS-CoreLib

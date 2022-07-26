@@ -1,16 +1,24 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: NETHERITE_PICKAXE
+  v: 2586
+  type: PLAYER_HEAD
   meta:
     ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1CAF1","text":"寰"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9BD3ED","text":"宇"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#94DCE8","text":"之"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EE5E4","text":"镐"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"
-      顶"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"级"}],"text":""}'
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"虚空奇点构造机"}],"text":""}'
     lore:
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C2C7D0","text":"飞行X"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B5CDD9","text":"右键"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A8A5D5","text":"☆"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6C4F4","text":"关闭"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#99DAEB","text":"蹲下右键取消灵魂绑定"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"灵魂绑定"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"用于制作虚空奇点"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"但构造能力不太强..."}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"这已经是现阶段的极限了"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"1,800
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"36,000
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/03PQU7CQBiG4V+DCY6uXXgAdyZDsRBiMMEiMg1tBYaWmV2BobSdKVhaw7j1BB7AW7hy7wlcehm7dPnl+TYvAkBwPk1LKZ/y7TqWog41N1QCkDW9tra5GMULBKjCnciLWOxPoV6IQ1HmYo8A4KgOJ34oSwGfQtuYzzd4NbflUpNWtekUS48kuzbJfL2wSIuoyoe91kh3/n3NIgxMyZr2hmfjcqF8PGpOpBhOGks1e+FJ78aj7NWj94nbT7UT2MrrRyajxGQGTx0aYUcNYp5IyZNVZRPpBg/aUTxmxqzJKcNePz3wR4IdygxX2QnJGp31uNsFOINjsqpCahdfz/jq7fb74z36vbts/wD8ASbLJ5IdAQAA
     PublicBukkitValues:
-      slimefun:slimefun_item: INFINITY_MATRIX
+      slimefun:slimefun_item: VOID_CONSTRUCTOR
+    skull-owner: CS-CoreLib

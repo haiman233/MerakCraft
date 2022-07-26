@@ -10,40 +10,40 @@ SOLAR_GENERATORS_1:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_1
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITY_REACTOR
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_1
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_1
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_1_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 2
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_1
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: GENERAL_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_1
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: GENERAL_IC
       amount: 1
 SOLAR_GENERATORS_2:
   category: sakurafun_generator
@@ -57,40 +57,40 @@ SOLAR_GENERATORS_2:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_2
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG1
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_2
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_2_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 4
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: GENERAL_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_2
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: GENERAL_IC
       amount: 1
 SOLAR_GENERATORS_3:
   category: sakurafun_generator
@@ -104,40 +104,40 @@ SOLAR_GENERATORS_3:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_3
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG2
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_3
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_3_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 8
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ADVANCED_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_3
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ADVANCED_IC
       amount: 1
 SOLAR_GENERATORS_4:
   category: sakurafun_generator
@@ -151,40 +151,40 @@ SOLAR_GENERATORS_4:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_4
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG3
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_4
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_4_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 16
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ADVANCED_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_4
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ADVANCED_IC
       amount: 1
 SOLAR_GENERATORS_5:
   category: sakurafun_generator
@@ -198,40 +198,40 @@ SOLAR_GENERATORS_5:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_5_1
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG4
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_5_1
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_5_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 32
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_5
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_IC
       amount: 1
 SOLAR_GENERATORS_6:
   category: sakurafun_generator
@@ -245,40 +245,40 @@ SOLAR_GENERATORS_6:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_5_2
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG5
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_5_2
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_6_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 64
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_6
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_IC
       amount: 1
 SOLAR_GENERATORS_7:
   category: sakurafun_generator
@@ -292,40 +292,40 @@ SOLAR_GENERATORS_7:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_6
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG6
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_6
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_7_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 64
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_ROCKET_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_7
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_ROCKET_IC
       amount: 1
 SOLAR_GENERATORS_8:
   category: sakurafun_generator
@@ -339,40 +339,40 @@ SOLAR_GENERATORS_8:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_7
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG7
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_7
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_8_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 64
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_ROCKET_IC
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_8
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: ULTIMATE_ROCKET_IC
       amount: 1
 SOLAR_GENERATORS_9:
   category: sakurafun_generator
@@ -386,40 +386,40 @@ SOLAR_GENERATORS_9:
   crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_8
       amount: 1
     2:
-      type: NONE
-      id: NONE
+      type: SAVEDITEM
+      id: SG8
       amount: 1
     3:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMPONENT_8
       amount: 1
     4:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     5:
       type: SLIMEFUN
-      id: SOLAR_GENERATORS_9_BASE
-      amount: 1
+      id: IRIDIUM
+      amount: 64
     6:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: INFINITE_MACHINE_CORE
       amount: 1
     7:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMMAND_ROOM
       amount: 1
     8:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: SOLAR_PRODUCTS_9
       amount: 1
     9:
-      type: NONE
-      id: NONE
+      type: SLIMEFUN
+      id: COMMAND_ROOM
       amount: 1
 DYSON_SPHERE:
   category: sakurafun_star

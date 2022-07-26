@@ -1,0 +1,21 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"太阳能-拓展-7"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"太阳能发电机"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"51,200
+      J/s "},{"italic":false,"color":"gray","text":"(昼)"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"25,600
+      J/s "},{"italic":false,"color":"gray","text":"(夜)"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PTU6DQBhAP01NEN17CpOppBhMjGloY4cwoKXQMjt+poVhpm0o2MIB3Ok5XLh05xFceA9v4E6WLl/e2zwVQIVzr6iFeCg3y1wwBXpOJBmopndpbkpm57EKaie3rKxytjsFpWKHqi7ZTgWAIwVOgkjUDD5YYyG6yFC6sETSYL3jmYeEi/n2Gq+DJjaxjmXnJ0Pdbox/7aCK5gMRalZG1491LANka1PBJtN+Iv0n0gYFHRGN8qRx55S7o9WBtI4g7RiFM79PON4792RP5bgJ2+HB4StEeJaT1m8pL/rOlSXJLJCUYxTyRCOjVBDTMpYLdAtwBsc47UZ6X9Hbxfev8f76fPPz8nnnA/wB32ml7h0BAAA=
+    PublicBukkitValues:
+      slimefun:slimefun_item: SOLAR_GENERATORS_7
+    skull-owner: CS-CoreLib

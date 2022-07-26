@@ -1,31 +1,12 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: PAPER
+  v: 2586
+  type: PLAYER_HEAD
   meta:
     ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"颜色代码展示"}],"text":""}'
-    lore:
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF3300","text":"1"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF6600","text":"2"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAA00","text":"34"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB00","text":"56"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFDD00","text":"78"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"9"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCFF00","text":"q"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#88FF00","text":"w"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#44FF00","text":"e"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF00","text":"r"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00DD44","text":"t"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00BB88","text":"y"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00AACC","text":"u"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0088FF","text":"i"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0055FF","text":"o"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0022FF","text":"p"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0000FF","text":"a"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3300FF","text":"s"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6600FF","text":"d"},
-    {"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9900FF","text":"f"}],"text":""}'
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"汞蒸汽"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PT06DQBxGf5qa1NGd5zCZpimmC9OUP9IhzNSBAYEdtNO0ZWgbCrWQuPFMHsAjuHHjzpvI0uX73rd5CADBrZ/XSj2X+9VGyT70WFpIQIZ/b+xL6W4yBKiTB1lWG3m8hn4lz1VdyiMCgIs+XIWpqiV8yMbBSbTGy8hRi4ZoHQsfqznZHh7ILmwyg2ik6PxsqrnN+N93VKUvIxUPnXWy43VWhNgdekrOvMGiCE5cLAa8pUMqmMEDq+EifuWtsnjr2RxbLcX0zIIYe1aoUzHFbMssmgeYd/tc6OZcLE0vf7LpVtnUTEyKA8wMZ7yK8CPADVySZRfSe0vvvvTJ4Oed/E6+P0kM8AeQINJxHQEAAA==
     PublicBukkitValues:
-      slimefun:slimefun_item: YANSE
+      slimefun:slimefun_item: MERCURY_GAS
+    skull-owner: CS-CoreLib

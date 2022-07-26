@@ -5474,16 +5474,16 @@ STRUCTURE_VOID_MACHINE:
       id: ARTIFICIAL_SUN_BASE
       amount: 1
     '9':
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_9_BASE
+      type: SAVEDITEM
+      id: SG9
       amount: 1
   recipes:
     '1':
       speed-in-seconds: 86400
       input:
         '1':
-          type: SLIMEFUN
-          id: SOLAR_GENERATORS_9_BASE
+          type: SAVEDITEM
+          id: SG9
           amount: 64
         '2':
           type: NONE
@@ -5491,8 +5491,8 @@ STRUCTURE_VOID_MACHINE:
           amount: 1
       output:
         '1':
-          type: VANILLA
-          id: STRUCTURE_VOID
+          type: SLIMEFUN
+          id: UNPLACEABLE_STRUCTURE_VOID
           amount: 1
         '2':
           type: NONE

@@ -914,15 +914,11 @@ SHUOMINGSHU:
   item-type: CUSTOM
   item-name: '&f版本介绍'
   item-lore:
-  - '&7versions : 1.0.0-pre3[extend 5.0]'
+  - '&7versions : 1.0.0-pre4[extend 5.0]'
   - '&71. 优化了UI'
-  - '&72. 删除了复杂的油(石油蒸馏中)'
-  - '&73. 合并了复杂的category'
-  - '&74. 调整了机器耗电量与发电机发电量'
-  - '&75. 添加了关于元素的合成方式'
-  - '&76. 添加了波兰球'
-  - '&76. &c车在此版本不更新'
-  - '&8版本预告: 在1.0.0-pre4[extend 5.0]版本更新同位素'
+  - '&72. 调整了卫星和芯片的合成配方'
+  - '&73. 添加了SakuraFun的categories的ItemGroup'
+  - '&8版本预告: 在1.0.0-pre5[extend 5.0]版本更新车'
   item-id: PAPER
   item-amount: 1
   placeable: false
@@ -965,7 +961,7 @@ SHUOMINGSHU:
       id: NONE
       amount: 1
 SAKURAFUN_WATER:
-  category: sakurafun_items
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f水'
   item-lore:
@@ -4493,53 +4489,6 @@ GRAVITON:
       type: NONE
       id: NONE
       amount: 1
-OIL_POLLUTED_WATER:
-  category: sakurafun_rocket_item
-  item-type: CUSTOM
-  item-name: '&3含油污水'
-  item-lore:
-  - '&7带有污油的污水'
-  item-id: SKULLb57ff33c6f3d8b9a8f01d0c5c080d9b5e4857e371ac29d912b98cd776ccaaacc
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    '1':
-      type: NONE
-      id: NONE
-      amount: 1
-    '2':
-      type: NONE
-      id: NONE
-      amount: 1
-    '3':
-      type: NONE
-      id: NONE
-      amount: 1
-    '4':
-      type: NONE
-      id: NONE
-      amount: 1
-    '5':
-      type: SLIMEFUN
-      id: MORE_RECIPE
-      amount: 1
-    '6':
-      type: NONE
-      id: NONE
-      amount: 1
-    '7':
-      type: NONE
-      id: NONE
-      amount: 1
-    '8':
-      type: NONE
-      id: NONE
-      amount: 1
-    '9':
-      type: NONE
-      id: NONE
-      amount: 1
 ###################################################################################################ELEMENT元素周期表
 HYDROGEN_ELEMENT: #stable
   category: sakurafun_chemical_element
@@ -4937,7 +4886,7 @@ HYDROGEN_7_ELEMENT: #中子发射，变成氢-6
       id: NONE
       amount: 1
 HYDROGEN_GAS:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氢气'
   item-lore:
@@ -8919,7 +8868,7 @@ NITROGEN_25_ELEMENT: #发生β-衰变，中子转质子，变成氧-25
       id: NONE
       amount: 1
 NITROGEN_GAS:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氮气'
   item-lore:
@@ -9861,7 +9810,7 @@ OXYGEN_28_ELEMENT: #中子发射，变成氟-28
       id: NONE
       amount: 1
 OXYGEN_GAS:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氧气'
   item-lore:
@@ -11342,7 +11291,7 @@ POTASSIUM_ELEMENT:
       id: NONE
       amount: 1
 CALCIUM_CHLORIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氯化钙'
   item-lore:
@@ -12152,8 +12101,8 @@ ARSENIC_ELEMENT:
       id: NONE
       amount: 1
     '8':
-      type: SLIMEFUN
-      id: OIL_POLLUTED_WATER
+      type: SAVEDITEM
+      id: hanyouwushui
       amount: 16
     '9':
       type: NONE
@@ -14430,7 +14379,7 @@ MERCURY_ELEMENT:
       id: NONE
       amount: 1
 MERCURY_GAS:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f汞蒸汽'
   item-lore:
@@ -16540,7 +16489,7 @@ VOID_SINGULARITY:
       id: NONE
       amount: 0
 PREMIUM_FREEZER:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&b高级冰柜'
   item-lore:
@@ -17865,7 +17814,7 @@ GAS_CONDENSER:
       id: STEEL_PIPE
       amount: 1
 A_TURN_FOR_THE_BETTER_1:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&6初级转机'
   item-lore:
@@ -17913,7 +17862,7 @@ A_TURN_FOR_THE_BETTER_1:
       id: STEEL_FOR_TURBIN_BLADE_1
       amount: 1
 A_TURN_FOR_THE_BETTER_2:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&6中级转机'
   item-lore:
@@ -17961,7 +17910,7 @@ A_TURN_FOR_THE_BETTER_2:
       id: STEEL_FOR_TURBIN_BLADE_2
       amount: 1
 A_TURN_FOR_THE_BETTER_3:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&6高级转机'
   item-lore:
@@ -18009,7 +17958,7 @@ A_TURN_FOR_THE_BETTER_3:
       id: STEEL_FOR_TURBIN_BLADE_3
       amount: 1
 ALTERNATING_CURRENT_DYNAMO:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&l&f交流电机'
   item-lore:
@@ -18056,7 +18005,7 @@ ALTERNATING_CURRENT_DYNAMO:
       id: COPPER_WIRE
       amount: 1
 COAL_FIRED_BOILER_BASE:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&6&l燃煤&f锅炉&6原胚'
   item-lore:
@@ -18104,7 +18053,7 @@ COAL_FIRED_BOILER_BASE:
       id: SAKURAFUN_WATER
       amount: 1
 STEAM_TURBINE_ITEM_1:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&7&l小型&f&l汽轮机&6&l核心'
   item-lore:
@@ -18151,7 +18100,7 @@ STEAM_TURBINE_ITEM_1:
       id: COPPER_WIRE
       amount: 1
 STEAM_TURBINE_ITEM_2:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&7&l中型&f&l汽轮机&6&l核心'
   item-lore:
@@ -18198,7 +18147,7 @@ STEAM_TURBINE_ITEM_2:
       id: COPPER_WIRE
       amount: 1
 STEAM_TURBINE_ITEM_3:
-  category: sakurafun_items
+  category: sakurafun_steam
   item-type: CUSTOM
   item-name: '&7&l大型&f&l汽轮机&6&l核心'
   item-lore:
@@ -18809,7 +18758,7 @@ COMPONENT_1:
       amount: 1
 ###
 GREASE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6&l油脂'
   item-lore:
@@ -18856,7 +18805,7 @@ GREASE:
       id: NONE
       amount: 1
 COKE_1:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6不完全燃烧的焦炭'
   item-lore:
@@ -18903,7 +18852,7 @@ COKE_1:
       id: NONE
       amount: 1
 COKE_2:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6焦炭'
   item-lore:
@@ -18950,7 +18899,7 @@ COKE_2:
       id: NONE
       amount: 1
 CARBON_MONOXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6一氧化碳'
   item-lore:
@@ -18997,7 +18946,7 @@ CARBON_MONOXIDE:
       id: NONE
       amount: 1
 CARBON_DIOXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&8&l二氧化碳气体'
   item-lore:
@@ -19045,7 +18994,7 @@ CARBON_DIOXIDE:
       id: NONE
       amount: 1
 DYE_ICE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&8&l干冰'
   item-lore:
@@ -19091,7 +19040,7 @@ DYE_ICE:
       id: NONE
       amount: 1
 METHANOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6甲醇'
   item-lore:
@@ -19138,7 +19087,7 @@ METHANOL:
       id: NONE
       amount: 1
 GLYCEROL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f甘油'
   item-lore:
@@ -19184,7 +19133,7 @@ GLYCEROL:
       id: NONE
       amount: 1
 SULFUR_DIOXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6二氧化硫'
   item-lore:
@@ -19233,7 +19182,7 @@ SULFUR_DIOXIDE:
       amount: 1
 #氢氧化钠和小苏打的制备方式
 SODIUM_HYDROXIDE_MIXTURE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氢氧化钠混合物'
   item-lore:
@@ -19281,7 +19230,7 @@ SODIUM_HYDROXIDE_MIXTURE:
       id: SAKURAFUN_WATER
       amount: 1
 SODIUM_HYDROXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氢氧化钠'
   item-lore:
@@ -19331,7 +19280,7 @@ SODIUM_HYDROXIDE:
       id: NONE
       amount: 1
 SODIUM_HYDROXIDE_SOLUTION:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氢氧化钠溶液'
   item-lore:
@@ -19379,7 +19328,7 @@ SODIUM_HYDROXIDE_SOLUTION:
       id: NONE
       amount: 1
 SODA_SAKURAFUN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f碳酸钠'
   item-lore:
@@ -19427,7 +19376,7 @@ SODA_SAKURAFUN:
       id: CARBON_DIOXIDE
       amount: 1
 CHLORINE_AND_HYDROGEN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氯化氢'
   item-lore:
@@ -19475,7 +19424,7 @@ CHLORINE_AND_HYDROGEN:
       id: NONE
       amount: 1
 HCL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6盐酸'
   item-lore:
@@ -19614,7 +19563,7 @@ STONE_LIKE_COAL_POWDER:
       id: NONE
       amount: 1
 SODIUM_CHLORIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氯化钠'
   item-lore:
@@ -19801,7 +19750,7 @@ CRUDE_VANADIUM:
       id: NONE
       amount: 1
 AMMONIA:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氨'
   item-lore:
@@ -19848,7 +19797,7 @@ AMMONIA:
       id: NONE
       amount: 1
 AMMONIA_AND_WATER:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氨水'
   item-lore:
@@ -20033,7 +19982,7 @@ DIVANADIUM_PENTAOXIDE:
       id: NONE
       amount: 1
 SULFUR_TRIOXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6三氧化硫'
   item-lore:
@@ -20080,7 +20029,7 @@ SULFUR_TRIOXIDE:
       id: NONE
       amount: 1
 SULFURIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6&l硫酸'
   item-lore:
@@ -20221,7 +20170,7 @@ SODIUM_SULFIDE:
       id: CARBON_ELEMENT
       amount: 2
 HYDROGEN_FLUORIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氟化氢'
   item-lore:
@@ -20270,7 +20219,7 @@ HYDROGEN_FLUORIDE:
       id: NONE
       amount: 1
 CONCENTRATED_SULFURIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6&l浓硫酸'
   item-lore:
@@ -20317,7 +20266,7 @@ CONCENTRATED_SULFURIC_ACID:
       id: NONE
       amount: 1
 DILUTE_SULFURIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6稀硫酸'
   item-lore:
@@ -20596,11 +20545,13 @@ CHROMIC_OXIDE:
 ALUMINIUM_OXIDE:
   category: sakurafun_car
   item-type: CUSTOM
-  item-name: '&f氧化铝'
+  item-name: '&6氧化铝'
   item-lore:
-  - '&f氧化铝是一种无机物'
-  - '&f是一种高硬度的化合物'
-  - '&f在高温下可电离的离子晶体,常用于制造耐火材料'
+  - '&7氧化铝是一种无机物'
+  - '&7是一种高硬度的化合物'
+  - '&7在高温下可电离的离子晶体,常用于制造耐火材料'
+  - '&7最有名的两性氧化物'
+  - '&7被称之为人妖'
   item-id: SUGAR
   item-amount: 1
   placeable: false
@@ -21287,7 +21238,7 @@ TANK:
       id: IRON_ITEM_CASING
       amount: 1
 CRUDE_FATTY_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6粗脂肪酸'
   item-lore:
@@ -21334,7 +21285,7 @@ CRUDE_FATTY_ACID:
       id: NONE
       amount: 1
 FATTY_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6脂肪酸'
   item-lore:
@@ -21381,7 +21332,7 @@ FATTY_ACID:
       id: NONE
       amount: 1
 METHANOL_AND_GLYCEROL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f甲醇甘油'
   item-lore:
@@ -21429,7 +21380,7 @@ METHANOL_AND_GLYCEROL:
       id: NONE
       amount: 1
 METHANOL_AND_GREASE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6甲醇油脂'
   item-id: SKULL16ae63a91fe492e9159188979736b57bf58509585a4d08992a976f98c88ecef1
@@ -21474,7 +21425,7 @@ METHANOL_AND_GREASE:
       id: NONE
       amount: 1
 CRUDE_FATTY_ACID_METHANOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6粗脂肪酸甲醇'
   item-lore:
@@ -21521,7 +21472,7 @@ CRUDE_FATTY_ACID_METHANOL:
       id: NONE
       amount: 1
 FATTY_ACID_ALCOHOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6脂肪酸醇'
   item-lore:
@@ -21568,7 +21519,7 @@ FATTY_ACID_ALCOHOL:
       id: NONE
       amount: 1
 FATTY_ACID_ESTER:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6脂肪酸酯'
   item-lore:
@@ -21615,7 +21566,7 @@ FATTY_ACID_ESTER:
       id: NONE
       amount: 1
 CRUDE_FATTY_ALCOHOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6粗脂肪醇'
   item-lore:
@@ -21662,7 +21613,7 @@ CRUDE_FATTY_ALCOHOL:
       id: NONE
       amount: 1
 ASCHARITE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6硼镁石'
   item-lore:
@@ -21711,7 +21662,7 @@ ASCHARITE:
       id: NONE
       amount: 1
 COOKED_ASCHARITE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f经过煅烧的硼镁石'
   item-lore:
@@ -21757,7 +21708,7 @@ COOKED_ASCHARITE:
       id: NONE
       amount: 1
 COOKED_ORE_POWDER_ASCHARITE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f硼镁石粉'
   item-lore:
@@ -21804,7 +21755,7 @@ COOKED_ORE_POWDER_ASCHARITE:
       id: NONE
       amount: 1
 SODIUM_METABORATE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6偏硼酸钠'
   item-lore:
@@ -21851,7 +21802,7 @@ SODIUM_METABORATE:
       id: NONE
       amount: 1
 WHITE_HARD_PIGGY_FAT:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6白色硬质豚脂'
   item-lore:
@@ -21898,7 +21849,7 @@ WHITE_HARD_PIGGY_FAT:
       id: NONE
       amount: 1
 ROSIN_SAPLING:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6松香木树苗'
   item-lore:
@@ -21945,7 +21896,7 @@ ROSIN_SAPLING:
       id: NONE
       amount: 1
 CAMPHOR_SAPLING:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6樟脑木树苗'
   item-lore:
@@ -21992,7 +21943,7 @@ CAMPHOR_SAPLING:
       id: NONE
       amount: 1
 ROSIN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6松香'
   item-lore:
@@ -22039,7 +21990,7 @@ ROSIN:
       id: NONE
       amount: 1
 CAMPHOR:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6樟脑'
   item-lore:
@@ -22086,7 +22037,7 @@ CAMPHOR:
       id: NONE
       amount: 1
 BORAX_SAKURAFUN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3硼砂'
   item-lore:
@@ -22133,7 +22084,7 @@ BORAX_SAKURAFUN:
       id: NONE
       amount: 1
 BORIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f硼酸'
   item-lore:
@@ -22179,7 +22130,7 @@ BORIC_ACID:
       id: NONE
       amount: 1
 BORON_TRIOXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f三氧化二硼'
   item-lore:
@@ -22225,7 +22176,7 @@ BORON_TRIOXIDE:
       id: NONE
       amount: 1
 PARAFFIN_WAX:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6石蜡'
   item-lore:
@@ -22273,7 +22224,7 @@ PARAFFIN_WAX:
       id: WHITE_HARD_PIGGY_FAT
       amount: 1
 A_OLEFIN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6α-烯烃'
   item-lore:
@@ -22321,7 +22272,7 @@ A_OLEFIN:
       id: NONE
       amount: 1
 ALDEHYDE_A_OLEFIN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6醛化的α-烯烃'
   item-lore:
@@ -22368,7 +22319,7 @@ ALDEHYDE_A_OLEFIN:
       id: NONE
       amount: 1
 DISTILLED_A_OLEFIN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6蒸馏α-烯烃'
   item-lore:
@@ -22415,7 +22366,7 @@ DISTILLED_A_OLEFIN:
       id: NONE
       amount: 1
 HYDROGENATED_A_OLEFIN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氢化α-烯烃'
   item-lore:
@@ -22462,7 +22413,7 @@ HYDROGENATED_A_OLEFIN:
       id: NONE
       amount: 1
 FATTY_ALCOHOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f脂肪醇'
   item-lore:
@@ -22511,7 +22462,7 @@ FATTY_ALCOHOL:
       id: CRUDE_FATTY_ALCOHOL
       amount: 1
 RICE_1:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6水稻'
   item-lore:
@@ -22558,7 +22509,7 @@ RICE_1:
       id: NONE
       amount: 1
 RICE_2:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6大米'
   item-lore:
@@ -22605,7 +22556,7 @@ RICE_2:
       id: NONE
       amount: 1
 RICE_3:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6熟米'
   item-lore:
@@ -22652,7 +22603,7 @@ RICE_3:
       id: NONE
       amount: 1
 RICE_4:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6熟糖米'
   item-lore:
@@ -22699,7 +22650,7 @@ RICE_4:
       id: OAK_SLAB
       amount: 1
 DISTILLER_S_YEAST:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6酒母'
   item-lore:
@@ -22746,7 +22697,7 @@ DISTILLER_S_YEAST:
       id: NONE
       amount: 1
 FERMENTATION_MIXTURE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6发酵混合物'
   item-lore:
@@ -22793,7 +22744,7 @@ FERMENTATION_MIXTURE:
       id: WHEAT
       amount: 16
 AMYLASE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6淀粉酶'
   item-lore:
@@ -22840,7 +22791,7 @@ AMYLASE:
       id: NONE
       amount: 1
 GLUCOSE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6葡萄糖'
   item-lore:
@@ -22887,7 +22838,7 @@ GLUCOSE:
       id: NONE
       amount: 1
 ALCOHOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6乙醇'
   item-lore:
@@ -22934,7 +22885,7 @@ ALCOHOL:
       id: DISTILLER_S_YEAST
       amount: 1
 ETHYLENE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f乙烯'
   item-lore:
@@ -22982,7 +22933,7 @@ ETHYLENE:
       id: NONE
       amount: 1
 CALCIUM_CARBONATE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6碳酸钙'
   item-lore:
@@ -23029,7 +22980,7 @@ CALCIUM_CARBONATE:
       id: NONE
       amount: 1
 CHLOROETHANOL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氯乙醇'
   item-lore:
@@ -23076,7 +23027,7 @@ CHLOROETHANOL:
       id: NONE
       amount: 1
 CALCIUM_OXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氧化钙'
   item-lore:
@@ -23124,7 +23075,7 @@ CALCIUM_OXIDE:
       id: COAL
       amount: 4
 CALCIUM_HYDROXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6氢氧化钙'
   item-lore:
@@ -23172,7 +23123,7 @@ CALCIUM_HYDROXIDE:
       id: SAKURAFUN_WATER
       amount: 1
 ETHYLENE_OXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3环氧乙烷'
   item-lore:
@@ -23219,7 +23170,7 @@ ETHYLENE_OXIDE:
       id: CALCIUM_HYDROXIDE
       amount: 1
 PEROXYDISULFURIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6过二硫酸'
   item-lore:
@@ -23267,7 +23218,7 @@ PEROXYDISULFURIC_ACID:
       id: NONE
       amount: 1
 PERMONOSULFURIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6过一硫酸'
   item-lore:
@@ -23315,7 +23266,7 @@ PERMONOSULFURIC_ACID:
       id: NONE
       amount: 1
 HYDROGEN_PEROXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6过氧化氢'
   item-lore:
@@ -23362,7 +23313,7 @@ HYDROGEN_PEROXIDE:
       id: NONE
       amount: 1
 SILICATE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6硅酸盐'
   item-lore:
@@ -23409,7 +23360,7 @@ SILICATE:
       id: DIRT
       amount: 8
 PALLADIUM_TITANIUM_SILICATE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6钯钛硅酸盐'
   item-lore:
@@ -23456,7 +23407,7 @@ PALLADIUM_TITANIUM_SILICATE:
       id: NONE
       amount: 1
 ALUMINUM_SOURCE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6有机铝源'
   item-lore:
@@ -23503,7 +23454,7 @@ ALUMINUM_SOURCE:
       id: ALUMINUM_SINGULARITY
       amount: 1
 SILICON_SOURCE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6有机硅源'
   item-lore:
@@ -23550,7 +23501,7 @@ SILICON_SOURCE:
       id: SILICON
       amount: 1
 ALUMINUM_SILICON_SOURCE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6铝硅源'
   item-lore:
@@ -23597,7 +23548,7 @@ ALUMINUM_SILICON_SOURCE:
       id: SILICON_SOURCE
       amount: 1
 ALCOHOL_AND_AMMONIA_AND_WATER:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6乙醇氨水'
   item-lore:
@@ -23644,7 +23595,7 @@ ALCOHOL_AND_AMMONIA_AND_WATER:
       id: NONE
       amount: 1
 ALCOHOL_AND_WATER_AND_AMMONIA_AND_WATER:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6乙醇氨水溶液'
   item-lore:
@@ -23691,7 +23642,7 @@ ALCOHOL_AND_WATER_AND_AMMONIA_AND_WATER:
       id: NONE
       amount: 1
 HZSM_5_MOLECULAR_GEL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6HZSM-5分子凝胶'
   item-lore:
@@ -23738,7 +23689,7 @@ HZSM_5_MOLECULAR_GEL:
       id: NONE
       amount: 1
 CRYSTAL_OF_MODIFIED_HZSM-5_MOLECULAR_SIEVE_CATALYST:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6改性HZSM-5分子筛催化剂晶体'
   item-lore:
@@ -23785,7 +23736,7 @@ CRYSTAL_OF_MODIFIED_HZSM-5_MOLECULAR_SIEVE_CATALYST:
       id: PHOSPHORUS_ELEMENT
       amount: 2
 MODIFIED_HZSM_5_MOLECULAR_SIEVE_CATALYST:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6改性HZSM-5分子筛催化剂'
   item-lore:
@@ -23832,7 +23783,7 @@ MODIFIED_HZSM_5_MOLECULAR_SIEVE_CATALYST:
       id: CRYSTAL_OF_MODIFIED_HZSM-5_MOLECULAR_SIEVE_CATALYST
       amount: 1
 PROPYLENE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6丙烯'
   item-lore:
@@ -23879,7 +23830,7 @@ PROPYLENE:
       id: MODIFIED_HZSM_5_MOLECULAR_SIEVE_CATALYST
       amount: 1
 PROPYLENE_AND_HYDROGEN_PEROXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6丙烯过氧化氢'
   item-lore:
@@ -23926,7 +23877,7 @@ PROPYLENE_AND_HYDROGEN_PEROXIDE:
       id: NONE
       amount: 1
 PROPYLENE_OXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3环氧丙烷'
   item-lore:
@@ -23973,7 +23924,7 @@ PROPYLENE_OXIDE:
       id: PALLADIUM_TITANIUM_SILICATE
       amount: 1
 ETHYLENE_OXIDE_AND_PROPYLENE_OXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3环氧乙丙烷'
   item-lore:
@@ -24020,7 +23971,7 @@ ETHYLENE_OXIDE_AND_PROPYLENE_OXIDE:
       id: PROPYLENE_OXIDE
       amount: 1
 HOT_OIL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3热油'
   item-lore:
@@ -24067,7 +24018,7 @@ HOT_OIL:
       id: NONE
       amount: 1
 DEMULSIFIER_1:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6破乳剂分子'
   item-lore:
@@ -24114,7 +24065,7 @@ DEMULSIFIER_1:
       id: NONE
       amount: 1
 DEMULSIFIER_2:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6破乳剂高级分子'
   item-lore:
@@ -24161,7 +24112,7 @@ DEMULSIFIER_2:
       id: DEMULSIFIER_1
       amount: 1
 DEMULSIFIER:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6破乳剂'
   item-lore:
@@ -24208,7 +24159,7 @@ DEMULSIFIER:
       id: DEMULSIFIER_2
       amount: 1
 DEMULSIFIER_AND_HOT_OIL:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3含乳热油'
   item-lore:
@@ -24254,8 +24205,55 @@ DEMULSIFIER_AND_HOT_OIL:
       type: NONE
       id: NONE
       amount: 1
+OIL_POLLUTED_WATER:
+  category: sakurafun_tech
+  item-type: CUSTOM
+  item-name: '&3含油污水'
+  item-lore:
+  - '&7带有污油的污水'
+  item-id: SKULLb57ff33c6f3d8b9a8f01d0c5c080d9b5e4857e371ac29d912b98cd776ccaaacc
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: NONE
+      id: NONE
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: NONE
+      id: NONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MORE_RECIPE
+      amount: 1
+    '6':
+      type: NONE
+      id: NONE
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: NONE
+      id: NONE
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
 KEROSENE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3煤油'
   item-lore:
@@ -24302,7 +24300,7 @@ KEROSENE:
       id: NONE
       amount: 1
 LIQUID_HYDROGEN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3液氢'
   item-lore:
@@ -24349,7 +24347,7 @@ LIQUID_HYDROGEN:
       id: NONE
       amount: 1
 LIQUID_HELIUM:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3液氦'
   item-lore:
@@ -24396,7 +24394,7 @@ LIQUID_HELIUM:
       id: NONE
       amount: 1
 LIQUID_OXYGEN:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&3液氧'
   item-lore:
@@ -24443,7 +24441,7 @@ LIQUID_OXYGEN:
       id: NONE
       amount: 1
 METHANE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&6&l甲烷'
   item-lore:
@@ -24490,7 +24488,7 @@ METHANE:
       id: NONE
       amount: 1
 PLANT_ASH:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f草木灰'
   item-lore:
@@ -24536,7 +24534,7 @@ PLANT_ASH:
       id: NONE
       amount: 1
 POTASSIUM_CARBONATE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f碳酸钾'
   item-lore:
@@ -24582,7 +24580,7 @@ POTASSIUM_CARBONATE:
       id: NONE
       amount: 1
 CARBONIC_ACID:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f碳酸'
   item-lore:
@@ -24628,7 +24626,7 @@ CARBONIC_ACID:
       id: NONE
       amount: 1
 POTASSIUM_CHLORIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氯化钾'
   item-lore:
@@ -24674,7 +24672,7 @@ POTASSIUM_CHLORIDE:
       id: HCL
       amount: 2
 CUPROUS_OXIDE:
-  category: sakurafun_rocket_item
+  category: sakurafun_tech
   item-type: CUSTOM
   item-name: '&f氧化亚铜'
   item-lore:
@@ -29065,374 +29063,6 @@ SOLAR_PRODUCTS_9:
       type: SLIMEFUN
       id: ALLOY_9
       amount: 1
-SOLAR_GENERATORS_1_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-1-&6&lBASE'
-  item-lore:
-  item-id: SKULL6e2aaebaa1a9ead536edc79ddfade46cf50b4c40c83c102fb63d84d53c76d68f
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_1
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: INFINITY_REACTOR
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_1
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_1
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 2
-    6:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_1
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: GENERAL_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_1
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: GENERAL_IC
-      amount: 1
-SOLAR_GENERATORS_2_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-2-&6&lBASE'
-  item-lore:
-  item-id: SKULL92824d469c93e454a0b23d2f0c42fd6ca54a8b54e690ec9059cc9e5a3e6d9f90
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_2
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_1_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_2
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 4
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: GENERAL_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_2
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: GENERAL_IC
-      amount: 1
-SOLAR_GENERATORS_3_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-3-&6&lBASE'
-  item-lore:
-  item-id: SKULL775bca1af5cb1557c1794d23d907df1159320e14eba0581c25187dbeb22ba2cc
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_3
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_2_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_3
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 8
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ADVANCED_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_3
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ADVANCED_IC
-      amount: 1
-SOLAR_GENERATORS_4_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-4-&6&lBASE'
-  item-lore:
-  item-id: SKULL74b662d3b529a187261cab86c6e56423bf876aa249d030faeaf34362f3447277
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_4
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_3_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_4
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 16
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ADVANCED_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_4
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ADVANCED_IC
-      amount: 1
-SOLAR_GENERATORS_5_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-5-&6&lBASE'
-  item-lore:
-  item-id: SKULL336ba1dabbcabbd62770cece0202ebd9bb0649eca5311ee22c3d0f2981e90890
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_5_1
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_4_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_5_1
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 32
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ULTIMATE_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_5
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ULTIMATE_IC
-      amount: 1
-SOLAR_GENERATORS_6_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-6-&6&lBASE'
-  item-lore:
-  item-id: SKULL7767a0cacdd7316d40e69f6bb923cb6b8bf2d8249918d8d1b94f2bf469d5cefc
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_5_2
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_5_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_5_2
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 64
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ULTIMATE_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_6
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ULTIMATE_IC
-      amount: 1
-SOLAR_GENERATORS_7_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-7-&6&lBASE'
-  item-lore:
-  item-id: SKULL35dd37f729fc88133e314a552204c0fa2c0168428b353f957bf15ff24b7707e0
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_6
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_6_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_6
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 64
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ULTIMATE_ROCKET_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_7
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ULTIMATE_ROCKET_IC
-      amount: 1
-SOLAR_GENERATORS_8_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-8-&6&lBASE'
-  item-lore:
-  item-id: SKULL6d2822cedb3abd579d6dfa2966c1433c3c36cb9732e2c23ec0cc81daedd4403b
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_7
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_7_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_7
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 64
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: ULTIMATE_ROCKET_IC
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_8
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: ULTIMATE_ROCKET_IC
-      amount: 1
 SAKURAFUN_MACHINE_MOTOR:
   category: sakurafun_rocket
   item-type: CUSTOM
@@ -29560,16 +29190,16 @@ SAKURAFUN_MACHINE_MOTOR_II:
       id: SAKURAFUN_MACHINE_MOTOR_I
       amount: 1
     '7':
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_8_BASE
+      type: SAVEDITEM
+      id: SG8
       amount: 1
     '8':
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_8_BASE
+      type: SAVEDITEM
+      id: SG8
       amount: 1
     '9':
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_8_BASE
+      type: SAVEDITEM
+      id: SG8
       amount: 1
 SMALL_CAPACITY_LIQUID_OXYGEN_KEROSENE_ENGINE_FULL_3:
   category: sakurafun_rocket_engine
@@ -29711,58 +29341,12 @@ COMPONENT_8:
       type: NONE
       id: NONE
       amount: 1
-SOLAR_GENERATORS_9_BASE:
-  category: sakurafun_items
-  item-type: CUSTOM
-  item-name: '&d&lGenerators-Expansion-9-&c&lBASE'
-  item-lore:
-  item-id: SKULL25ddf6af2d6271d8fdfadbdc54faaad5a68d7b8ac20e163883fc38d76336ea6
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: SMELTERY
-  crafting-recipe:
-    1:
-      type: SLIMEFUN
-      id: COMPONENT_8
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_8_BASE
-      amount: 1
-    3:
-      type: SLIMEFUN
-      id: COMPONENT_8
-      amount: 1
-    4:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: IRIDIUM
-      amount: 64
-    6:
-      type: SLIMEFUN
-      id: INFINITE_MACHINE_CORE
-      amount: 1
-    7:
-      type: SLIMEFUN
-      id: COMMAND_ROOM
-      amount: 1
-    8:
-      type: SLIMEFUN
-      id: SOLAR_PRODUCTS_9
-      amount: 1
-    9:
-      type: SLIMEFUN
-      id: COMMAND_ROOM
-      amount: 1
 UNPLACEABLE_STRUCTURE_VOID:
-  category: sakurafun_items
+  category: sakurafun_rocket
   item-type: CUSTOM
   item-name: '&c&l不可放置&b&l结构空位'
   item-lore:
-  item-id: SKULL8cbca012f67e54de9aee72ff424e056c2ae58de5eacc949ab2bcd9683cec
+  item-id: STRUCTURE_VOID
   item-amount: 1
   placeable: false
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -29796,8 +29380,8 @@ UNPLACEABLE_STRUCTURE_VOID:
       id: NONE
       amount: 1
     '8':
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_9_BASE
+      type: SAVEDITEM
+      id: SG9
       amount: 1
     '9':
       type: NONE
@@ -29818,8 +29402,8 @@ SAKURAFUN_MACHINE_MOTOR_III:
       id: PROTON
       amount: 1
     '2':
-      type: VANILLA
-      id: STRUCTURE_VOID
+      type: SLIMEFUN
+      id: UNPLACEABLE_STRUCTURE_VOID
       amount: 1
     '3':
       type: SLIMEFUN
@@ -29842,8 +29426,8 @@ SAKURAFUN_MACHINE_MOTOR_III:
       id: OGANESSON_ELEMENT
       amount: 1
     '8':
-      type: SLIMEFUN
-      id: SOLAR_GENERATORS_9_BASE
+      type: SAVEDITEM
+      id: SG9
       amount: 1
     '9':
       type: SLIMEFUN

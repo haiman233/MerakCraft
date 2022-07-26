@@ -1,35 +1,21 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2865
-  type: PAPER
+  v: 2586
+  type: DAYLIGHT_DETECTOR
   meta:
     ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"称号卡:
-      "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"虎虎生威
-      "},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
+    meta-type: TILE_ENTITY
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"放射性同位素热电机"},{"bold":false,"italic":false,"color":"green","text":"-"},{"bold":true,"italic":false,"color":"gold","text":"钚"}],"text":""}'
     lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"原子能电池"}],"text":""}'
     - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"[
-      "},{"italic":false,"color":"red","text":"称号说明 "},{"italic":false,"color":"white","text":"]"}],"text":""}'
-    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":">>
-      "},{"bold":false,"italic":false,"color":"green","text":"显示称号："},{"italic":false,"color":"white","text":">
-      "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"虎虎生威
-      "},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
-    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":">>
-      "},{"bold":false,"italic":false,"color":"green","text":"使用天数："},{"italic":false,"color":"white","text":">
-      "},{"italic":false,"color":"green","text":"永久"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"[
-      "},{"italic":false,"color":"red","text":"称号BUFF "},{"italic":false,"color":"white","text":"]"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":">>
-      "},{"bold":false,"italic":false,"color":"green","text":"无"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":">>"},{"italic":false,"color":"dark_red","text":">>"},{"italic":false,"color":"dark_purple","text":">>
-      "},{"bold":true,"italic":false,"color":"white","text":"点击获取 "},{"bold":false,"italic":false,"color":"gold","text":"<<"},{"italic":false,"color":"dark_red","text":"<<"},{"italic":false,"color":"dark_purple","text":"<<"}],"text":""}'
-    enchants:
-      LURE: 0
-      DURABILITY: 31
-    ItemFlags:
-    - HIDE_ENCHANTS
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"发电机"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"30
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"140
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: RADIOISOTOPE_THERMOELECTRIC_MACHINE_P
+    blockMaterial: DAYLIGHT_DETECTOR

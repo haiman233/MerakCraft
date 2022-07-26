@@ -1,24 +1,23 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: NETHERITE_PICKAXE
+  v: 2586
+  type: PLAYER_HEAD
   meta:
     ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1CAF1","text":"寰"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9BD3ED","text":"宇"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#94DCE8","text":"之"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EE5E4","text":"镐"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"⊙初"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"级"}],"text":""}'
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"球磨机
+      "},{"italic":false,"color":"gray","text":"("},{"italic":false,"color":"yellow","text":"I"},{"italic":false,"color":"gray","text":")"}],"text":""}'
     lore:
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C2C7D0","text":"飞行 I"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B5CDD9","text":"右键"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A8A5D5","text":"☆"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6C4F4","text":"关闭"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#99DAEB","text":"蹲下右键取消灵魂绑定"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#86EFFB","text":"灵魂绑定"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"球磨机是工业生产中广泛使用的高细磨机械之一"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"1000.0
-      / 1000.0 J"}],"text":""}'
-    enchants:
-      DIG_SPEED: 20
-      LOOT_BONUS_BLOCKS: 20
-      MENDING: 20
-      DURABILITY: 20
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"100
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"80,000
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PT07CQBxGfyomZfQqJrX8MSxcNEVlmk6xUAqdXVuGzJQZwNIC7S08gzcwbtwYz+MBXDtLd9/Le5sPASC4nq4rKZ+L7UpIZkDLTxQD5ExvnG3BPJEiQFruWFEKtm+DUbJTWRVsjwDgzIDLKJEVgw9WuyZdcHO5cGVW477mcGrKMc53d3gT1amD+1hpP7L7Xj341/bKZN6TccfldBNUqYpMrzORbDS5zdTsEFvB0W9wl4SuiNWs9ucTTpQr6FNgxrnd0HypyDCSdIgtYpF6HGYnOnxoSMg51dtv7CMJ17p9lHHO87ihggh3sFqY9wBXcI6X+kjr9ef995N3128XX6O0/fIN8Ac5UTgwHQEAAA==
     PublicBukkitValues:
-      slimefun:item_charge: 1000.0f
-      slimefun:slimefun_item: DIAMOND_DRILL
+      slimefun:slimefun_item: BALL_MILL_I
+    skull-owner: CS-CoreLib

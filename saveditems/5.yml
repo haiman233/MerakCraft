@@ -1,30 +1,14 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2865
-  type: SPLASH_POTION
+  v: 2586
+  type: SUGAR
   meta:
     ==: ItemMeta
-    meta-type: POTION
-    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"喷溅型雄氏老方"}],"text":""}'
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"氟化氢"}],"text":""}'
     lore:
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"服主专用"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"就没有我治不死的玩家"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"-小心点,别喷到自己了"}],"text":""}'
-    - '{"extra":[{"text":"注:亡灵生物需要连续喷两次"}],"text":""}'
-    ItemFlags:
-    - HIDE_POTION_EFFECTS
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"化学式为:HF"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"有刺激性气味的有毒气体"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"具有非常强的吸湿性"}],"text":""}'
     PublicBukkitValues:
-      slimefun:slimefun_item: SPLASH_XSLF
-    custom-color:
-      ==: Color
-      RED: 0
-      BLUE: 0
-      GREEN: 128
-    custom-effects:
-    - ==: PotionEffect
-      effect: 6
-      duration: 20
-      amplifier: 125
-      ambient: true
-      has-particles: true
-      has-icon: true
+      slimefun:slimefun_item: HYDROGEN_FLUORIDE

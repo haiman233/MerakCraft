@@ -1,13 +1,14 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: CHEST
-  amount: 64
+  v: 2586
+  type: PLAYER_HEAD
   meta:
     ==: ItemMeta
-    meta-type: TILE_ENTITY
-    display-name: '[{"text":"新手礼包","color":"gold","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]'
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"氯乙醇"}],"text":""}'
     lore:
-    - '{"text":"放下来右键看看ovo？","color":"gray","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
-    internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52Bgykxh4M/NzEtNLkpMK7FKzkgtLuFg4PTJzy8JSUzKSWWQAAsV6xcXJJbnxSfl55UWx4OFGBgA/a7s1FIAAAA=
-    blockMaterial: CHEST
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"化学式为:C2H5CIO"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PT06DQByFf5qaIHoVkykVTBeNUZjYIXRw+Cd0B+20hQ6loWAYbuHeeAhj4gE8kFeQpYuXfC/f2zwVQIVrf98K8VxXm1xwBUY0LTmopn9jVjV38kwFdZBHXjc5P12C0vCuaWt+UgHgTIGLKBUthy8ubbSMd2gd22IliTH0wEfCJcXxjhwimZnEIOXg5w+GI6f/tnqTvugimdi75YG1WRkhZ+IJPvfGqzJ8dXH0RBE12R4j1jPNDZNugUNEMdYWQTLxrK1Og+iRhR6mxcAF04ZIN8QdtajlBqGkwbbzAtJTRG5pz8ZM2tNNjGYAV3BO1sORkZ3N/I/3+++3z1/2k7QVwB/DsDwqHQEAAA==
+    PublicBukkitValues:
+      slimefun:slimefun_item: CHLOROETHANOL
+    skull-owner: CS-CoreLib

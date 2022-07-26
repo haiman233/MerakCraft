@@ -1,34 +1,23 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: DIAMOND_AXE
-  amount: 64
+  v: 2586
+  type: PLAYER_HEAD
   meta:
     ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"神秘棍
-      XI"}],"text":""}'
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"终极冰柜"}],"text":""}'
     lore:
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Behind
-      your enemies awaits danger"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Total
-      Exp Levels Consumed: "},{"italic":false,"color":"white","text":"0"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Total
-      Damage inflicted: "},{"italic":false,"color":"white","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"可以把气体冷冻成液体"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"比较费电"}],"text":""}'
     - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"◢◤◢◤◢◤◢◤|
-      "},{"bold":true,"italic":false,"color":"dark_red","text":"Effects "},{"bold":false,"italic":false,"color":"white","text":"|◥◣◥◣◥◣◥◣"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"◆
-      4 Mystery effect/s"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"◢◤◢◤◢◤◢◤|
-      "},{"italic":false,"color":"dark_red","text":"◢◤◤◥◤◥◤◥◤◥◥◣ "},{"italic":false,"color":"white","text":"|◥◣◥◣◥◣◥◣"}],"text":""}'
-    enchants:
-      DAMAGE_ARTHROPODS: 10
-      KNOCKBACK: 2
-      DAMAGE_ALL: 7
-      DAMAGE_UNDEAD: 8
-    Unbreakable: true
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"20,000
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"110,000
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PvU6DUBiGP01NEF1MvA2Tg5WaDg4UrD2EH1sOtJy48HMq4EfbULDi6g24ubqbOLl7G96MiYyOT57nHV4ZQIZj76FBvK3WyxyFBD0nKgXIunemryth5bEMcic3oqpzsT0EqRZPdVOJrQwAexIcBBE2Ar5EaxK+yEi6MDFp6aBj5hF0abG5pKugjXU6oGXnJ9rAaof/WrWO5iqGfTPjq2kTlwGx+jMUk5mSlP6jM/eJzdI8ZJjbBm15MULbCDJe+junsJWw0Ig7v+67jCM3xhgW45Lf0F3IRpnzjLlraKrL7i/sYqqELFG50a08c7hckCuAI9inaXek93Lyqb675z8fv6ffr3dvEcAfvpFkbh0BAAA=
     PublicBukkitValues:
-      fnamplifications:stick_11_exp_levels_consumed: 0i
-      fnamplifications:stick_11_damage_inflicted: 0i
-      slimefun:slimefun_item: FN_MYSTERY_STICK_11
+      slimefun:slimefun_item: ULTIMATE_FREEZER
+    skull-owner: CS-CoreLib

@@ -1,5 +1,23 @@
 item:
   ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: WATER_BUCKET
-  amount: 64
+  v: 2586
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"实验室烧杯"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"工业烧杯"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"可以制取化学物质"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"机器"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"5
+      J 可存储"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"10
+      J/s"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PQU7CQBiFfw0mWPUoJgPYGmJcEMaEadoppS22syswSMs/QEoL1BN4BF24cOUF3LozbryJp3CWLl7yvXxv8wwAA86DZYU4LNbzDGUTGjxVEox+cNlfF9LJJgYYWm5kUWZyewrNUh7KqpBbAwCOmnAyTrGS8CFrm4h4QWaxjdOaWbqHAUGP5ZtrthrXkz6zmNJ+0LOcuvtva5bpvYlJx16IlV9N1Jg4nRHKwag1VdGO53em206uXJoQQTWFvQN/fOgIypGHqHjI2lyxvQh9k7dHSijWEnlkihxR0MVSUNSJ9h7191xFxKMic2u7O4/JLcAZHLOZPtKQL1/vF283r0/Pv9/s53MI8AcZqqHxHQEAAA==
+    PublicBukkitValues:
+      slimefun:slimefun_item: LABORATORY_BEAKER
+    skull-owner: CS-CoreLib
