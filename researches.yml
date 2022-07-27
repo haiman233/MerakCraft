@@ -94,6 +94,7 @@ modikeji:
   cost: 30
   items:
     - ZOT_INGOT
+    - DRAGON_TAIL
 zishuijingfen:
   id: 110000003
   name: "当水晶破碎的时候"
@@ -321,7 +322,7 @@ nongyeyiti:
   name: "农业一体机"
   cost: 40
   items:
-    - COMPRESSION_BLOCK_MACHINE
+    - MILK_HONEY_MACHINE
 canhaishengchan:
   id: 110000029
   name: "残骸自动化"
@@ -453,6 +454,8 @@ jinyiti:
   cost: 80
   items:
     - 4K_GOLD_INTEGRATED_MACHINE
+    - 4K_GOLD_INTEGRATED_MACHINE_2
+    - 4K_GOLD_INTEGRATED_MACHINE_3
     - HAIMAN_12K_GOLD_PRODUCER
     - HAIMAN_24K_GOLD_PRODUCER
 xukongyiti:
@@ -630,6 +633,26 @@ yinxingji:
   cost: 42
   items:
     - HAIMAN_YINGXING_MACHINE
+xszpzp:
+  id: 110000967
+  name: "学识之瓶的装配"
+  cost: 58
+  items:
+    - XUESHIZHIPINGZHUANGPEIJI
+kwcs:
+  id: 110000968
+  name: "矿物催生器"
+  cost: 62
+  items:
+    - KUANGWUCUISHENGQI
+    - MEITANZHONGZI
+    - TIEZHONGZI
+    - JINZHONGZI
+    - LVBAOSHIZHONGZI
+    - ZUANSHIZHONGZI
+    - SHIYINGZHONGZI
+    - QINGJINSHIZHONGZI
+    - HONGSHISHIZHONGZI
 jiaoyiji:
   id: 110000068
   name: "成交！"
@@ -669,6 +692,7 @@ hedianzhan:
     - NENGYUAN_2
     - NENGYUAN_3
     - ELECTRIC_COMPOSTER_MACHINE
+    - NUCLEAR_DECAY_INTEGRATED_MACHINE_1
     - NUCLEAR_DECAY_INTEGRATED_MACHINE_2
 kongjianjiqi:
   id: 110000073
@@ -797,13 +821,22 @@ renzaoyuzhou:
 zhongjifadianji:
   id: 110000089
   name: "中级发电机"
-  cost: 72
+  cost: 135
   items:
     - HAIMAN_ELEMENT_GENERATOR
-    - STEAM_TURBINE_GENERATOR
+    - STEAM_TURBINE_GENERATOR_1
+    - STEAM_TURBINE_GENERATOR_2
+    - STEAM_TURBINE_GENERATOR_3
     - HAIMAN_EARTH_GENERATOR
     - HAIMAN_SEND_CACTUS_GENERATOR
     - HAIMAN_END_GENERATOR
+zhongjifadianji:
+  id: 110009089
+  name: "工业发电机"
+  cost: 72
+  items:
+    - THERMOELECTRIC_GENERATOR
+    - GAS_FIREDGENERATORS
 gaojihefanyingdui:
   id: 110000090
   name: "高级核反应堆"
@@ -815,8 +848,8 @@ fangshexingfadianji:
   name: "放射性同位素热电机"
   cost: 72
   items:
-    - RADIOISOTOPE_THERMOELECTRIC_GENERATOR_U
-    - RADIOISOTOPE_THERMOELECTRIC_GENERATOR_P
+    - RADIOISOTOPE_THERMOELECTRIC_MACHINE_U
+    - RADIOISOTOPE_THERMOELECTRIC_MACHINE_P
 dianwangdianxian:
   id: 110000092
   name: "电线与电网"
@@ -1670,7 +1703,9 @@ zhenqi:
     - MIXED_EXHAUST_GAS
     - STEAM_BUCKET
     - COAL_FIRED_BOILER_BASE
-    - STEAM_TURBINE_ITEM
+    - STEAM_TURBINE_ITEM_1
+    - STEAM_TURBINE_ITEM_2
+    - STEAM_TURBINE_ITEM_3
 gongyeqixie:
   id: 6000000035
   name: "工业器械"
@@ -1678,10 +1713,14 @@ gongyeqixie:
   items:
     - 316_STAINLESS_STEEL
     - MECHANICAL_HOUSING
-    - STEEL_FOR_TURBIN_BLADE
+    - STEEL_FOR_TURBIN_BLADE_1
+    - STEEL_FOR_TURBIN_BLADE_2
+    - STEEL_FOR_TURBIN_BLADE_3
     - GAS_FILTER
     - GAS_CONDENSER
-    - A_TURN_FOR_THE_BETTER
+    - A_TURN_FOR_THE_BETTER_1
+    - A_TURN_FOR_THE_BETTER_2
+    - A_TURN_FOR_THE_BETTER_3
 dianqi:
   id: 6000000036
   name: "跨时代产物"
@@ -1689,17 +1728,37 @@ dianqi:
   items:
     - ALTERNATING_CURRENT_DYNAMO
     - ULTIMATE_INFINITE_COMPRESSION_SINGULARITY
+todoacar:
+  id: 6000000090
+  name: "车的组成1"
+  cost: 112
+  items:
+    - STEEL_BALL
+    - CHROMITE_POWDER
+    - SODIUM_CHROMATE
+    - SODIUM_CHROMATE_SOLUTION
+    - CHROMIC_HYDROXIDE
+    - CHROMIC_OXIDE
+    - ALUMINIUM_OXIDE
+    - CHROME_STEEL
+    - CHROME_STEEL_BALL
+    - 316_STEEL_BALL
+    - SILICON_CHROMIUM_STEEL
 che:
   id: 6000000037
-  name: "车的组成"
+  name: "车的组成2"
   cost: 116
   items:
+    - INTAKE_VALVE
+    - EXHAUST_VALVE
+    - SAKURAFUN_PISTON
+    - ELECTRODE
     - SAKURAFUN_SPARK_PLUG
-    - CYLINDER
-    - VALVE
-    - RECIPROCATING_PISTON_INTERNAL_COMBUSTION_ENGINE
     - TANK
-    - FOUR_STROKE_DIESEL_ENGINE
+    - FOUR_CYCLE_GASOLINE_ENGINE
+    - TWO_CYCLE_GASOLINE_ENGINE
+    - TWO_CYCLE_DIESEL_OIL_ENGINE
+    - FOUR_CYCLE_DIESEL_OIL_ENGINE
 goujian:
   id: 6000000038
   name: "构件"
@@ -1765,6 +1824,7 @@ huagongyuanliao2:
     - ETHYLENE_OXIDE
     - HYDROGEN_GAS
     - NITROGEN_GAS
+    - OXYGEN_GAS
     - CALCIUM_CHLORIDE
     - SODA_SAKURAFUN
 xitin:
@@ -1794,7 +1854,7 @@ mi:
 huagongyuanliao3:
   id: 6000000043
   name: "化工原料 3"
-  cost: 296
+  cost: 304
   items:
     - PEROXYDISULFURIC_ACID
     - HYDROGEN_PEROXIDE
@@ -1813,6 +1873,9 @@ huagongyuanliao3:
     - PROPYLENE
     - PROPYLENE_AND_HYDROGEN_PEROXIDE
     - PROPYLENE_OXIDE
+    - MERCURY_GAS
+    - SULFURIC_ACID
+    - HYDROGEN_FLUORIDE
 huagongyuanliao4:
   id: 6000000044
   name: "化工原料 4"
@@ -1843,6 +1906,70 @@ huagongyuanliao4:
     - LIQUID_HELIUM
     - LIQUID_OXYGEN
     - METHANE
+huagongyuanliao5:
+  id: 6000000944
+  name: "化工原料 5"
+  cost: 298
+  items:
+    - SAKURAFUN_WATER
+    - HELIUM_4_NUCLEUS_ELEMENT
+    - ADVANCED_HEATING_COIL
+    - ANCIENT_FOSSIL
+    - SODIUM_CHLORIDE
+    - PERMONOSULFURIC_ACID
+    - PLANT_ASH
+    - POTASSIUM_CARBONATE
+    - CARBONIC_ACID
+    - POTASSIUM_CHLORIDE
+    - CUPROUS_OXIDE
+    - SODIUM_SULPHATE
+    - SODIUM_SULFIDE
+    - CINNABAR_POWDER
+    - STONE_LIKE_COAL_POWDER
+    - SODIUM_CHLORIDE
+    - SLC_SC_POWDER
+    - PRECIPITATE_CRUDE_VANADIUM_AQUEOUS_SOLUTION
+    - CRUDE_VANADIUM
+    - AMMONIUM_CHLORIDE
+    - AMMONIUM_VANADATE
+    - DIVANADIUM_PENTAOXIDE
+    - FUEL_SPRAY_NOZZLE
+jinglianlu:
+  id: 6000000945
+  name: "高级精炼炉"
+  cost: 200
+  items:
+    - ELECTRIC_REFINING_FURNACE_1
+    - ELECTRIC_REFINING_FURNACE_2
+daisenqiu:
+  id: 600009945
+  name: "戴森球"
+  cost: 2550
+  items:
+    - DYSON_SPHERE
+baoshi:
+  id: 6000009946
+  name: "宝石"
+  cost: 55
+  items:
+    - FLAWED_JADEITE
+    - SAKURA_JADEITE
+    - FLAWLESS_JADEITE
+    - PERFECT_JADEITE
+qiumoji:
+  id: 6000000946
+  name: "打磨！抛光！"
+  cost: 280
+  items:
+    - BALL_MILL_I
+    - BALL_MILL_II
+    - BALL_MILL_III
+tiqushui:
+  id: 6000000947
+  name: "提取水"
+  cost: 110
+  items:
+    - WATER_EXTRACTOR
 zhong:
   id: 6000000045
   name: "钟"
@@ -1853,6 +1980,7 @@ zhong:
     - CALIBRATOR
     - CHANNEL_SPECIFIC_TEST_SENSOR
     - HYDROGEN_ATOMIC_CLOCK
+    - SMALL_SATELLITE
 xiaodao:
   id: 6000000046
   name: "刻印小刀"
@@ -2017,10 +2145,11 @@ cdr:
     - CHOU_CAPACITOR
 wyydr:
   id: 6000000056
-  name: "这电容有什么意义呢"
-  cost: 5
+  name: "低容量电容"
+  cost: 25
   items:
     - FEI_CAPACITOR
+    - STHE_CAPACITOR
 tws:
   id: 6000000057
   name: "同位素"
@@ -2029,6 +2158,25 @@ tws:
     - DEUTERIUM_ELEMENT
     - TRITIUM_ELEMENT
     - LITHIUM_6_ELEMENT
+kuangshitianxuan:
+  id: 6000000058
+  name: "矿产"
+  cost: 65
+  items:
+    - CHALCOPYRITE
+    - CHALCOCITE
+    - DOLOMITE
+    - STONE_LIKE_COAL
+    - CINNABAR
+    - NEPHRITE
+    - JADEITE
+hunli:
+  id: 6000000059
+  name: "百年好合"
+  cost: 30
+  items:
+    - JH_3
+    - JH_4
 # 乱序技艺
 duidiehecheng:
   id: 9800000000

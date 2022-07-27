@@ -91,4 +91,49 @@ FEI_CAPACITOR:
       type: NONE
       id: NONE
       amount: 1
-
+STHE_CAPACITOR:
+  category: dianro
+  capacitor-name: "&a迷你储能电容"
+  capacitor-lore:
+  - "&7范围:&c&l 6 格"
+  block-type: DEFAULT
+  capacity: 16
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: COPPER_DUST
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: COPPER_DUST
+      amount: 1
+    5:
+      type: VANILLA
+      id: REDSTONE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: COPPER_DUST
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: CARBON
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: COPPER_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: CARBON
+      amount: 1
