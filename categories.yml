@@ -198,3 +198,7 @@ sakurafun_ore:
   parent: "tianxuangongyi"
   category-name: "&6&l天璇工艺 &f- &e矿业"
   category-item: SKULL86f06eaa3004aeed09b3d5b45d976de584e691c0e9cade133635de93d23b9edb
+hunli:
+  parent: "tianxuangongyi"
+  category-name: "&6&l天璇工艺 &f- &e婚礼"
+  category-item: SKULL3d8c72d9b7c103c3e6857d62c4bebfd8683635239b9933ea1258abe873a699f9

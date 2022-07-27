@@ -117,7 +117,7 @@ JADEITE:
     WARM_OCEAN: 1
   environment:
     NORMAL: 0
-AMBER:
+HUPO:
   category: sakurafun_ore
   item-type: CUSTOM
   item-name: "&6琥珀"
