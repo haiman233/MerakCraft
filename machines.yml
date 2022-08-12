@@ -18610,32 +18610,32 @@ HAIMAN_GAOPING_CESHI:
       id: BASIC_CIRCUIT_BOARD
       amount: 1
     '2':
-      type: SLIMEFUN
-      id: BASIC_CIRCUIT_BOARD
+      type: VANILLA
+      id: ENCHANTED_GOLDEN_APPLE
       amount: 1
     '3':
       type: SLIMEFUN
       id: BASIC_CIRCUIT_BOARD
       amount: 1
     '4':
-      type: SLIMEFUN
-      id: BASIC_CIRCUIT_BOARD
+      type: VANILLA
+      id: ENCHANTED_GOLDEN_APPLE
       amount: 1
     '5':
       type: VANILLA
       id: COPPER_BLOCK
       amount: 1
     '6':
-      type: SLIMEFUN
-      id: BASIC_CIRCUIT_BOARD
+      type: VANILLA
+      id: ENCHANTED_GOLDEN_APPLE
       amount: 1
     '7':
       type: SLIMEFUN
       id: BASIC_CIRCUIT_BOARD
       amount: 1
     '8':
-      type: SLIMEFUN
-      id: BASIC_CIRCUIT_BOARD
+      type: VANILLA
+      id: ENCHANTED_GOLDEN_APPLE
       amount: 1
     '9':
       type: SLIMEFUN
@@ -18643,16 +18643,16 @@ HAIMAN_GAOPING_CESHI:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 82999
+      speed-in-seconds: 82899
       input:
         '1':
-          type: VANILLA
-          id: ENCHANTED_GOLDEN_APPLE
-          amount: 64
+          type: SLIMEFUN
+          id: ULTIMATE_ENERGY_MOTOR
+          amount: 32
         '2':
-          type: VANILLA
-          id: ENCHANTED_GOLDEN_APPLE
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN

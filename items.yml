@@ -1711,17 +1711,17 @@ HM_CHAOPING_CIRCUIT_BOARD:
   crafting-recipe-type: NONE
   crafting-recipe:
     1:
-      type: VANILLA
-      id: ENCHANTED_GOLDEN_APPLE
-      amount: 64
-    2:
       type: NONE
       id: N/A
       amount: 1
+    2:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 32
     3:
-      type: VANILLA
-      id: ENCHANTED_GOLDEN_APPLE
-      amount: 64
+      type: NONE
+      id: N/A
+      amount: 1
     4:
       type: SLIMEFUN
       id: ZHANWEIFU
@@ -45308,7 +45308,7 @@ STEEL_BALL:
   item-id: SKULLab008a4058fb203a50b62392258c6b5d77864062e757a9e66637124ffe579474
   item-amount: 1
   placeable: false
-  crafting-recipe-type: SMELTERY
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: NONE
@@ -45328,7 +45328,7 @@ STEEL_BALL:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: STEEL_INGOT
+      id: GOLD_24K_BLOCK
       amount: 1
     '6':
       type: SLIMEFUN
