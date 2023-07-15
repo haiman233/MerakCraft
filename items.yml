@@ -1142,7 +1142,7 @@ HAIMAN_AMETHYST_DUST:
   item-id: PURPLE_DYE
   item-amount: 1
   placeable: false
-  crafting-recipe-type: ORE_CRUSHER
+  crafting-recipe-type: SMELTERY
   crafting-recipe:
     1:
       type: VANILLA
