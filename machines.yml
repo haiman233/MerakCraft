@@ -1047,11 +1047,11 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   machine-name: '&b&l分子重组仪 &7- &6III'
   machine-lore:
   - '&8海曼的新型高科技'
-  - '&7每重组一个物品都要耗费4~6小时'
+  - '&7每重组一个物品都要耗费一段时间'
   block-type: SKULL5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
   progress-bar-item: NETHERITE_HOE
   stats:
-    energy-consumption: 20000
+    energy-consumption: 200000
     energy-buffer: 900000
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
@@ -1093,7 +1093,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 21600
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1113,7 +1113,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 20000
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1133,7 +1133,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 14400
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1153,7 +1153,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 14400
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1242,7 +1242,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 21688
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1262,7 +1262,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 21688
+      speed-in-seconds: 3600
       input:
         '1':
           type: SLIMEFUN
@@ -1351,7 +1351,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10000
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1371,7 +1371,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 10000
+      speed-in-seconds: 3600
       input:
         '1':
           type: VANILLA
@@ -1391,7 +1391,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 11000
+      speed-in-seconds: 3600
       input:
         '1':
           type: SLIMEFUN
@@ -1411,7 +1411,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 16080
+      speed-in-seconds: 3600
       input:
         '1':
           type: SLIMEFUN
