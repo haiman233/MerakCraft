@@ -18643,12 +18643,12 @@ HAIMAN_GAOPING_CESHI:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 82899
+      speed-in-seconds: 4800
       input:
         '1':
           type: SLIMEFUN
           id: ULTIMATE_ENERGY_MOTOR
-          amount: 32
+          amount: 1
         '2':
           type: NONE
           id: N/A
